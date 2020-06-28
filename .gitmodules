@@ -1,0 +1,3 @@
+[submodule "voce"]
+    path = pelican-blog/voce
+    url = https://github.com/limbenjamin/voce.git
