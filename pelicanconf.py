@@ -12,7 +12,7 @@ TIMEZONE = 'Europe/London'
 
 DEFAULT_LANG = 'en'
 DEFAULT_DATE_FORMAT = "%b %d, %Y"
-USER_LOGO_URL = "http://i.imgur.com/zzCRZUH.jpg"
+USER_LOGO_URL = "https://i.imgur.com/QxsxfkK.png"
 
 THEME = "voce"
 
@@ -34,15 +34,13 @@ GLOBAL_KEYWORDS = ("keywords",)
 
 
 SOCIAL = (
-    ("Feed", "https://siteurl.com/feeds/all.atom.xml"),
-    ("GitHub", "https://github.com/username"),
+    ("Twitter", "https://twitter.com/rvtheverett"),
+    ("GitHub", "https://github.com/rvth"),
 )
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('About', 'http://getpelican.com/'),
+         ('Python.org', 'http://python.org/'))
 
 DEFAULT_PAGINATION = 10
 
