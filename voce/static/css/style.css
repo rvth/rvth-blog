@@ -2,9 +2,9 @@ body {
   color: #696969;
   background-color: #FFFFFF;
   word-wrap: break-word;
-  font-family: 'Montserrat', serif;
+  font-family: 'Montserrat-Regular', serif;
   line-height: 2;
-  font-size: 1em;
+  font-size: 1.7em;
 }
 
 a {
@@ -318,7 +318,7 @@ article.post:first-child .post-inner-content {
 .entry-title {
   font-family: "Montserrat", serif;
   font-style: normal;
-  margin-top: 0;
+  margin-top: 10px;
   margin-bottom: 15px;
 }
 .entry-footer {
