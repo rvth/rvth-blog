@@ -39,7 +39,7 @@ SOCIAL = (
 )
 
 # Blogroll
-LINKS = (('About', 'http://getpelican.com/'),
+LINKS = (("About", "/pages/about-me.html"),
          ('Python.org', 'http://python.org/'))
 
 DEFAULT_PAGINATION = 10
@@ -47,6 +47,8 @@ DEFAULT_PAGINATION = 10
 RELATIVE_URLS = True
 DELETE_OUTPUT_DIRECTORY = True
 OUTPUT_RETENTION = [".git"]
+
+STATIC_PATHS = ['images']
 
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False

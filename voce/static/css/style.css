@@ -17,7 +17,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #0e94ec;
+  color: #3399FF;
   text-decoration: none;
 }
 
@@ -316,8 +316,8 @@ article.post:first-child .post-inner-content {
   text-align: center;
 }
 .entry-title {
-  font-family: "Lora", serif;
-  font-style: italic;
+  font-family: "Montserrat", serif;
+  font-style: normal;
   margin-top: 0;
   margin-bottom: 15px;
 }
