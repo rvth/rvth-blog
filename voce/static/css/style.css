@@ -3,7 +3,7 @@ body {
   background-color: #FFFFFF;
   word-wrap: break-word;
   font-family: 'Lora', serif;
-  line-height: 1;
+  line-height: 1.5;
   font-size: 1.7em;
 }
 
@@ -78,6 +78,8 @@ h6,
 
 p {
   margin: 3em 0;
+  margin-top: 1em ;
+  margin-bottom: 1em ;
 }
 
 * > p:first-child {
