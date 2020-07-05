@@ -12,7 +12,7 @@ TIMEZONE = 'Europe/London'
 
 DEFAULT_LANG = 'en'
 DEFAULT_DATE_FORMAT = "%b %d, %Y"
-USER_LOGO_URL = "/images/logo.jpg"
+USER_LOGO_URL = "/images/logo.webp"
 
 THEME = "voce"
 
