@@ -4,7 +4,7 @@
 
 &lt;div class="row"&gt;
   &lt;div class="column left"&gt;
-    &lt;div class="image"&gt;&lt;img src="/images/example.webp" class="lazyload" alt="Example" width="200" height="300"&gt;&lt;/div&gt;
+    &lt;div class="image"&gt;&lt;img src="/images/learn-to-code-with-me.webp" class="lazyload" alt="Learn to Code with Me" width="300" height="400"&gt;&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class="column right"&gt;
     &lt;h2&gt;Example&lt;/h2&gt;
@@ -13,7 +13,7 @@
 
 &lt;div class="row"&gt;
   &lt;div class="column left"&gt;
-    &lt;div class="image"&gt;&lt;img src="/images/example.webp" class="lazyload" alt="Example" width="200" height="300"&gt;&lt;/div&gt;
+    &lt;div class="image"&gt;&lt;img src="/images/learn-to-code-with-me.webp" class="lazyload" alt="Learn to Code with Me" width="300" height="400"&gt;&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class="column right"&gt;
     &lt;h2&gt;Example&lt;/h2&gt;
@@ -22,7 +22,7 @@
 &lt;/div&gt;
 
 
-</content><category term="Tech"></category><category term="Podcasts"></category><category term="Tech"></category><category term="Women in Tech"></category></entry><entry><title>Print("Hello World")</title><link href="https://rvth.blog/blog/hello-world.html" rel="alternate"></link><published>2020-06-27T00:00:00+01:00</published><updated>2020-06-27T00:00:00+01:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2020-06-27:/blog/hello-world.html</id><summary type="html">
+</content><category term="Tech"></category></entry><entry><title>Print("Hello World")</title><link href="https://rvth.blog/blog/hello-world.html" rel="alternate"></link><published>2020-06-27T00:00:00+01:00</published><updated>2020-06-27T00:00:00+01:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2020-06-27:/blog/hello-world.html</id><summary type="html">
     &lt;div class="image"&gt;&lt;img src="/images/hello-world.webp" class="lazyload" alt="hello world"&gt;&lt;/div&gt;
     &lt;p&gt;I’ve been sat staring at this blank document for the last 2 hours trying to figure what to write, my first blog post for a blog I never thought I would actually create. I guess I just wanted to introduce myself and the aim of this blog.&lt;/p&gt;
     &lt;p&gt;I started …&lt;/p&gt;</summary><content type="html">
