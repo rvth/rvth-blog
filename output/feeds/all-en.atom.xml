@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Ruth's Blog</title><link href="https://rvth.blog/" rel="alternate"></link><link href="https://rvth.blog/feeds/all-en.atom.xml" rel="self"></link><id>https://rvth.blog/</id><updated>2020-07-11T00:00:00+01:00</updated><entry><title>Top 7 Female Hosted Tech Podcasts for Everyone</title><link href="https://rvth.blog/blog/female-hosted-tech-podcasts.html" rel="alternate"></link><published>2020-07-11T00:00:00+01:00</published><updated>2020-07-11T00:00:00+01:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2020-07-11:/blog/female-hosted-tech-podcasts.html</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Ruth's Blog</title><link href="https://rvth.blog/" rel="alternate"></link><link href="https://rvth.blog/feeds/all-en.atom.xml" rel="self"></link><id>https://rvth.blog/</id><updated>2020-07-11T00:00:00+01:00</updated><entry><title>7 Female Hosted Tech Podcasts for Everyone</title><link href="https://rvth.blog/blog/female-hosted-tech-podcasts.html" rel="alternate"></link><published>2020-07-11T00:00:00+01:00</published><updated>2020-07-11T00:00:00+01:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2020-07-11:/blog/female-hosted-tech-podcasts.html</id><summary type="html">
 &lt;p&gt;I'm a massive fan of podcasts and have been listening to them for several years. As my interests change so do the podcasts I listen to, and for the past couple of years my podcast library has been full of both tech focused and true crime podcasts.&lt;/p&gt;
 
 &lt;div class="row"&gt;
   &lt;div class="column left"&gt;
-    &lt;div class="image"&gt;&lt;img src="/images/learn-to-code-with-me.webp" class="lazyload" alt="Learn to Code with Me" width="300" height="400"&gt;&lt;/div&gt;
+    &lt;div class="image"&gt;&lt;img src="/images/learn-to-code-with-me.webp" class="lazyload" alt="Learn to Code with Me" width="150" height="250"&gt;&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class="column right"&gt;
     &lt;h2&gt;Example&lt;/h2&gt;
@@ -13,7 +13,17 @@
 
 &lt;div class="row"&gt;
   &lt;div class="column left"&gt;
-    &lt;div class="image"&gt;&lt;img src="/images/learn-to-code-with-me.webp" class="lazyload" alt="Learn to Code with Me" width="300" height="400"&gt;&lt;/div&gt;
+    &lt;div class="image"&gt;&lt;img src="/images/learn-to-code-with-me.webp" class="lazyload" alt="Learn to Code with Me" width="150" height="250"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="column right"&gt;
+    &lt;h2&gt;Example&lt;/h2&gt;
+    &lt;p&gt;Some text..&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="row"&gt;
+  &lt;div class="column left"&gt;
+    &lt;div class="image"&gt;&lt;img src="/images/ladybug-podcast.webp" class="lazyload" alt="Ladybug Podcast" width="150" height="250"&gt;&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class="column right"&gt;
     &lt;h2&gt;Example&lt;/h2&gt;
