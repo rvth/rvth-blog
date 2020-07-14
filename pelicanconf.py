@@ -41,6 +41,8 @@ SOCIAL = (
 # Blogroll
 LINKS = (("Home", "https://rvth-blog.netlify.app/"),
          ("About", "/pages/about-me.html"),
+         ("Ember", "/pages/ember.html"),
+         ("Learning Tracker", "/pages/learning-log.html"),
          ('Python.org', 'http://python.org/'))
 
 DEFAULT_PAGINATION = 10
