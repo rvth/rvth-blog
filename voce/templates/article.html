@@ -6,6 +6,32 @@
     {%- if article.tags -%}{{', '}}{%- endif -%}
   {%- endif -%}
   {{article.tags|join(', ') }}">
+    <style>
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px;
+}
+
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 70%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
 
 
 {% endblock %}
