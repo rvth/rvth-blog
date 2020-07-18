@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Ruth's Blog - Personal</title><link href="https://rvth.blog/" rel="alternate"></link><link href="https://rvth.blog/feeds/personal.atom.xml" rel="self"></link><id>https://rvth.blog/</id><updated>2020-06-27T00:00:00+01:00</updated><entry><title>Print("Hello World")</title><link href="https://rvth.blog/blog/hello-world.html" rel="alternate"></link><published>2020-06-27T00:00:00+01:00</published><updated>2020-06-27T00:00:00+01:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2020-06-27:/blog/hello-world.html</id><summary type="html">
-    &lt;img src="/images/hello-world.jxr" alt="hello world"&gt;
+    &lt;div class="image"&gt;&lt;img src="/images/hello-world.jxr" class="lazyload" alt="hello world" &amp;lt; div&gt;
     &lt;p&gt;I’ve been sat staring at this blank document for the last 2 hours trying to figure what to write, my first blog post for a blog I never thought I would actually create. I guess I just wanted to introduce myself and the aim of this blog.&lt;/p&gt;
-    &lt;p&gt;I started …&lt;/p&gt;</summary><content type="html">
-    &lt;img src="/images/hello-world.jxr" alt="hello world"&gt;
+    &lt;p&gt;I started …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">
+    &lt;div class="image"&gt;&lt;img src="/images/hello-world.jxr" class="lazyload" alt="hello world" &amp;lt; div&gt;
     &lt;p&gt;I’ve been sat staring at this blank document for the last 2 hours trying to figure what to write, my first blog post for a blog I never thought I would actually create. I guess I just wanted to introduce myself and the aim of this blog.&lt;/p&gt;
     &lt;p&gt;I started my first blog 4 years ago when I got my dog Ember, it was a ‘lifestyle blog’ focused on dog ownership and while I enjoyed writing it and it a great learning journey (and Ember enjoyed the free treats we received) the content I was putting out wasn’t great and I felt pressured to post every single week.&lt;/p&gt;
     &lt;p&gt;I never intended to create another blog, for many reasons; my perfectionism, imposter syndrome and the fear no one would actually read it. But a couple of weeks ago, one of the most inspirational people I have ever met, Areej Abuali, created her blog and wrote &lt;a href="https://www.areejabuali.com/blog/hello-seo-world"&gt;this post&lt;/a&gt;, which gave me the kick up the butt I needed to finally finish creating this blog.&lt;/p&gt;
