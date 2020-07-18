@@ -39,7 +39,7 @@ SOCIAL = (
 )
 
 # Blogroll
-LINKS = (("Home", "https://rvth-blog.netlify.app/"),
+LINKS = (("Home", "https://rvth.blog"),
          ("About", "/pages/about-me.html"),
          ("Ember", "/pages/ember.html"),
          ("Learning Tracker", "/pages/learning-log.html"),
