@@ -42,7 +42,7 @@ SOCIAL = (
 LINKS = (("Home", "https://rvth.blog"),
          ("About", "/pages/about-me.html"),
          ("Ember", "/pages/ember.html"),
-         ("Learning Tracker", "/pages/learning-log.html"),
+         ("Learning Log", "/pages/learning-log.html"),
          ('Python.org', 'http://python.org/'))
 
 DEFAULT_PAGINATION = 10
@@ -59,8 +59,8 @@ SUMMARY_MAX_LENGTH = 50
 
 ARCHIVES_URL = "archives.html"
 ARCHIVES_SAVE_AS = 'archives.html'
-ARTICLE_URL = 'blog/{slug}.html'
-ARTICLE_SAVE_AS = 'blog/{slug}.html'
+ARTICLE_URL = 'article/{slug}.html'
+ARTICLE_SAVE_AS = 'article/{slug}.html'
 PAGE_URL = 'pages/{slug}.html'
 PAGE_SAVE_AS = 'pages/{slug}.html'
 TAGS_URL = 'tag/{slug}.html'
