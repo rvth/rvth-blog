@@ -4,6 +4,9 @@
 &lt;p&gt;I wanted to …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Ruth</dc:creator><pubDate>Sat, 11 Jul 2020 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:rvth.blog,2020-07-11:/blog/female-hosted-tech-podcasts.html</guid><category>misc</category><category>Tech</category><category>Inspiration</category></item><item><title>7 Female Hosted Tech Podcasts for Everyone</title><link>https://rvth.blog/blog/female-hosted-tech-podcasts-2.html</link><description>
 &lt;p&gt;I'm a massive fan of podcasts and have been listening to them for several years. As my interests change so do the podcasts I listen to, and for the past couple of years my podcast library has been full of both tech focused and true crime podcasts.&lt;/p&gt;
 &lt;p&gt;I wanted to …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Ruth</dc:creator><pubDate>Sat, 11 Jul 2020 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:rvth.blog,2020-07-11:/blog/female-hosted-tech-podcasts-2.html</guid><category>misc</category><category>Tech</category><category>Inspiration</category></item><item><title>Print("Hello World")</title><link>https://rvth.blog/blog/hello-world.html</link><description>
-    &lt;div class="image"&gt;&lt;img src="/images/hello-world.webp" class="lazyload" alt="hello world"&gt;&lt;/div&gt;
+    &lt;picture&gt;
+    &lt;source scrset="/images/hello-world.webp"&gt;
+    &lt;img src="/images/hello-world.jpg" alt="hello world style=" width:auto;&amp;quot;&amp;quot;&gt;
+    &lt;/picture&gt;
     &lt;p&gt;I’ve been sat staring at this blank document for the last 2 hours trying to figure what to write, my first blog post for a blog I never thought I would actually create. I guess I just wanted to introduce myself and the aim of this blog.&lt;/p&gt;
     &lt;p&gt;I started …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Ruth</dc:creator><pubDate>Sat, 27 Jun 2020 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:rvth.blog,2020-06-27:/blog/hello-world.html</guid><category>Personal</category><category>Personal</category></item></channel></rss>
