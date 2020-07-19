@@ -26,8 +26,8 @@ EXTRA_PATH_METADATA = {
 }
 
 #Theme specific
-GOOGLE_ANALYTICS_ID = "UA-123456-7"
-GOOGLE_ANALYTICS_PROP = "siteurl.com"
+GOOGLE_ANALYTICS_ID = "UA-173020538-1"
+GOOGLE_ANALYTICS_PROP = "rvth.blog"
 TAGLINE = "Site Tagline"
 MANGLE_EMAILS = False
 GLOBAL_KEYWORDS = ("keywords",)
@@ -36,6 +36,7 @@ GLOBAL_KEYWORDS = ("keywords",)
 SOCIAL = (
     ("Twitter", "https://twitter.com/rvtheverett"),
     ("GitHub", "https://github.com/rvth"),
+    ("Linkedin", "https://www.linkedin.com/feed/"),
 )
 
 # Blogroll
