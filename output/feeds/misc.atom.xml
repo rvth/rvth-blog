@@ -41,7 +41,7 @@
 &lt;br /&gt;
     &lt;div class="image"&gt;&lt;img src="/images/podcasts-2.webp" class="lazyload" alt="Tech Podcasts 2"&gt;&lt;/div&gt;
     &lt;h2&gt;5. We Belong Here&lt;/h2&gt;
-    &lt;p&gt;&lt;a href="https://webelongpodcast.com/"&gt;We belong here&lt;/a&gt; is a weekly podcast hosted by Lauren Lee which features interviews with career changes working in tech while helping to diversify the industry. What I love about this podcast is how it features unique stories from people with different career backgrounds who have broken into the tech industry and every episode is super inspiring.&lt;/p&gt;
+    &lt;p&gt;&lt;a href="https://webelongpodcast.com/"&gt;We Belong Here&lt;/a&gt; is a weekly podcast hosted by Lauren Lee which features interviews with career changes working in tech while helping to diversify the industry. What I love about this podcast is how it features unique stories from people with different career backgrounds who have broken into the tech industry and every episode is super inspiring.&lt;/p&gt;
     &lt;h3&gt;Recommended Episodes&lt;/h3&gt;
     &lt;p&gt;&lt;ul&gt;
     &lt;li&gt;&lt;a href="https://overcast.fm/+RH4UmVoAk"&gt;Episode 9: Abby Tiffany: From Sign Language to Coding Language&lt;/a&gt;&lt;/li&gt;
@@ -67,4 +67,116 @@
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
-</content><category term="misc"></category><category term="Tech"></category><category term="Inspiration"></category></entry></feed>
+</content><category term="misc"></category><category term="Tech"></category><category term="Inspiration"></category></entry><entry><title>An Introduction to Using Google Trends with Python</title><link href="https://rvth.blog/article/python-and-google-trends.html" rel="alternate"></link><published>2020-07-11T00:00:00+01:00</published><updated>2020-07-11T00:00:00+01:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2020-07-11:/article/python-and-google-trends.html</id><summary type="html">
+&lt;p&gt;&lt;a href="”https://pypi.org/project/pytrends/”"&gt; Pytrends&lt;/a&gt; is the unofficial API for Google Trends that allows you to automate the process of downloading different reports from Google Trends and can be used within Python to collect data using the different methods available within the API.&lt;/p&gt;
+
+&lt;p&gt;Google Trends is a free resource created by Google that analyses …&lt;/p&gt;</summary><content type="html">
+&lt;p&gt;&lt;a href="”https://pypi.org/project/pytrends/”"&gt; Pytrends&lt;/a&gt; is the unofficial API for Google Trends that allows you to automate the process of downloading different reports from Google Trends and can be used within Python to collect data using the different methods available within the API.&lt;/p&gt;
+
+&lt;p&gt;Google Trends is a free resource created by Google that analyses and lists the trending search terms over a period of time, across different regions and timezones, along with suggestions for keywords and topics based on a given term.&lt;/p&gt;
+
+&lt;p&gt;I have been playing around with this for a couple of weeks and wanted to share some of the interesting ways it can be used for SEO purposes. This first post will be an introduction to the API and the methods available, followed by the second part which will cover how to visualise the data.&lt;/p&gt;
+
+&lt;p&gt;Before starting we need to install the required packages and libraries and connect to Google. I have also added some additional libraries to help store and visualise the data.&lt;/p&gt;
+&lt;script src="https://gist.github.com/rvth/f1c8e3c96cfe608c5e6c0f528b652311.js"&gt;&lt;/script&gt;
+
+&lt;h2&gt;Build payload&lt;/h2&gt;
+&lt;p&gt;Now we have all the necessary packages installed, we can start coding! Next we need build the payload which will allow us to enter parameters such as our keyword list, the timeframe to collect data, a region and timezone, as well as narrowing down further to a specific category.&lt;/p&gt;
+
+&lt;h3&gt;Parameters to add&lt;/h3&gt;
+&lt;p&gt;There are several parameters you can add to your payload, however the only required one is the keyword list where you can add the keywords you want to get data for. You can add up to 5 terms in a list, which is created like this:&lt;/p&gt;
+
+&lt;script src="https://gist.github.com/rvth/f161294747b184290cb989b887d210c2.js"&gt;&lt;/script&gt;
+
+&lt;p&gt;Other parameters include:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;code&gt;timeframe&lt;/code&gt; - While this isn’t mandatory, as it will default to the last 5 years, you can set a timeframe you want to collect data from. You can do this in a couple of different ways:
+        &lt;ul&gt;
+            &lt;li&gt;With specific dates set in a YYYY-MM-DD YYYY-MM-DD format. E.g. 2020-02-27 2020-03-27&lt;/li&gt;
+            &lt;li&gt;Current time minus the number of months using the format ‘today #-m’ where # is the number of months from the date you want to collect data from. E.g. ‘today 2-m’ will collect data from today to 2 months ago.&lt;/li&gt;
+            &lt;li&gt;Current time minus the number of days using the format ‘now #-d’ where # is the number of days from the date you want to collect data from. E.g. ‘now 7-d’ to collect data from the last 7 days. Note this seems to only work for 1-7 days.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;li&gt;&lt;code&gt;cat&lt;/code&gt; - Allows you to use a category to narrow down results, this uses the integer for the category, which you can find &lt;a href="‘https://github.com/pat310/google-trends-api/wiki/Google-Trends-Categories’"&gt; here&lt;/a&gt;. This isn’t compulsory, as it will default to no category.&lt;/li&gt;
+    &lt;li&gt; &lt;code&gt;geo&lt;/code&gt; - Allows you to narrow down to a specific country, using the two letter country abbreviation, eg ‘GB’. Again this isn’t compulsory, as it will default to ‘World’.&lt;/li&gt;
+    &lt;li&gt;&lt;code&gt;gprop&lt;/code&gt; - The Google property you want to filter to (images, news, YouTube, Google Shopping). This will default to web search.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So say for example I want to collect data over the last year for the popularity of searches for my 3 favourite k-pop groups, using the music category (35), in the US, I would build my payload as follows:&lt;/p&gt;
+
+&lt;script src="https://gist.github.com/rvth/cec23cdaffb19ebde7b3fd8da65e66c7.js"&gt;&lt;/script&gt;
+
+&lt;h2&gt;API Methods&lt;/h2&gt;
+&lt;p&gt;Now for the fun bit, collecting different types of data. There are several API methods you can use with the Pytrends library, which you can find more about &lt;a href="”https://pypi.org/project/pytrends/#api-methods”"&gt; here&lt;/a&gt; but I’m just going to share a few which may be most useful for SEO use cases.&lt;/p&gt;
+
+&lt;h3&gt;Interest over time&lt;/h3&gt;
+
+&lt;p&gt;This will return historical data for when a keyword was searched for the most, over the timeframe you select. This is reflective of what is shown in the 'interest over time' section of Google Trends.&lt;/p&gt;
+
+&lt;p&gt;For this example I have created a keyword list of five dog breeds to see how the search volume for these terms has changed over the last 3 months. I also turned the results given into a Pandas DataFrame in order to analyse the data easily.&lt;/p&gt;
+&lt;script src="https://gist.github.com/rvth/403eca7121f5bbe68cf5571c74509c10.js"&gt;&lt;/script&gt;
+
+&lt;p&gt;This will generate a DataFrame with a column for each date, and each search term in my keyword list, with the search volume for each day.&lt;/p&gt;
+
+&lt;div class="image"&gt;&lt;img src="/images/interest-overtime.webp" class="lazyload" alt="interest-over-time-df" width="700px" &amp;lt; div&gt;
+
+
+&lt;h3&gt;Interest by region&lt;/h3&gt;
+
+&lt;p&gt;Using this method we will be able to see data for where a keyword is most searched for. There are a couple of different parameters you can add to this:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;code&gt;resolution&lt;/code&gt; - Can be set to CITY, COUNTRY or REGION.&lt;/li&gt;
+    &lt;li&gt; &lt;code&gt;inc_low_vol&lt;/code&gt; - Either a True or False boolean to determine whether to display data for low volume countries.&lt;/li&gt;
+    &lt;li&gt;&lt;code&gt;inc_geo_code&lt;/code&gt; - This can also be set to either True or False, depending on whether you want to include ISO codes along with the country names.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I have two examples of this method, the first with no parameters, which displays all countries and the interest of the search term across these.&lt;/p&gt;
+
+&lt;script src="https://gist.github.com/rvth/a1fd807377ae3c5b024d5df8d7bb089c.js"&gt;&lt;/script&gt;
+
+&lt;p&gt;The other displays region level data for the country Geo code 'GB'.&lt;/p&gt;
+
+&lt;script src="https://gist.github.com/rvth/223ed65d7b33ce3185d2e7599b8c5641.js"&gt;&lt;/script&gt;
+
+&lt;h3&gt;Related queries&lt;/h3&gt;
+
+&lt;p&gt;This will return data for keywords related to the provided keyword, and the output is displayed in two parts:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Top: Which displays a Google Trends score between 0-100.&lt;/li&gt;
+    &lt;li&gt;Rising: Displays how much interest the keyword has increased by in a %.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For this example, my keyword list contains 5 endangered animals from the WWF site, where I collect the values for all of the terms. I will then use the &lt;code&gt;.get&lt;/code&gt; method to display the rising and top values for a selected keyword.&lt;/p&gt;
+
+&lt;script src="https://gist.github.com/rvth/e425f04aa3c395ffe144bb87d223ec46.js"&gt;&lt;/script&gt;
+
+&lt;div class="image"&gt;&lt;img src="/images/related-queries-rising.webp" class="lazyload" alt="related-queries-rising-df" width="400px" &amp;lt; div&gt;
+
+&lt;h3&gt;Suggestions&lt;/h3&gt;
+
+&lt;p&gt;The suggestions method will display a list of additional suggested keywords that can also be used for a trend search.&lt;/p&gt;
+
+&lt;p&gt;In my example I have defined a keyword within the method and displayed the results as a dataframe.&lt;/p&gt;
+
+&lt;script src="https://gist.github.com/rvth/2e75a6308cc86deaa4b7762c2885bf37.js"&gt;&lt;/script&gt;
+
+&lt;div class="image"&gt;&lt;img src="/images/suggestions.webp" class="lazyload" alt="suggestions-df" width="500px" &amp;lt; div&gt;
+
+
+&lt;h3&gt;Trending searches&lt;/h3&gt;
+
+&lt;p&gt;The final method I want to share is the trending searches. This will return data for the latest trending searches, either worldwide or for the country you include within the method.&lt;/p&gt;
+
+&lt;script src="https://gist.github.com/rvth/90d98d4cc5847d3a90ac5d002be1bfec.js"&gt;&lt;/script&gt;
+
+&lt;p&gt;I also shared an example of a Google Data Studio dashboard I have created using the trending searches method for both the UK and US, which can updated daily.&lt;/p&gt;
+
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Just because I&amp;#39;m a bit of a nerd and wanted to try out the Google Trends API in Python I now have a dashboard displaying the top 20 trending searches in the UK and US every day. It literally serves no purpose except for some occasional lols 🤷‍♀️ &lt;a href="https://t.co/CUB0d8xgsG"&gt;pic.twitter.com/CUB0d8xgsG&lt;/a&gt;&lt;/p&gt;&amp;mdash; Ruth⁷ (@rvtheverett) &lt;a href="https://twitter.com/rvtheverett/status/1285305449819111425?ref_src=twsrc%5Etfw"&gt;July 20, 2020&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;p&gt;I hope this has provided a good introduction to the Pytrends API and how it can be used in Python to find some interesting data for different search terms. The most powerful part of this though is the visulisations we can create from the data. The concluding part of this post will share how I use the Python libraries MatPlotLib and Seaborn to create visulations, as well as how to connect the data to Google Sheets in order to display results within a Google DataStudio dashboard.&lt;/p&gt;
+
+&lt;p&gt;You can find a Google Colab notebook &lt;a href="https://colab.research.google.com/drive/10t-AbNxx1G8kaHSjrkyXlfs2Yl-NSuiq?usp=sharing"&gt; here&lt;/a&gt;, with the examples shared above if you would like to save and use as a starting point.&lt;/p&gt;
+
+&lt;p&gt;If you have any questions, or suggestions, feel free to get in touch with me on Twitter &lt;a href="https://twitter.com/rvtheverett"&gt; @rvtheverett&lt;/a&gt;&lt;/p&gt;
+</content><category term="misc"></category><category term="SEO"></category><category term="Python"></category></entry></feed>
