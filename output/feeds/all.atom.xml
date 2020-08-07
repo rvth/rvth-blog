@@ -1,77 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Ruth's Blog</title><link href="https://rvth.blog/" rel="alternate"></link><link href="https://rvth.blog/feeds/all.atom.xml" rel="self"></link><id>https://rvth.blog/</id><updated>2020-07-11T00:00:00+01:00</updated><entry><title>7 Female Hosted Tech Podcasts for Everyone</title><link href="https://rvth.blog/article/female-hosted-tech-podcasts.html" rel="alternate"></link><published>2020-07-11T00:00:00+01:00</published><updated>2020-07-11T00:00:00+01:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2020-07-11:/article/female-hosted-tech-podcasts.html</id><summary type="html">
-&lt;p&gt;I'm a massive fan of podcasts and have been listening to them for several years. As my interests change so do the podcasts I listen to, and for the past couple of years my podcast library has been full of both tech focused and true crime podcasts.&lt;/p&gt;
-&lt;p&gt;I wanted to …&lt;/p&gt;</summary><content type="html">
-&lt;p&gt;I'm a massive fan of podcasts and have been listening to them for several years. As my interests change so do the podcasts I listen to, and for the past couple of years my podcast library has been full of both tech focused and true crime podcasts.&lt;/p&gt;
-&lt;p&gt;I wanted to share some of my favourite inspirational, female hosted tech podcasts which I have been listening to and learnt a lot from.&lt;/p&gt;
-
-    &lt;div class="image"&gt;&lt;img src="/images/podcasts-1.webp" class="lazyload" alt="Tech Podcasts"&gt;&lt;/div&gt;
-    &lt;h2&gt;1. Learn To Code with Me&lt;/h2&gt;
-    &lt;p&gt;&lt;a href="https://learntocodewith.me/podcast/"&gt;Learn to code&lt;/a&gt; with me was the first tech podcast I started listening to several years ago. Hosted by Laurence Bradford each episode is an interview with someone working in the technology field and includes advice for learning how to code, getting started in tech and building your career.&lt;/p&gt;
-
-&lt;h3&gt;Recommended Episodes&lt;/h3&gt;
-    &lt;p&gt;&lt;ul&gt;
-    &lt;li&gt;&lt;a href="https://learntocodewith.me/podcast/becoming-a-software-engineer-with-laura-medalia/"&gt;S3E18: Becoming a Software Engineer and Crushing Coder Stereotypes with Laura Medalia&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="https://learntocodewith.me/podcast/assistive-technology/"&gt;S6E3: Why Accessibility Matters (According to a Totally Blind Programmer)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;br /&gt;
-    &lt;h2&gt;2. Ladybug Podcast&lt;/h2&gt;
-    &lt;p&gt;Hosted by three tech queens, Kelly Vaughn, Ali Spittel and Emma Bostian, the &lt;a href="https://www.ladybug.dev/"&gt;Ladybug podcast&lt;/a&gt; was created to debug the tech industry and add female voices to the highly male populated tech podcast space. And that’s exactly what they do; every episode is honest, educational and always leaves an impact on me.
-    &lt;h3&gt;Recommended Episodes&lt;/h3&gt;
-    &lt;p&gt;&lt;ul&gt;
-    &lt;li&gt;&lt;a href="https://www.ladybug.dev/episodes/web-developer-learning-path"&gt;Episode 37: Web Developer Learning Path&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="https://www.ladybug.dev/episodes/hiring-a-diverse-workforce"&gt;Episode 43: Hiring a Diverse Workforce&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;&lt;/p&gt;
-&lt;br /&gt;
-    &lt;h2&gt;3. SEO SAS&lt;/h2&gt;
-    &lt;p&gt;&lt;a href="https://anchor.fm/seo-sas"&gt;SEO SAS&lt;/a&gt; is a podcast focused on SEO from the perspective of two of the industry’s greats; Sarah McDowell and Hannah Bryce. In this case SAS stands for special answering service, which is exactly what this podcast is about. Each focuses on a specific SEO issue where Sarah and Hannah discuss, demystify and provide advice around the topic.&lt;/p&gt;
-    &lt;h3&gt;Recommended Episodes&lt;/h3&gt;
-    &lt;p&gt;&lt;ul&gt;
-    &lt;li&gt;&lt;a href="https://anchor.fm/seo-sas/episodes/007-The-One-Where-We-Discuss-Where-To-Begin-With-SEO-e2uhg3"&gt;Where to Begin with SEO&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="https://anchor.fm/seo-sas/episodes/010-The-One-Where-We-Discuss-Common-SEO-Issues-e33oit"&gt;Common SEO Issues&lt;/a&gt; &lt;/li&gt;
-    &lt;/ul&gt;&lt;/p&gt;
-&lt;br /&gt;
-    &lt;h2&gt;4. La Vie En Code&lt;/h2&gt;
-    &lt;p&gt;Self-taught web developer, Nicole Archambault, hosts &lt;a href="https://www.lavieencode.net/podcast/"&gt;La Vie En Code&lt;/a&gt; where she shares her experience as a self-taught developer, interviews tech professionals, provides industry advice and helps listeners maximize their learning potential. There is not a single episode which hasn’t inspired me and Nicole’s openness is so inspiring for anyone getting started learning to code.&lt;/p&gt;
-    &lt;h3&gt;Recommended Episodes&lt;/h3&gt;
-    &lt;p&gt;&lt;ul&gt;
-    &lt;li&gt;&lt;a href="https://www.lavieencode.net/podcast/008-10-things-before-learning-to-code/"&gt;Episode 8: 10 Things You NEED to Know BEFORE Learning to Code&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="https://www.lavieencode.net/podcast/013-when-mental-illness-affects-your-coding-goals/"&gt;Episode 13: When Mental Illness Affects Your Coding Goals&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;&lt;/p&gt;
-&lt;br /&gt;
-    &lt;div class="image"&gt;&lt;img src="/images/podcasts-2.webp" class="lazyload" alt="Tech Podcasts 2"&gt;&lt;/div&gt;
-    &lt;h2&gt;5. We Belong Here&lt;/h2&gt;
-    &lt;p&gt;&lt;a href="https://webelongpodcast.com/"&gt;We Belong Here&lt;/a&gt; is a weekly podcast hosted by Lauren Lee which features interviews with career changes working in tech while helping to diversify the industry. What I love about this podcast is how it features unique stories from people with different career backgrounds who have broken into the tech industry and every episode is super inspiring.&lt;/p&gt;
-    &lt;h3&gt;Recommended Episodes&lt;/h3&gt;
-    &lt;p&gt;&lt;ul&gt;
-    &lt;li&gt;&lt;a href="https://overcast.fm/+RH4UmVoAk"&gt;Episode 9: Abby Tiffany: From Sign Language to Coding Language&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="https://overcast.fm/+RH4UKReAA"&gt;Episode 20: Becca Lee: Lessons from Marketing Applied to Code&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;&lt;/p&gt;
-&lt;br /&gt;
-    &lt;h2&gt;6. Base CS&lt;/h2&gt;
-    &lt;p&gt;Produced by the CodeNewbie team, &lt;a href="https://www.codenewbie.org/basecs"&gt;Base CS&lt;/a&gt; is a podcast designed to provide beginner-friendly computer science lessons. Hosted by two of the smartest women in tech, &lt;a href="https://twitter.com/vaidehijoshi"&gt;Vaidehi&lt;/a&gt; and &lt;a href="https://twitter.com/saronyitbarek"&gt;Saron&lt;/a&gt;. Base CS is based on Vaideahi’s &lt;a href="https://medium.com/basecs"&gt;blog series&lt;/a&gt; of the same name and covers everything from the fundamentals of CS, to data structures and algorithms.&lt;/p&gt;
-    &lt;h3&gt;Recommended Episodes&lt;/h3&gt;
-    &lt;p&gt;Every single one, starting with;
-    &lt;ul&gt;
-    &lt;li&gt;&lt;a href="https://www.codenewbie.org/basecs/3"&gt;Episode 1: Bits, Binary, and Bytes&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="https://www.codenewbie.org/basecs/4"&gt;Episode 2: What is encoding?&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;&lt;/p&gt;
-&lt;br /&gt;
-    &lt;h2&gt;7. Git Cute&lt;/h2&gt;
-    &lt;p&gt;&lt;a href="https://gitcutepodcast.com/"&gt;Git Cute&lt;/a&gt; is the newest podcast added to my library and I can’t recommend it enough. Hosted by software engineer Jocelyn Harper, every episode is full of advice and experiences for working in the technology sector. The podcast also features interviews with other software engineers and discusses hot topics and news related to tech. It’s also perfect for newbie coders.&lt;/p&gt;
-    &lt;h3&gt;Recommended Episodes&lt;/h3&gt;
-    &lt;p&gt;&lt;ul&gt;
-    &lt;li&gt;&lt;a href="https://gitcutepodcast.com/podcast/ep-1-breaking-into-tech-is-hard-but-worth-it/"&gt;Episode 1: Breaking Into Tech is Hard (But Worth It)&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="https://gitcutepodcast.com/podcast/ep-17-working-from-home-stay-safe-and-sane-friends/"&gt;Episode 17: Working From Home: Stay Safe and Sane, Friends&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;
-</content><category term="misc"></category><category term="Tech"></category><category term="Inspiration"></category></entry><entry><title>An Introduction to Using Google Trends with Python</title><link href="https://rvth.blog/article/python-and-google-trends.html" rel="alternate"></link><published>2020-07-11T00:00:00+01:00</published><updated>2020-07-11T00:00:00+01:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2020-07-11:/article/python-and-google-trends.html</id><summary type="html">
-&lt;p&gt;&lt;a href="”https://pypi.org/project/pytrends/”"&gt; Pytrends&lt;/a&gt; is the unofficial API for Google Trends that allows you to automate the process of downloading different reports from Google Trends and can be used within Python to collect data using the different methods available within the API.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Ruth's Blog</title><link href="https://rvth.blog/" rel="alternate"></link><link href="https://rvth.blog/feeds/all.atom.xml" rel="self"></link><id>https://rvth.blog/</id><updated>2020-08-06T00:00:00+01:00</updated><entry><title>An Introduction to Using Google Trends with Python</title><link href="https://rvth.blog/article/python-and-google-trends.html" rel="alternate"></link><published>2020-08-06T00:00:00+01:00</published><updated>2020-08-06T00:00:00+01:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2020-08-06:/article/python-and-google-trends.html</id><summary type="html">
+&lt;p&gt;&lt;a href="https://pypi.org/project/pytrends/"&gt; Pytrends&lt;/a&gt; is the unofficial API for Google Trends that allows you to automate the process of downloading different reports from Google Trends and can be used within Python to collect data using the different methods available within the API.&lt;/p&gt;
 
 &lt;p&gt;Google Trends is a free resource created by Google that analyses …&lt;/p&gt;</summary><content type="html">
-&lt;p&gt;&lt;a href="”https://pypi.org/project/pytrends/”"&gt; Pytrends&lt;/a&gt; is the unofficial API for Google Trends that allows you to automate the process of downloading different reports from Google Trends and can be used within Python to collect data using the different methods available within the API.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pypi.org/project/pytrends/"&gt; Pytrends&lt;/a&gt; is the unofficial API for Google Trends that allows you to automate the process of downloading different reports from Google Trends and can be used within Python to collect data using the different methods available within the API.&lt;/p&gt;
 
 &lt;p&gt;Google Trends is a free resource created by Google that analyses and lists the trending search terms over a period of time, across different regions and timezones, along with suggestions for keywords and topics based on a given term.&lt;/p&gt;
 
@@ -179,7 +111,75 @@
 &lt;p&gt;You can find a Google Colab notebook &lt;a href="https://colab.research.google.com/drive/10t-AbNxx1G8kaHSjrkyXlfs2Yl-NSuiq?usp=sharing"&gt; here&lt;/a&gt;, with the examples shared above if you would like to save and use as a starting point.&lt;/p&gt;
 
 &lt;p&gt;If you have any questions, or suggestions, feel free to get in touch with me on Twitter &lt;a href="https://twitter.com/rvtheverett"&gt; @rvtheverett&lt;/a&gt;&lt;/p&gt;
-</content><category term="misc"></category><category term="SEO"></category><category term="Python"></category></entry><entry><title>Print("Hello World")</title><link href="https://rvth.blog/article/hello-world.html" rel="alternate"></link><published>2020-06-27T00:00:00+01:00</published><updated>2020-06-27T00:00:00+01:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2020-06-27:/article/hello-world.html</id><summary type="html">
+</content><category term="misc"></category><category term="SEO"></category><category term="Python"></category></entry><entry><title>7 Female Hosted Tech Podcasts for Everyone</title><link href="https://rvth.blog/article/female-hosted-tech-podcasts.html" rel="alternate"></link><published>2020-07-11T00:00:00+01:00</published><updated>2020-07-11T00:00:00+01:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2020-07-11:/article/female-hosted-tech-podcasts.html</id><summary type="html">
+&lt;p&gt;I'm a massive fan of podcasts and have been listening to them for several years. As my interests change so do the podcasts I listen to, and for the past couple of years my podcast library has been full of both tech focused and true crime podcasts.&lt;/p&gt;
+&lt;p&gt;I wanted to …&lt;/p&gt;</summary><content type="html">
+&lt;p&gt;I'm a massive fan of podcasts and have been listening to them for several years. As my interests change so do the podcasts I listen to, and for the past couple of years my podcast library has been full of both tech focused and true crime podcasts.&lt;/p&gt;
+&lt;p&gt;I wanted to share some of my favourite inspirational, female hosted tech podcasts which I have been listening to and learnt a lot from.&lt;/p&gt;
+
+    &lt;div class="image"&gt;&lt;img src="/images/podcasts-1.webp" class="lazyload" alt="Tech Podcasts"&gt;&lt;/div&gt;
+    &lt;h2&gt;1. Learn To Code with Me&lt;/h2&gt;
+    &lt;p&gt;&lt;a href="https://learntocodewith.me/podcast/"&gt;Learn to code&lt;/a&gt; with me was the first tech podcast I started listening to several years ago. Hosted by Laurence Bradford each episode is an interview with someone working in the technology field and includes advice for learning how to code, getting started in tech and building your career.&lt;/p&gt;
+
+&lt;h3&gt;Recommended Episodes&lt;/h3&gt;
+    &lt;p&gt;&lt;ul&gt;
+    &lt;li&gt;&lt;a href="https://learntocodewith.me/podcast/becoming-a-software-engineer-with-laura-medalia/"&gt;S3E18: Becoming a Software Engineer and Crushing Coder Stereotypes with Laura Medalia&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="https://learntocodewith.me/podcast/assistive-technology/"&gt;S6E3: Why Accessibility Matters (According to a Totally Blind Programmer)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;br /&gt;
+    &lt;h2&gt;2. Ladybug Podcast&lt;/h2&gt;
+    &lt;p&gt;Hosted by three tech queens, Kelly Vaughn, Ali Spittel and Emma Bostian, the &lt;a href="https://www.ladybug.dev/"&gt;Ladybug podcast&lt;/a&gt; was created to debug the tech industry and add female voices to the highly male populated tech podcast space. And that’s exactly what they do; every episode is honest, educational and always leaves an impact on me.
+    &lt;h3&gt;Recommended Episodes&lt;/h3&gt;
+    &lt;p&gt;&lt;ul&gt;
+    &lt;li&gt;&lt;a href="https://www.ladybug.dev/episodes/web-developer-learning-path"&gt;Episode 37: Web Developer Learning Path&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="https://www.ladybug.dev/episodes/hiring-a-diverse-workforce"&gt;Episode 43: Hiring a Diverse Workforce&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;&lt;/p&gt;
+&lt;br /&gt;
+    &lt;h2&gt;3. SEO SAS&lt;/h2&gt;
+    &lt;p&gt;&lt;a href="https://anchor.fm/seo-sas"&gt;SEO SAS&lt;/a&gt; is a podcast focused on SEO from the perspective of two of the industry’s greats; Sarah McDowell and Hannah Bryce. In this case SAS stands for special answering service, which is exactly what this podcast is about. Each focuses on a specific SEO issue where Sarah and Hannah discuss, demystify and provide advice around the topic.&lt;/p&gt;
+    &lt;h3&gt;Recommended Episodes&lt;/h3&gt;
+    &lt;p&gt;&lt;ul&gt;
+    &lt;li&gt;&lt;a href="https://anchor.fm/seo-sas/episodes/007-The-One-Where-We-Discuss-Where-To-Begin-With-SEO-e2uhg3"&gt;Where to Begin with SEO&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="https://anchor.fm/seo-sas/episodes/010-The-One-Where-We-Discuss-Common-SEO-Issues-e33oit"&gt;Common SEO Issues&lt;/a&gt; &lt;/li&gt;
+    &lt;/ul&gt;&lt;/p&gt;
+&lt;br /&gt;
+    &lt;h2&gt;4. La Vie En Code&lt;/h2&gt;
+    &lt;p&gt;Self-taught web developer, Nicole Archambault, hosts &lt;a href="https://www.lavieencode.net/podcast/"&gt;La Vie En Code&lt;/a&gt; where she shares her experience as a self-taught developer, interviews tech professionals, provides industry advice and helps listeners maximize their learning potential. There is not a single episode which hasn’t inspired me and Nicole’s openness is so inspiring for anyone getting started learning to code.&lt;/p&gt;
+    &lt;h3&gt;Recommended Episodes&lt;/h3&gt;
+    &lt;p&gt;&lt;ul&gt;
+    &lt;li&gt;&lt;a href="https://www.lavieencode.net/podcast/008-10-things-before-learning-to-code/"&gt;Episode 8: 10 Things You NEED to Know BEFORE Learning to Code&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="https://www.lavieencode.net/podcast/013-when-mental-illness-affects-your-coding-goals/"&gt;Episode 13: When Mental Illness Affects Your Coding Goals&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;&lt;/p&gt;
+&lt;br /&gt;
+    &lt;div class="image"&gt;&lt;img src="/images/podcasts-2.webp" class="lazyload" alt="Tech Podcasts 2"&gt;&lt;/div&gt;
+    &lt;h2&gt;5. We Belong Here&lt;/h2&gt;
+    &lt;p&gt;&lt;a href="https://webelongpodcast.com/"&gt;We Belong Here&lt;/a&gt; is a weekly podcast hosted by Lauren Lee which features interviews with career changes working in tech while helping to diversify the industry. What I love about this podcast is how it features unique stories from people with different career backgrounds who have broken into the tech industry and every episode is super inspiring.&lt;/p&gt;
+    &lt;h3&gt;Recommended Episodes&lt;/h3&gt;
+    &lt;p&gt;&lt;ul&gt;
+    &lt;li&gt;&lt;a href="https://overcast.fm/+RH4UmVoAk"&gt;Episode 9: Abby Tiffany: From Sign Language to Coding Language&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="https://overcast.fm/+RH4UKReAA"&gt;Episode 20: Becca Lee: Lessons from Marketing Applied to Code&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;&lt;/p&gt;
+&lt;br /&gt;
+    &lt;h2&gt;6. Base CS&lt;/h2&gt;
+    &lt;p&gt;Produced by the CodeNewbie team, &lt;a href="https://www.codenewbie.org/basecs"&gt;Base CS&lt;/a&gt; is a podcast designed to provide beginner-friendly computer science lessons. Hosted by two of the smartest women in tech, &lt;a href="https://twitter.com/vaidehijoshi"&gt;Vaidehi&lt;/a&gt; and &lt;a href="https://twitter.com/saronyitbarek"&gt;Saron&lt;/a&gt;. Base CS is based on Vaideahi’s &lt;a href="https://medium.com/basecs"&gt;blog series&lt;/a&gt; of the same name and covers everything from the fundamentals of CS, to data structures and algorithms.&lt;/p&gt;
+    &lt;h3&gt;Recommended Episodes&lt;/h3&gt;
+    &lt;p&gt;Every single one, starting with;
+    &lt;ul&gt;
+    &lt;li&gt;&lt;a href="https://www.codenewbie.org/basecs/3"&gt;Episode 1: Bits, Binary, and Bytes&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="https://www.codenewbie.org/basecs/4"&gt;Episode 2: What is encoding?&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;&lt;/p&gt;
+&lt;br /&gt;
+    &lt;h2&gt;7. Git Cute&lt;/h2&gt;
+    &lt;p&gt;&lt;a href="https://gitcutepodcast.com/"&gt;Git Cute&lt;/a&gt; is the newest podcast added to my library and I can’t recommend it enough. Hosted by software engineer Jocelyn Harper, every episode is full of advice and experiences for working in the technology sector. The podcast also features interviews with other software engineers and discusses hot topics and news related to tech. It’s also perfect for newbie coders.&lt;/p&gt;
+    &lt;h3&gt;Recommended Episodes&lt;/h3&gt;
+    &lt;p&gt;&lt;ul&gt;
+    &lt;li&gt;&lt;a href="https://gitcutepodcast.com/podcast/ep-1-breaking-into-tech-is-hard-but-worth-it/"&gt;Episode 1: Breaking Into Tech is Hard (But Worth It)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="https://gitcutepodcast.com/podcast/ep-17-working-from-home-stay-safe-and-sane-friends/"&gt;Episode 17: Working From Home: Stay Safe and Sane, Friends&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+</content><category term="misc"></category><category term="Tech"></category><category term="Inspiration"></category></entry><entry><title>Print("Hello World")</title><link href="https://rvth.blog/article/hello-world.html" rel="alternate"></link><published>2020-06-27T00:00:00+01:00</published><updated>2020-06-27T00:00:00+01:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2020-06-27:/article/hello-world.html</id><summary type="html">
     &lt;div class="image"&gt;&lt;img src="/images/hello-world.jxr" class="lazyload" alt="hello world" &amp;lt; div&gt;
     &lt;p&gt;I’ve been sat staring at this blank document for the last 2 hours trying to figure what to write, my first blog post for a blog I never thought I would actually create. I guess I just wanted to introduce myself and the aim of this blog.&lt;/p&gt;
     &lt;p&gt;I started …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">
