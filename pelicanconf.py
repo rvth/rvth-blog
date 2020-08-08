@@ -12,16 +12,17 @@ TIMEZONE = 'Europe/London'
 
 DEFAULT_LANG = 'en'
 DEFAULT_DATE_FORMAT = "%b %d, %Y"
-USER_LOGO_URL = "https://i.imgur.com/nlZmXCu.png"
+USER_LOGO_URL = "https://i.imgur.com/SjewwgO.png"
 
 THEME = "voce"
 
 LOAD_CONTENT_CACHE = False
 SLUGIFY_SOURCE = 'basename'
+SLUGIFY_SOURCE = 'basename'
 
 
 EXTRA_PATH_METADATA = {
-    'files/favicon.ico': {'path': 'favicon.ico'},
+    'extra/favicon.ico': {'path': 'favicon.ico'},
     'files/robots.txt': {'path': 'robots.txt'},
 }
 
@@ -52,7 +53,7 @@ RELATIVE_URLS = True
 DELETE_OUTPUT_DIRECTORY = True
 OUTPUT_RETENTION = [".git"]
 
-STATIC_PATHS = ['images']
+STATIC_PATHS = ['images', 'extra/favicon.ico']
 
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
