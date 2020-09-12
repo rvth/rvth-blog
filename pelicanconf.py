@@ -45,6 +45,8 @@ LINKS = (("Home", "https://rvth.blog"),
          ("About", "/pages/about-me.html"),
          ("Ember", "/pages/ember.html"),
          ("Learning Log", "/pages/learning-log.html"),
+         ("Writing", "/pages/writing.html"),
+         ("Speaking", "/pages/speaking.html"),
          ('Python.org', 'http://python.org/'))
 
 DEFAULT_PAGINATION = 10
