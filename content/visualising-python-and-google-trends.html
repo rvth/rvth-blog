@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="date" content="2020-09-20" />
+    <meta name="tags" content="Python, SEO" />
+    <meta name="authors" content="Ruth" />
+    <title>Visualising Python and Google Trends</title>
+</head>
+<body>
+
+<p>Last month I <a href="https://rvth.blog/article/python-and-google-trends.html">shared some of the things</a> I had learned while playing around with the Google Trends Python library, PyTrends.</p>
+
+<p>While collecting the data using this method is super fun and efficient, it's only really the start of what you can do with Python. Once we have the data saved in a Pandas DataFrame, our next step is to visualise the data.</p>
+
+<p>In order to do this I wanted to share three different fun and fairly simple ways to visualise the data we have stored from Google Trends.</p>
+
+<h2>Let's start with Matplotlib</h2>
+
+<h3>What is Matplotlib?</h3>
+
+<p>Matplotlib is a Python library for creating plotting visualisations. There are lots of different things you can create with Matplotlib, such as bar charts, line graphs, histograms and even heatmaps.</p>
+
+<h3>Bar Charts with Matplotlib</h3>
+
+<p>In order to try out Matplotlib with the Google Trends data, I took the rising related queries that I collected for the term BTS, and created two different bar charts. </p>
+
+<div class="image"><img src="/images/bts-related-queries.webp" class="responsive" alt="related-queries-df" width="700px"</div>
+
+<p>The first bar chart is a typical chart, with the queries along the x-axis and the values on the y-axis.<p>
+
+<div class="image"><img src="/images/matplotlib-bar-chart.webp" class="responsive" alt="matplotlib-bar-chart" width="700px" height="700px"</div>
+
+<p>In order to do this I used the rcParams in order to update the size and styling of the plot, as well as the font colour and size.</p>
+
+<script src="https://gist.github.com/rvth/df3d67e998c2a7dc062abf576f286a05.js"></script>
+
+<p>I used a similar command in order to create a horizontal bar chart, which features the query along the y-axis and the value along the x. In this example, the top rising keyword is at the bottom of the graph.</p>
+
+<div class="image"><img src="/images/matplotlib-horizontal-bar-chart.webp" class="responsive" alt="matplotlib-horizontal-bar-chart" width="700px"</div>
+</br>
+<script src="https://gist.github.com/rvth/f4645ae7a9572c428c436621c7cf5b53.js"></script>
+
+<h2>Next up is Seaborn<h2>
+
+<h3>What is Seaborn?</h3>
+
+<p>Seaborn is another data visualisation library used in Python, and is actually based on Matplotlib.</p>
+
+<p>Seaborn provides different visualisation patterns such as scatterplots, boxplots and violinplots, as well as line and bar graphs. It differs slightly from Matplotlib as it uses fewer syntax and has built in default themes.</p>
+
+<p>For the Seaborn example, I took the interest over time data for the 5 dog breeds, and plotted a really simple line graph to show the spikes and dips in interest over time.</p>
+
+<div class="image"><img src="/images/seaborn-line-graph.webp" class="responsive" alt="seaborn-line-graph" width="700px"</div>
+
+<p>I also played around with some of the styling options available in order to change the overall size of the chart using <code>figsize</code>, as well as the font size. In addition, I used the style and palette functions in order to change the background grid to dark and the lines on the graph to be bright. This helped it to become slightly more visually appealing and easier to understand.</p>
+
+<script src="https://gist.github.com/rvth/2ae6bad96bd47540d9d7c2dfce03ff9a.js"></script>
+
+<h2>Google Sheets and Google DataStudio</h2>
+
+<p>And we can't forget the crown jewels of SEO data visualisation, Google Data Studio. We can use the Google Sheets integration to create dashboards for the data we have collected from Google Trends.<p>
+
+<p>For this example, we are going to take the data from our trending DataFrame in order to create a simple table in GDS.</p>
+
+<p>To begin with, we need to connect Google Colab to Google Sheets and create an empty spreadsheet to push our data to.</p>
+
+<script src="https://gist.github.com/rvth/abc399001ca844458d31ea76cb4839f6.js"></script>
+
+<script src="https://gist.github.com/rvth/092adab4f83f30a3aefdee661aad3449.js"></script>
+
+    <p>We then need to take a custom formula, which is <a href="https://www.danielecook.com/from-pandas-to-google-sheets/">written by Daniel Cook</a>.</p>
+
+<script src="https://gist.github.com/rvth/0e800baa730d7f394d8ec354b0f6b09c.js"></script>
+
+<p>Then we can use the pandas_to_sheets command to send the data from our already created DataFrame to our newly created spreadsheet.</p>
+
+<script src="https://gist.github.com/rvth/511a2cc1ce10f5bef5e2b1ce7ac4db55.js"></script>
+
+<p>When we have our data safely in the Google Sheets spreadsheet, we then need to create a new data connector for Google Data Studio, using the Google Sheets integration and select the relevant spreadsheet.</p>
+
+<div class="image"><img src="/images/google-sheets-gds-connector.webp" class="responsive" alt="google-sheets-gds-connector" width="700px"</div>
+
+<p>Once we have this connector set up, we can then create a Data Studio report, using our Google Sheets data source, and choose the chart which best fits what we want to visualise. For our trending data, I have created a really simple table to display the trending search terms.</p>
+
+<div class="image"><img src="/images/trending-data-table.webp" class="responsive" alt="trending-data-table" width="700px"</div>
+
+<p>Another visualisation we can create is using the related topics rising keywords and creating a horizontal bar chart to display the most popular keywords first. In order to create this we just need to follow the same steps as above, and change the chart type.</p>
+
+<div class="image"><img src="/images/related-topic-graph.webp" class="responsive" alt="related-topic-graph" width="700px"</div>
+
+</body>
+</html>
