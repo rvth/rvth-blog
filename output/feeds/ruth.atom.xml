@@ -1,5 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Ruth's Blog - Ruth</title><link href="https://rvth.blog/" rel="alternate"></link><link href="https://rvth.blog/feeds/ruth.atom.xml" rel="self"></link><id>https://rvth.blog/</id><updated>2020-09-20T00:00:00+01:00</updated><entry><title>Visualising Python and Google Trends</title><link href="https://rvth.blog/article/visualising-python-and-google-trends.html" rel="alternate"></link><published>2020-09-20T00:00:00+01:00</published><updated>2020-09-20T00:00:00+01:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2020-09-20:/article/visualising-python-and-google-trends.html</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Ruth's Blog - Ruth</title><link href="https://rvth.blog/" rel="alternate"></link><link href="https://rvth.blog/feeds/ruth.atom.xml" rel="self"></link><id>https://rvth.blog/</id><updated>2020-10-11T00:00:00+01:00</updated><entry><title>Why I Decided To Start Learning To Code</title><link href="https://rvth.blog/article/why-i-started-learning-to-code.html" rel="alternate"></link><published>2020-10-11T00:00:00+01:00</published><updated>2020-10-11T00:00:00+01:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2020-10-11:/article/why-i-started-learning-to-code.html</id><summary type="html">
+
+&lt;p&gt;“Why did you start learning to code?”&lt;/p&gt;
+
+&lt;p&gt;This question makes me panic a bit, because to be honest, I don’t really think I have a sufficient answer. “I don’t know, I just wanted to learn something new” is what I would typically answer. But looking back coding has …&lt;/p&gt;</summary><content type="html">
+
+&lt;p&gt;“Why did you start learning to code?”&lt;/p&gt;
+
+&lt;p&gt;This question makes me panic a bit, because to be honest, I don’t really think I have a sufficient answer. “I don’t know, I just wanted to learn something new” is what I would typically answer. But looking back coding has always been something that has interested me.&lt;/p&gt;
+
+&lt;p&gt;I grew up spending a lot of time on computers and I vividly remember the opening of my primary school’s computer room when I was about 9. I was also pretty bad at socialising and have always been awkward around people, so I instead choose to spend time reading or playing on a computer rather than talking.&lt;/p&gt;
+
+&lt;p&gt;I was also a Tumblr kid and would spend hours tweaking themes as I was a little too obsessed with the aesthetics, I mean who didn’t want a sparkly cursor and snow in the background. I didn’t realise it at the time but I spent many hours Googling HTML and CSS, without even realising what it was. I also didn’t know at the time that people did this as a job.&lt;/p&gt;
+
+&lt;p&gt;It was the first time I realised view source code and inspect element were a thing, but once I had discovered them I viewed them on every site I went on (just for fun more than anything).&lt;/p&gt;
+
+&lt;p&gt;I thought exploring some of the things which have inspired me to learn might be a good topic to talk about here. So here goes:&lt;/p&gt;
+
+&lt;h2&gt;My Dad&lt;/h2&gt;
+&lt;p&gt;My dad is an engineer and, due to illness, he has worked from home pretty much my entire life. I used to watch his two screens with fascination and loved it when he tried to explain to me what he was working on, even though I had no idea what he was talking about. I never understood any of it, and was insistent I would never, in a million years, be able to understand it.&lt;/p&gt;
+
+&lt;p&gt;He is currently working a lot with machine learning and I love that I am now able to understand what he is showing me, and even sometimes get involved.&lt;/p&gt;
+
+&lt;h2&gt;Blogging&lt;/h2&gt;
+&lt;p&gt;When my dog came into my life I decided to make a blog about being a first time dog owner (as you do when you’re a crazy dog person). I created a WordPress account, brought a domain and started hosting my blog with Green Hosting (they are 100% wind powered, because #ecowarrior). Again I played around with the HTML of the themes and posts and loved discovering how to make things look perfect.&lt;/p&gt;
+
+&lt;h2&gt;Wanting More From Life&lt;/h2&gt;
+&lt;p&gt;I decided early on that university wasn’t for me and started working full time when I was 17. My first job was a mundane admin role and I just kept thinking, there must be more to life than this. Then, while completing a marketing module with the open university I discovered that digital marketing, and more specifically SEO, was a thing. I worked hard on my blog and studying, as well as volunteering for an animal charity, and managed to land at great job at a local agency.&lt;/p&gt;
+
+&lt;p&gt;My interest in the technical side of SEO piqued pretty early on and to say I became obsessed with it would probably be an understatement. I read everything I could find on the topic and enjoyed the challenges of every project I worked on. I loved working with the developers and told them about my desire to learn to code and they were nothing but encouraging.&lt;/p&gt;
+
+&lt;h2&gt;To Help My Career&lt;/h2&gt;
+&lt;p&gt;Since working in technical SEO the need to have programming knowledge has never been more apparent. I want to be able to comfortably communicate with developers and engineers that I work with, to have confidence in the conversations I am having with them and for them to have confidence in me.&lt;/p&gt;
+
+&lt;p&gt;It also enables me to keep on top of the trends and technology advancements happening in the industry all the time and share these with other people to inspire them.&lt;/p&gt;
+
+&lt;p&gt;It has also become something I can talk about for hours, which is a big feat considering I usually struggle to hold a conversation for more than 10 minutes. I have even started to speak at local events about how Python can help with technical SEO and written about it for a top SEO publication!&lt;/p&gt;
+
+&lt;h2&gt;For My Mental Health&lt;/h2&gt;
+&lt;p&gt;Coding is incredibly therapeutic to me, being able to concrete on learning and practicing different things enables me to stop thinking about other thoughts that are constantly running through my head. Then after awhile things begin to feel less daunting and I feel my mental health has started to improve. Being able to work out complex problems and debug errors also helps with my confidence and self belief.&lt;/p&gt;
+
+&lt;p&gt;That's everything from me, I'd love to hear what inspired you :)&lt;/p&gt;
+
+
+</content><category term="misc"></category><category term="Personal"></category><category term="Tech"></category></entry><entry><title>Visualising Python and Google Trends</title><link href="https://rvth.blog/article/visualising-python-and-google-trends.html" rel="alternate"></link><published>2020-09-20T00:00:00+01:00</published><updated>2020-09-20T00:00:00+01:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2020-09-20:/article/visualising-python-and-google-trends.html</id><summary type="html">
 
 &lt;p&gt;Last month I &lt;a href="https://rvth.blog/article/python-and-google-trends.html"&gt;shared some of the things&lt;/a&gt; I had learned while playing around with the Google Trends Python library, PyTrends.&lt;/p&gt;
 

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Ruth's Blog - Ruth</title><link>https://rvth.blog/</link><description></description><lastBuildDate>Sun, 20 Sep 2020 00:00:00 +0100</lastBuildDate><item><title>Visualising Python and Google Trends</title><link>https://rvth.blog/article/visualising-python-and-google-trends.html</link><description>
+<rss version="2.0"><channel><title>Ruth's Blog - Ruth</title><link>https://rvth.blog/</link><description></description><lastBuildDate>Sun, 11 Oct 2020 00:00:00 +0100</lastBuildDate><item><title>Why I Decided To Start Learning To Code</title><link>https://rvth.blog/article/why-i-started-learning-to-code.html</link><description>
+
+&lt;p&gt;“Why did you start learning to code?”&lt;/p&gt;
+
+&lt;p&gt;This question makes me panic a bit, because to be honest, I don’t really think I have a sufficient answer. “I don’t know, I just wanted to learn something new” is what I would typically answer. But looking back coding has …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Ruth</dc:creator><pubDate>Sun, 11 Oct 2020 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:rvth.blog,2020-10-11:/article/why-i-started-learning-to-code.html</guid><category>misc</category><category>Personal</category><category>Tech</category></item><item><title>Visualising Python and Google Trends</title><link>https://rvth.blog/article/visualising-python-and-google-trends.html</link><description>
 
 &lt;p&gt;Last month I &lt;a href="https://rvth.blog/article/python-and-google-trends.html"&gt;shared some of the things&lt;/a&gt; I had learned while playing around with the Google Trends Python library, PyTrends.&lt;/p&gt;
 
