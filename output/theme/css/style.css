@@ -1067,3 +1067,39 @@ p img{
   display: block;
   margin: 0 auto;
 }
+
+.profile-name {
+    text-align: center;
+    padding: 30px;
+    }
+
+.links {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-width: 2px;
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    }
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: color 1s;
+    }
+
+.bottom-text {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    }
+
+a:hover {
+    color: #000;
+    background: #9fa4ae;
+    }
