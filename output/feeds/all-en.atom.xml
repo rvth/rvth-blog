@@ -1,5 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Ruth's Blog</title><link href="https://rvth.blog/" rel="alternate"></link><link href="https://rvth.blog/feeds/all-en.atom.xml" rel="self"></link><id>https://rvth.blog/</id><updated>2020-10-11T00:00:00+01:00</updated><entry><title>Why I Decided To Start Learning To Code</title><link href="https://rvth.blog/article/why-i-started-learning-to-code.html" rel="alternate"></link><published>2020-10-11T00:00:00+01:00</published><updated>2020-10-11T00:00:00+01:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2020-10-11:/article/why-i-started-learning-to-code.html</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Ruth's Blog</title><link href="https://rvth.blog/" rel="alternate"></link><link href="https://rvth.blog/feeds/all-en.atom.xml" rel="self"></link><id>https://rvth.blog/</id><updated>2020-10-31T00:00:00+00:00</updated><entry><title>Hello World: October 2020</title><link href="https://rvth.blog/article/hello-world-october-2020.html" rel="alternate"></link><published>2020-10-31T00:00:00+00:00</published><updated>2020-10-31T00:00:00+00:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2020-10-31:/article/hello-world-october-2020.html</id><summary type="html">
+&lt;p&gt;&lt;i&gt;🔮 "The scariest moment is always just before you start." - Stephen King&lt;/i&gt;&lt;/p&gt;
+
+&lt;h2&gt;🌍 Content to check out&lt;/h2&gt;
+&lt;h3&gt;&lt;a href="https://www.searchenginejournal.com/python-seo-data-reference-guide/287927/"&gt;How to Use Python to Analyze SEO Data: A Reference Guide&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;The OG reference guide for SEOs interested in learning more about Python, the ever amazing Hamlet Batista shares a number practical Python applications for …&lt;/p&gt;</summary><content type="html">
+&lt;p&gt;&lt;i&gt;🔮 "The scariest moment is always just before you start." - Stephen King&lt;/i&gt;&lt;/p&gt;
+
+&lt;h2&gt;🌍 Content to check out&lt;/h2&gt;
+&lt;h3&gt;&lt;a href="https://www.searchenginejournal.com/python-seo-data-reference-guide/287927/"&gt;How to Use Python to Analyze SEO Data: A Reference Guide&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;The OG reference guide for SEOs interested in learning more about Python, the ever amazing Hamlet Batista shares a number practical Python applications for SEO including data extraction and analysis.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href="https://www.learndatasci.com/tutorials/python-pandas-tutorial-complete-introduction-for-beginners/"&gt;Python Pandas Tutorial: A Complete Introduction for Beginners&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;I love Pandas (the Python library and the animal) it makes working with large data sets so much easier and allows for a high level of data exploration, transformation and visualisation. It’s probably one of the libraries I would recommend learning the most, especially for everyone working in SEO.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href="https://www.jcchouinard.com/intro-to-gsc-api-with-python/"&gt;Intro to GSC API with Python&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;This comprehensive article and video guide is part of JC Chouinard’s Python for SEO guide where he takes us through how to extract data from Google Search Console using the GSC API and Python. He also shares his GitHub code to try out!&lt;/p&gt;
+
+&lt;h2&gt;☀️ Fun Projects&lt;/h2&gt;
+&lt;h3&gt;&lt;a href="https://blog.thecodex.me/100-python-and-data-science-projects-for-every-kind-of-programmer/"&gt;100+ Python and Data Science Projects for Every Kind of Programmer&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Looking to get started with your first Python project but don’t know where to start or stuck for ideas? This mega post includes project ideas for everything you can think of from fun games such as rock, paper, scissors and pac-man, to recommendation applications and prediction tools.&lt;/p&gt;
+
+&lt;h2&gt;🌱 Inspiration&lt;/h2&gt;
+&lt;h3&gt;&lt;a href="https://realpython.com/python-beginner-tips/"&gt;11 Beginner Tips for Learning Python Programming&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Learning something new is HARD, learning something new when the world is imploding is even harder. It can be daunting to know where to start, and if you’re anything like me you become an expert procrastinator even though you’re so keen to learn. I found this article super helpful when I first started learning Python. It starts with the most important step - learning how you learn, everyone is different and what works for some people won’t work for others. The post then goes on to share tips for starting, and most importantly, continuing to learn.&lt;/p&gt;
+
+&lt;h2&gt;💙 For good&lt;/h2&gt;
+&lt;h3&gt;&lt;a href="https://alt-text-as-poetry.net/"&gt;Alt text as poetry&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;This one isn’t Python related, but still super relevant for us as SEOs. Alt text is often an overlooked and misunderstood element of our job, and putting aside image search for now, it is an essential part of web accessibility. This project, started by two artists and activists, encourages us to rethink how we view alt text in order to approach it more thoughtfully and creatively to ultimately create a more inclusive web.&lt;/p&gt;
+
+&lt;h2&gt;✨ More cool-ness&lt;/h2&gt;
+&lt;p&gt;I recently started reading Algorithms of Oppression by Safiya Noble which is described as ‘A revealing look at how negative biases against women of color are embedded in search engine results and algorithms’. As someone obsessed with the tech world, working in SEO, and also really passionate about D&amp;I;, I already feel like this is going to be a super important and eye opening read.&lt;/p&gt;
+
+</content><category term="misc"></category><category term="SEO"></category><category term="Python"></category><category term="Newsletter"></category></entry><entry><title>Why I Decided To Start Learning To Code</title><link href="https://rvth.blog/article/why-i-started-learning-to-code.html" rel="alternate"></link><published>2020-10-11T00:00:00+01:00</published><updated>2020-10-11T00:00:00+01:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2020-10-11:/article/why-i-started-learning-to-code.html</id><summary type="html">
 
 &lt;p&gt;“Why did you start learning to code?”&lt;/p&gt;
 
