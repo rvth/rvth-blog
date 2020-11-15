@@ -65,8 +65,8 @@ SUMMARY_MAX_LENGTH = 50
 
 ARCHIVES_URL = "archives.html"
 ARCHIVES_SAVE_AS = 'archives.html'
-ARTICLE_URL = 'article/{slug}.html'
-ARTICLE_SAVE_AS = 'article/{slug}.html'
+ARTICLE_URL = 'journal/{slug}.html'
+ARTICLE_SAVE_AS = 'journal/{slug}.html'
 PAGE_URL = 'pages/{slug}.html'
 PAGE_SAVE_AS = 'pages/{slug}.html'
 TAGS_URL = 'tag/{slug}.html'
