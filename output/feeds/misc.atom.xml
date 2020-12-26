@@ -1,5 +1,171 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Ruth's Blog - misc</title><link href="https://rvth.blog/" rel="alternate"></link><link href="https://rvth.blog/feeds/misc.atom.xml" rel="self"></link><id>https://rvth.blog/</id><updated>2020-10-31T00:00:00+00:00</updated><entry><title>Hello World: October 2020</title><link href="https://rvth.blog/journal/hello-world-october-2020.html" rel="alternate"></link><published>2020-10-31T00:00:00+00:00</published><updated>2020-10-31T00:00:00+00:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2020-10-31:/journal/hello-world-october-2020.html</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Ruth's Blog - misc</title><link href="https://rvth.blog/" rel="alternate"></link><link href="https://rvth.blog/feeds/misc.atom.xml" rel="self"></link><id>https://rvth.blog/</id><updated>2020-12-22T00:00:00+00:00</updated><entry><title>Hello World: December 2020</title><link href="https://rvth.blog/journal/hello-world-december-2020.html" rel="alternate"></link><published>2020-12-22T00:00:00+00:00</published><updated>2020-12-22T00:00:00+00:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2020-12-22:/journal/hello-world-december-2020.html</id><summary type="html">
+&lt;p&gt;&lt;i&gt;✨ "In the midst of chaos, there is also opportunity." - Sun Tzu&lt;/i&gt;&lt;/p&gt;
+
+&lt;h2&gt;🌍 Content to check out&lt;/h2&gt;
+&lt;h3&gt;&lt;a href="https://github.com/trekhleb/learn-python"&gt;Playground and Cheatsheet for Learning Python&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;A collection of Python scripts and cheatsheets to explain the syntax of Python including operators, data types, control flow, functions and classes.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href="https://www.learnpython.dev/01-introduction/"&gt;Introduction and Intermediate Python Course&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Created by …&lt;/p&gt;</summary><content type="html">
+&lt;p&gt;&lt;i&gt;✨ "In the midst of chaos, there is also opportunity." - Sun Tzu&lt;/i&gt;&lt;/p&gt;
+
+&lt;h2&gt;🌍 Content to check out&lt;/h2&gt;
+&lt;h3&gt;&lt;a href="https://github.com/trekhleb/learn-python"&gt;Playground and Cheatsheet for Learning Python&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;A collection of Python scripts and cheatsheets to explain the syntax of Python including operators, data types, control flow, functions and classes.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href="https://www.learnpython.dev/01-introduction/"&gt;Introduction and Intermediate Python Course&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Created by Nina Zakharenko, this complete introductory guide to Python takes you through the fundamentals of the language in easy to follow format with code examples to try out.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href="https://www.youtube.com/watch?v=2U-lag_I_0Q"&gt;Using Python and Google Big Query to Scale Google Trends in Near Real Time&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Dan Leibson and Bryan Heckler from Local SEO Guide joined Hamlet Batista for a RankSense webinar to explain how they built a solution to scale Google’s Trends for millions of queries in near real-time to analyse data from the United States’ 2020 election day.&lt;/p&gt;
+
+&lt;h2&gt;☀️ Projects&lt;/h2&gt;
+&lt;h3&gt;&lt;a href="https://thehelloworldprogram.com/python/python-game-rock-paper-scissors/"&gt;Rock, Paper, Scissors Game&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;A great starter project for anyone looking to learn more about how Python can be used to write interactive programs. This was the first project I wrote when I first started learning.&lt;/p&gt;
+
+&lt;h2&gt;🌱 Inspiration&lt;/h2&gt;
+&lt;h3&gt;&lt;a href="https://localghost.dev/2020/12/give-yourself-a-break-lessons-from-burnout/"&gt;Give yourself a break - lessons from burnout&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;I’m sure I’m not alone when I say I’ve been feeling a lot more burnt out this year than in the past. This great post from Sophie Koonin has 4 simple tips for why you should go easy on yourself right now 💜&lt;/p&gt;
+
+&lt;h2&gt;💙 D&amp;I;&lt;/h2&gt;
+&lt;h3&gt;&lt;a href="https://towardsdatascience.com/use-data-empathy-to-become-a-better-data-scientist-295b0abaecd8"&gt;Use Data Empathy to Become a Better Data Scientist&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;We all work with data in one way or another and like to believe that data is objectively true or false, when in fact it is much more nuanced. This insightful article from Julia Nikulski explains the importance of empathy when working with data.&lt;/p&gt;
+
+&lt;h2&gt;✨ More cool-ness&lt;/h2&gt;
+&lt;h3&gt;&lt;a href="https://chrome.google.com/webstore/detail/tab-for-black-lives-matte/jihfaailcmkcaohhaloniapfpambpbgh"&gt;Tab for Black Lives Matter&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;This wonderful Chrome extension created by a couple of friends is an essential tool for anyone wanting to stay actively engaged in the Black lives matter movement. It includes new resources to learn from, funds to contribute to and petitions to sign each day when you open a new tab in Google Chrome.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://tabforblacklivesmatter.github.io/"&gt;Check out their website&lt;/a&gt; to learn more.&lt;/p&gt;
+</content><category term="misc"></category><category term="SEO"></category><category term="Python"></category><category term="Inspiration"></category></entry><entry><title>Reasons to Not Get a Dog</title><link href="https://rvth.blog/journal/reasons-to-not-get-a-dog.html" rel="alternate"></link><published>2020-12-14T00:00:00+00:00</published><updated>2020-12-14T00:00:00+00:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2020-12-14:/journal/reasons-to-not-get-a-dog.html</id><summary type="html">
+&lt;p&gt;There's no question about how amazing and enriching owning a dog can be.  But it also a huge commitment and with the wonderful things, also comes the less pleasant factors which everyone should be aware of if they are thinking of getting a dog.&lt;/p&gt; 
+&lt;p&gt;Thousands of dogs are handed into …&lt;/p&gt;</summary><content type="html">
+&lt;p&gt;There's no question about how amazing and enriching owning a dog can be.  But it also a huge commitment and with the wonderful things, also comes the less pleasant factors which everyone should be aware of if they are thinking of getting a dog.&lt;/p&gt; 
+&lt;p&gt;Thousands of dogs are handed into shelters every year, as many people are not aware of the less favourable sides to owning a dog.  Here is 9 reasons not to get a dog.&lt;/p&gt;
+
+&lt;h2&gt;1. You like a lay in.&lt;/h2&gt;
+&lt;p&gt;But if your dog needs to pee, they need to pee, even if it's 5 in the morning or pouring with rain.&lt;/p&gt;
+
+&lt;h2&gt;2. You like going out, for hours on end.&lt;/h2&gt;
+&lt;p&gt;Dogs don't like being left alone for a long time, plus they, like humans, can only cross their legs for a certain amount of time.&lt;/p&gt;
+
+&lt;h2&gt;3. You're a clean freak. &lt;/h2&gt;
+&lt;p&gt;Dog's are not clean, they are animals.  Just like children they have accidents, they love to chew and shed happens!&lt;/p&gt;
+
+&lt;h2&gt;4. You like puppies.&lt;/h2&gt;
+&lt;p&gt;Most people like cute puppies.  But few people like the adult, full grown dog they become.  Puppies don't stay cute, cuddly puppies forever.&lt;/p&gt;
+
+&lt;h2&gt;5. You're bored and think a dog could be fun.&lt;/h2&gt;
+&lt;p&gt;Then get a hobby, it's a lot easier to give up when you inevitably become bored.  Of course dogs are fun, but they are also living, breathing animals with daily needs.&lt;/p&gt;
+
+&lt;h2&gt;6. You're a commitmentphobe.&lt;/h2&gt;
+&lt;p&gt;Dog's are a daily, ongoing commitment.  They need daily walks, food, attention and love.  If this is something you can not guarantee you can give, don't get a dog.&lt;/p&gt;
+
+&lt;h2&gt;7. You like going on holiday.&lt;/h2&gt;
+&lt;p&gt;But what's going to happen to your pup when you go away? Consider the care you want for your dog, and the cost.&lt;/p&gt;
+
+&lt;h2&gt;8. You're not ready for a huge responsibility.&lt;/h2&gt;
+&lt;p&gt;Being a dog owner is a massive daily responsibility with walks, feeding, grooming, training and ultimately keeping your dog happy.&lt;/p&gt;
+
+&lt;h2&gt;9. Can you return the unconditional love you will receive?&lt;/h2&gt;
+&lt;p&gt;Dogs will provide you unconditional love, guaranteed. If you're not able to return that, then getting a dog isn't for you.&lt;/p&gt;
+
+&lt;p&gt;Too many dogs end up abandoned, and in shelters because their owners could not deal with them or they weren't what they expected. That is why it is so important to take the time to think about dog ownership before you welcome one into your life.&lt;/p&gt;
+</content><category term="misc"></category><category term="Dogs"></category></entry><entry><title>Hello World: November 2020</title><link href="https://rvth.blog/journal/hello-world-november-2020.html" rel="alternate"></link><published>2020-11-30T00:00:00+00:00</published><updated>2020-11-30T00:00:00+00:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2020-11-30:/journal/hello-world-november-2020.html</id><summary type="html">
+&lt;p&gt;&lt;i&gt;🌱 "Never discourage anyone who continually makes progress, no matter how slow" - Plato&lt;/i&gt;&lt;/p&gt;
+
+&lt;h2&gt;🌍 Content to check out&lt;/h2&gt;
+&lt;h3&gt;&lt;a href="https://www.ladybug.dev/episodes/python"&gt;Ladybug Podcast - Python&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;In this episode of the Ladybug podcast, the hosts talk all about Python, what it’s used for, why it’s great, and how it’s different than JavaScript. It’s …&lt;/p&gt;</summary><content type="html">
+&lt;p&gt;&lt;i&gt;🌱 "Never discourage anyone who continually makes progress, no matter how slow" - Plato&lt;/i&gt;&lt;/p&gt;
+
+&lt;h2&gt;🌍 Content to check out&lt;/h2&gt;
+&lt;h3&gt;&lt;a href="https://www.ladybug.dev/episodes/python"&gt;Ladybug Podcast - Python&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;In this episode of the Ladybug podcast, the hosts talk all about Python, what it’s used for, why it’s great, and how it’s different than JavaScript. It’s a great listen for anyone interested in learning Python and want to find out more, they also share lots of great resources.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href="https://www.searchenginejournal.com/predict-content-success-python/387064/"&gt;How to Predict Content Success with Python&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Another great, and actionable, article from Hamlet, this will show you how to use Python to fetch search query data from Search Console and estimate its potential for content production.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href="https://pyjamas.live/"&gt;Pyjamas Conf 2020&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;A python focused conference where all speakers and audience members are encouraged to wear pyjamas? Count me in. This 24 hours streaming of talks about Python is designed to connect Python communities around the world that you can access at home.&lt;/p&gt;
+
+&lt;h2&gt;☀️ Showcase/Projects&lt;/h2&gt;
+&lt;h3&gt;&lt;a href="https://www.freecodecamp.org/news/web-scraping-python-tutorial-how-to-scrape-data-from-a-website/"&gt;Web Scraping Python Tutorial – How to Scrape Data From A Website&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;A really cool functionality of Python is the ability to scrape websites in order to extract useful information. This actionable article covers how to best use Python for web scraping and works through the process step-by-step using a snazzy library called Beautiful Soup.&lt;/p&gt;
+
+&lt;h2&gt;🌱 Inspiration&lt;/h2&gt;
+&lt;h3&gt;&lt;a href="https://realpython.com/python-beginner-tips/"&gt;How to Learn Python The Easy Way (And Not the Way I Did)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;‘Python is supposed to be one of the easiest programming languages to learn’, however it’s important to approach it in the right way, otherwise it may not be as easy as you expect. This article shares the author’s failed attempts at learning Python, and how he went about discovering the best learning approach for him.&lt;/p&gt;
+
+&lt;h2&gt;💙 D&amp;I;&lt;/h2&gt;
+&lt;h3&gt;&lt;a href="https://www.instagram.com/data4blacklives/"&gt;Data For Black Lives - D4BL Crash Course&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;The global movement, Data For Black Lives, have put together an incredibly insightful crash course where they will be sharing a new data or justice concept every Wednesday on their Instagram. Starting with: What even is an algorithm?&lt;/p&gt;
+
+&lt;h2&gt;✨ More cool-ness&lt;/h2&gt;
+&lt;h3&gt;&lt;a href="https://www.unitedsearch.org/"&gt;United Search&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;A group of amazing SEOs, who are on a mission to help diversify the industry, have created an incredible SEO Speaker Accelerator and mentorship program called United Search. Here is a little more about the organisation in their own words:&lt;/p&gt;
+&lt;p&gt;“By offering mentoring advice from people with real world, practical, SEO experience, we give students the skills they need to be able to deliver an amazing presentation on any stage and the network they need to land gigs.”&lt;/p&gt;
+&lt;p&gt;Find out more, and &lt;a href="https://www.unitedsearch.org/apply"&gt;apply for a mentor here.&lt;/a&gt;&lt;/p&gt;
+</content><category term="misc"></category><category term="SEO"></category><category term="Python"></category><category term="Inspiration"></category></entry><entry><title>10 Reasons to Own a Dog</title><link href="https://rvth.blog/journal/reasons-to-get-a-dog.html" rel="alternate"></link><published>2020-11-07T00:00:00+00:00</published><updated>2020-11-07T00:00:00+00:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2020-11-07:/journal/reasons-to-get-a-dog.html</id><summary type="html">
+&lt;p&gt;Bringing a dog into your life is one of the most rewarding and fun choices you can make.  What's better thanks waking up to s smiling face, wagging tail and licks all over your face? Plus there are a lot of scientific proven benefits than owning a dog can bring …&lt;/p&gt;</summary><content type="html">
+&lt;p&gt;Bringing a dog into your life is one of the most rewarding and fun choices you can make.  What's better thanks waking up to s smiling face, wagging tail and licks all over your face? Plus there are a lot of scientific proven benefits than owning a dog can bring into our lives.  If you're still undecided, here's 10 reasons why you should definitely get a dog.&lt;/p&gt;
+
+&lt;h2&gt;1. Dogs increase your mood&lt;/h2&gt;
+
+&lt;p&gt;It's a scientific fact that spending just 30 minutes playing with your pup can increase the serotonin levels in your brain helping you feel more relaxed, therefore increasing happiness and reducing stress. Dogs are also able to sense changes in our emotion and will do whatever they can to cheer you up, way before anyone else even realises you're upset.&lt;/p&gt;
+
+&lt;h2&gt;2. Improve your health&lt;/h2&gt;
+
+&lt;p&gt;Dog owners are known to be more active than others, because of daily walks and adventures. Therefore dog owners have less risk of developing cardiovascular problems and have a higher rate of recovery in general.&lt;/p&gt;
+
+&lt;h2&gt;3. They're great for children too&lt;/h2&gt;
+
+&lt;p&gt;Dogs have proven that they can improve children's self-esteem, making stressful situations easier to handle and there's nothing cuter than seeing a child talking to their dog.&lt;/p&gt;
+
+&lt;h2&gt;4. They provide protection&lt;/h2&gt;
+
+&lt;p&gt;Even during puppyhood, dogs learn to watch and protect their owners. They become aware of anything which may put in at risk. Dogs are also very aware of any strange noises or people around your house and may even bark to warn you or scare them away.&lt;/p&gt;
+
+&lt;h2&gt;5. Improve your social interactions&lt;/h2&gt;
+
+&lt;p&gt;This is one of the things I have benefited from the most. I've always been a shy person and find it hard to deal with social situations. Dogs need socialising with other dogs as much as they do with humans, so it's your job to provide them with that. I took Ember to training classes which helped both her socialisation and my confidence, but if training classes isn't your thing, there's always puppy parties! (when it's safe of course)&lt;/p&gt;
+
+&lt;h2&gt;6. You'll never have a dull moment&lt;/h2&gt;
+
+&lt;p&gt;You'll never find yourself at a loose end wondering what to do. There's always a park you walk, an adventure you can go on and or a toy to play with.&lt;/p&gt;
+
+&lt;h2&gt;7. Don't worry about being lonely&lt;/h2&gt;
+
+&lt;p&gt;You'll never feel lonely when you have a four legged shadow following you around. You'll never pee alone plus your arrival will also be greeting with utter glee.&lt;/p&gt;
+
+&lt;h2&gt;8. Become a better person&lt;/h2&gt;
+
+&lt;p&gt;Having a dog comes with responsibility, commitment and patience, to name just a few. These are all good traits to have as a person.&lt;/p&gt;
+
+&lt;h2&gt;9. Laughter for days&lt;/h2&gt;
+
+&lt;p&gt;Ember makes me laugh everyday, her funny little quirks and the silly things she does everyday will always cheer me up. Laughing is also scientifically proven to improve your health. Happy dog = happy human. Win win.&lt;/p&gt;
+
+&lt;h2&gt;10. Your best, most loyal friend&lt;/h2&gt;
+
+&lt;p&gt;Perhaps the most rewarding part of having a dog. A dog will love you forever, no matter what you do.  They will never judge you and spend most of their time trying to understand you, they probably know us better than we know ourselves. You'll never have a bond with a human like you will with your dog. All they want is make us happy.&lt;/p&gt;
+
+&lt;p&gt;Are you a dog owner? What's the best thing to come out of owning a dog for you?&lt;/p&gt;
+</content><category term="misc"></category><category term="Dogs"></category></entry><entry><title>Hello World: October 2020</title><link href="https://rvth.blog/journal/hello-world-october-2020.html" rel="alternate"></link><published>2020-10-31T00:00:00+00:00</published><updated>2020-10-31T00:00:00+00:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2020-10-31:/journal/hello-world-october-2020.html</id><summary type="html">
 &lt;p&gt;&lt;i&gt;🔮 "The scariest moment is always just before you start." - Stephen King&lt;/i&gt;&lt;/p&gt;
 
 &lt;h2&gt;🌍 Content to check out&lt;/h2&gt;
