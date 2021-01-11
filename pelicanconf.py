@@ -38,6 +38,7 @@ SOCIAL = (
     ("Twitter", "https://twitter.com/rvtheverett"),
     ("GitHub", "https://github.com/rvth"),
     ("Linkedin", "https://www.linkedin.com/in/ruth-everett-b01a6213b/"),
+    ("GoodReads", "https://www.goodreads.com/user/show/108123284-ruth")
 )
 
 # Blogroll

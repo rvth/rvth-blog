@@ -1,5 +1,131 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Ruth's Blog</title><link href="https://rvth.blog/" rel="alternate"></link><link href="https://rvth.blog/feeds/all.atom.xml" rel="self"></link><id>https://rvth.blog/</id><updated>2020-12-22T00:00:00+00:00</updated><entry><title>Hello World: December 2020</title><link href="https://rvth.blog/journal/hello-world-december-2020.html" rel="alternate"></link><published>2020-12-22T00:00:00+00:00</published><updated>2020-12-22T00:00:00+00:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2020-12-22:/journal/hello-world-december-2020.html</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Ruth's Blog</title><link href="https://rvth.blog/" rel="alternate"></link><link href="https://rvth.blog/feeds/all.atom.xml" rel="self"></link><id>https://rvth.blog/</id><updated>2021-01-14T00:00:00+00:00</updated><entry><title>I built a website about Dogs and SEO</title><link href="https://rvth.blog/journal/seo-dogs.html" rel="alternate"></link><published>2021-01-14T00:00:00+00:00</published><updated>2021-01-14T00:00:00+00:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2021-01-14:/journal/seo-dogs.html</id><summary type="html">
+&lt;h2&gt;What is SEO dogs?&lt;/h2&gt;
+
+&lt;p&gt;In short, SEO dogs is a website I built to share knowledge around the fundamentals of SEO in a fun format that is super accessible for anyone, regardless of their experience.&lt;/p&gt;
+
+&lt;p&gt;Each page, or element of SEO, contains a picture of an adoptable dog (I tried …&lt;/p&gt;</summary><content type="html">
+&lt;h2&gt;What is SEO dogs?&lt;/h2&gt;
+
+&lt;p&gt;In short, SEO dogs is a website I built to share knowledge around the fundamentals of SEO in a fun format that is super accessible for anyone, regardless of their experience.&lt;/p&gt;
+
+&lt;p&gt;Each page, or element of SEO, contains a picture of an adoptable dog (I tried to relate the dog to the topic either through their name, personality traits, or breed as best I could). The dogs are all from &lt;a href="https://wildatheartfoundation.org/"&gt;Wild at Heart Foundation&lt;/a&gt; which is a global dog rescue &amp; adoption organisation - finding rescued dogs the forever homes they deserve.&lt;/p&gt;
+
+&lt;h2&gt;Why did you make it?&lt;/h2&gt;
+
+&lt;p&gt;Good question :)&lt;/p&gt;
+
+&lt;p&gt;In all honesty I made it just as a bit of fun. It was a weird 3am insomnia idea in lockdown and I thought it would be the perfect way to put into practice some of the skills I had been learning. I've always wanted to build a website so decided to just give it a go. I'm not a developer or designer, but I had a lot of fun seeing my initial wireframes come to life in the form of an actual fully functioning website.&lt;/p&gt;
+
+&lt;p&gt;There is sooo much information out there around the fundamentals of SEO, and it can be really intimidating, especially when you are first starting out learning SEO. I wanted to create an inclusive and accessible space for folks with any level of SEO understanding to feel more confident and comfortable with the key elements of SEO.  Basically combining my knowledge from working in SEO, and useful resources that I have consumed while learning (and dogs of course).&lt;/p&gt;
+
+&lt;p&gt;Anyone who knows me knows that I'm a massive dog lover, and rescue advocate so it made perfect sense to combine two things I am passionate about - helping people understand SEO, and dogs!&lt;/p&gt;
+
+&lt;h2&gt;How did you make it?&lt;/h2&gt;
+
+&lt;h3&gt;The Framework&lt;/h3&gt;
+
+&lt;p&gt;The main framework of the website is &lt;a href="https://www.fullstackpython.com/flask.html"&gt;Flask&lt;/a&gt;, which is a micro web framework written in Python.&lt;/p&gt;
+
+&lt;p&gt;The reason I chose Flask was because I've been learning Python over the last year and thought it would be another great way to put into practice those skills I have been learning, in a slightly different way to the other projects I had been working on.&lt;/p&gt;
+
+&lt;p&gt;It's actually pretty simple to use and get to grips with, and I got familiar with it pretty quickly. I started by following a couple of tutorials and when I felt comfortable with the basics I jumped in and got started.&lt;/p&gt;
+
+&lt;h3&gt;The Main Content&lt;/h3&gt;
+
+&lt;p&gt;All of the pages are written in HTML with CSS classes throughout to style them, making them pretty simple to create and replicate, and of course edit.&lt;/p&gt;
+
+&lt;p&gt;This was the first time I have really written anything in CSS, so it was definitely a learning curve but once I got to grips with the syntax, properties and rules that could be added to each selector it was a lot of fun playing around with the style and seeing everything come together and look relatively similar to my initial wireframes.&lt;/p&gt;
+
+&lt;p&gt;I was also able to define the font used, as well as create buttons and ensure the images on the site are responsive (this was definitely a bigger challenge than I initially anticipated).&lt;/p&gt;
+
+&lt;h3&gt;Adding HTML Pages to Python&lt;/h3&gt;
+
+&lt;p&gt;The next step was to take these pages and add them to the Flask framework using the render_template() function, this takes the name of the HTML file as an argument and allowed me to create an app route for each page. This not only ensured the pages could be rendered in the template, but also allowed for easy internal linking across the pages, rather than adding whole URL each time, I was able to just define the name of the page I wanted to link to, and it pulled the URL through.&lt;/p&gt;
+
+&lt;p&gt;Flask also allows you to add a template HTML file, where you can define a navigation and header structure to then use across the site. This meant that rather than have to replicate this on every page, I simply added a small function to add the block content from the template page.&lt;/p&gt;
+
+&lt;h3&gt;Code Editor&lt;/h3&gt;
+
+&lt;p&gt;I wrote all of the code in PyCharm as this is my code editor of choice to write HTML and CSS as well as Python. I also hooked up my Github account through the terminal which meant that I could easily commit the changes I made straight through PyCharm.&lt;/p&gt;
+
+&lt;h3&gt;Deploying and Hosting&lt;/h3&gt;
+
+&lt;p&gt;The site is deployed through Github and Heroku which make it super easy to both store all of the code, pages and changes as well as commit the complete build to a fully working Heroku app. Heroku also makes it really simple to add a custom brought domain by configuring DNS with your purchased domain.&lt;/p&gt;
+
+&lt;p&gt;You can also upgrade your free account in order to configure an SSL certificate with end-to-end encryption through Heroku (there is also the option to manually add a certificate if you have purchased it elsewhere).&lt;/p&gt;
+
+&lt;h3&gt;Logo&lt;/h3&gt;
+
+&lt;p&gt;My friend, and amazing designer, &lt;a href="https://www.lewisnelsondesign.com/contact"&gt;Lewis Nelson&lt;/a&gt;, went freelance last year and having worked with him previously I knew that he would be perfect to create the logo for SEO Dogs and it was. a great way to support his new business.&lt;/p&gt;
+
+&lt;h2&gt;So what does SEO Dogs include?&lt;/h2&gt;
+
+&lt;p&gt;The topics currently included on the SEO Dogs site are:&lt;/p&gt;
+
+&lt;h3&gt;Crawling and Indexing&lt;/h3&gt;
+
+&lt;p&gt; - Crawling&lt;/p&gt;
+
+&lt;p&gt; - Rendering&lt;/p&gt;
+
+&lt;p&gt; - Indexing&lt;/p&gt;
+
+&lt;p&gt; - Robots.txt&lt;/p&gt;
+
+&lt;p&gt; - Noindex &amp; Nofollow&lt;/p&gt;
+
+&lt;p&gt; - Canonicals&lt;/p&gt;
+
+&lt;h3&gt;Site Structure&lt;/h3&gt;
+
+&lt;p&gt; - Site Architecture&lt;/p&gt;
+
+&lt;p&gt; - Sitemaps&lt;/p&gt;
+
+&lt;p&gt; - URLs&lt;/p&gt;
+
+&lt;p&gt; - HTTPS&lt;/p&gt;
+
+&lt;h3&gt;On-page&lt;/h3&gt;
+
+&lt;p&gt; - Heading Tags&lt;/p&gt;
+
+&lt;p&gt; - Meta Data&lt;/p&gt;
+
+&lt;p&gt; - Page Titles&lt;/p&gt;
+
+&lt;p&gt; - Meta Descriptions&lt;/p&gt;
+
+&lt;p&gt; - Alt Text&lt;/p&gt;
+
+&lt;h3&gt;User Experience&lt;/h3&gt;
+
+&lt;p&gt; - Site Speed&lt;/p&gt;
+
+&lt;p&gt; - Accessibility&lt;/p&gt;
+
+&lt;h3&gt;Links&lt;/h3&gt;
+
+&lt;p&gt; - Internal Links&lt;/p&gt;
+
+&lt;p&gt; - Backlinks&lt;/p&gt;
+
+&lt;p&gt; - Redirects&lt;/p&gt;
+
+&lt;h3&gt;International SEO&lt;/h3&gt;
+
+&lt;p&gt; - Hreflang&lt;/p&gt;
+
+&lt;p&gt; - TLD &amp; ccTLD&lt;/p&gt;
+
+&lt;p&gt;If there are any other topics you think would be useful to include, please let me know!&lt;/p&gt;
+
+&lt;h2&gt;What's next?&lt;/h2&gt;
+
+&lt;p&gt;I haven't really thought that far ahead if I'm honest. I hope to continue working on my skills in order to continually improve the site, particularly focusing on user experience and ensuring it is as accessible and usable as possible. I'll also be updating the dogs on each page once they are adopted to their forever home!&lt;/p&gt;
+
+</content><category term="misc"></category><category term="Dogs"></category><category term="SEO"></category></entry><entry><title>Hello World: December 2020</title><link href="https://rvth.blog/journal/hello-world-december-2020.html" rel="alternate"></link><published>2020-12-22T00:00:00+00:00</published><updated>2020-12-22T00:00:00+00:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2020-12-22:/journal/hello-world-december-2020.html</id><summary type="html">
 &lt;p&gt;&lt;i&gt;✨ "In the midst of chaos, there is also opportunity." - Sun Tzu&lt;/i&gt;&lt;/p&gt;
 
 &lt;h2&gt;🌍 Content to check out&lt;/h2&gt;
