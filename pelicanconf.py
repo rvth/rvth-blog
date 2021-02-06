@@ -12,7 +12,7 @@ TIMEZONE = 'Europe/London'
 
 DEFAULT_LANG = 'en'
 DEFAULT_DATE_FORMAT = "%b %d, %Y"
-USER_LOGO_URL = "https://i.imgur.com/SjewwgO.png"
+USER_LOGO_URL = "/images/header.webp"
 
 THEME = "voce"
 

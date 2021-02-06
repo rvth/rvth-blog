@@ -1,5 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Ruth's Blog - misc</title><link href="https://rvth.blog/" rel="alternate"></link><link href="https://rvth.blog/feeds/misc.atom.xml" rel="self"></link><id>https://rvth.blog/</id><updated>2021-01-14T00:00:00+00:00</updated><entry><title>I built a website about Dogs and SEO</title><link href="https://rvth.blog/journal/seo-dogs.html" rel="alternate"></link><published>2021-01-14T00:00:00+00:00</published><updated>2021-01-14T00:00:00+00:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2021-01-14:/journal/seo-dogs.html</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Ruth's Blog - misc</title><link href="https://rvth.blog/" rel="alternate"></link><link href="https://rvth.blog/feeds/misc.atom.xml" rel="self"></link><id>https://rvth.blog/</id><updated>2021-01-27T00:00:00+00:00</updated><entry><title>Hello World: January 2021</title><link href="https://rvth.blog/journal/hello-world-january-2021.html" rel="alternate"></link><published>2021-01-27T00:00:00+00:00</published><updated>2021-01-27T00:00:00+00:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2021-01-27:/journal/hello-world-january-2021.html</id><summary type="html">
+&lt;p&gt;&lt;i&gt;🌌 "Cheers to a new year and another chance for us to get it right." - Oprah Winfrey&lt;/i&gt;&lt;/p&gt;
+
+&lt;h2&gt;🌍 Content to check out&lt;/h2&gt;
+&lt;h3&gt;&lt;a href="https://www.jcchouinard.com/how-to-use-jupyter-notebook/"&gt;How To Work With Jupyter Notebook&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;I love Jupyter Notebooks and often swap between Jupyter and Google Colab when running Python scripts. I personally prefer to use Jupyter Notebooks when …&lt;/p&gt;</summary><content type="html">
+&lt;p&gt;&lt;i&gt;🌌 "Cheers to a new year and another chance for us to get it right." - Oprah Winfrey&lt;/i&gt;&lt;/p&gt;
+
+&lt;h2&gt;🌍 Content to check out&lt;/h2&gt;
+&lt;h3&gt;&lt;a href="https://www.jcchouinard.com/how-to-use-jupyter-notebook/"&gt;How To Work With Jupyter Notebook&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;I love Jupyter Notebooks and often swap between Jupyter and Google Colab when running Python scripts. I personally prefer to use Jupyter Notebooks when working with data that is saved locally and it’s a really nice environment to use. This tutorial from JC Chouinard will take you through the steps of installing and using a Jupyter Notebook.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href="https://www.youtube.com/watch?v=rfscVS0vtbw"&gt;Learn Python - Full Course for Beginners&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Free Code Camp never fail to create useful (and free) coding resources, and this complete Python course for beginners is a great way to get started learning Python, for free. The course is designed to give you a full introduction into all of the core concepts in python, did I mention that it was free.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href="https://www.searchenginejournal.com/a-technical-seo-guide-to-lighthouse-performance-metrics/292703/"&gt;A Technical SEO Guide to Lighthouse Performance Metrics&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Two of my amazing colleagues, Jamie Indigo and Rachel Anderson, have put together this super insightful and useful guide to Lighthouse Performance Metrics, fully updated to include the newest metrics and performance score, as well as how to measure and improve them for your site.&lt;/p&gt;
+
+&lt;h2&gt;☀️ Projects&lt;/h2&gt;
+&lt;h3&gt;&lt;a href="https://www.danielherediamejias.com/request-sitemaps-to-be-crawled-with-python/"&gt;Asking your Sitemaps to be Crawled with Python&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;This two step project from Daniel Heredia is great for any dynamic websites with regularly updated sitemaps, as it includes using a Python request to ask Google to crawl a sitemap. It even includes instructions on how to schedule the Python script to run whenever you want it to.&lt;/p&gt;
+
+&lt;h2&gt;🌱 Inspiration&lt;/h2&gt;
+&lt;h3&gt;&lt;a href="https://seo-sas-podcast.captivate.fm/episode/seo-imposter-syndrome"&gt;SEO SAS - SEO &amp; IMPOSTER SYNDROME&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;My favourite SEO podcast covering imposter syndrome within the SEO industry = everything I need and more. In this episode Hannah and Sarah discuss why imposter syndrome is common in the SEO industry, share their personal experiences and share practical tips for dealing with it.&lt;/p&gt;
+
+&lt;h2&gt;💙 D&amp;I;&lt;/h2&gt;
+&lt;h3&gt;&lt;a href="https://searchengineland.com/biased-language-models-can-result-from-internet-training-data-345077"&gt;Biased language models can result from internet training data&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;This is a suuuper important conversation that I’m glad is being had amongst the SEO industry too. With machine learning algorithms being used a lot more within search, understanding how bias is present in models is more important now than ever. It’s pretty simple, biased training data can produce biased language models - this article explains this and much more.&lt;/p&gt;
+
+&lt;h2&gt;✨ More cool-ness&lt;/h2&gt;
+&lt;h3&gt;&lt;a href="https://www.womenintechseo.com/newsletter/"&gt;Women in Tech SEO Newsletter&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;A brand new email newsletter from Areej! The amazing Women in Tech SEO community newsletter is free for anyone to subscribe to and will include articles, talks and projects by brilliant women in the SEO industry as well as updates about new events and initiatives.&lt;/p&gt;
+</content><category term="misc"></category><category term="SEO"></category><category term="Python"></category><category term="Inspiration"></category></entry><entry><title>I built a website about Dogs and SEO</title><link href="https://rvth.blog/journal/seo-dogs.html" rel="alternate"></link><published>2021-01-14T00:00:00+00:00</published><updated>2021-01-14T00:00:00+00:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2021-01-14:/journal/seo-dogs.html</id><summary type="html">
 &lt;h2&gt;What is SEO dogs?&lt;/h2&gt;
 
 &lt;p&gt;In short, SEO dogs is a website I built to share knowledge around the fundamentals of SEO in a fun format that is super accessible for anyone, regardless of their experience.&lt;/p&gt;
