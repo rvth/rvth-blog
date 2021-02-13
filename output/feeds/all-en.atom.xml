@@ -1,5 +1,149 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Ruth's Blog</title><link href="https://rvth.blog/" rel="alternate"></link><link href="https://rvth.blog/feeds/all-en.atom.xml" rel="self"></link><id>https://rvth.blog/</id><updated>2021-01-27T00:00:00+00:00</updated><entry><title>Hello World: January 2021</title><link href="https://rvth.blog/journal/hello-world-january-2021.html" rel="alternate"></link><published>2021-01-27T00:00:00+00:00</published><updated>2021-01-27T00:00:00+00:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2021-01-27:/journal/hello-world-january-2021.html</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Ruth's Blog</title><link href="https://rvth.blog/" rel="alternate"></link><link href="https://rvth.blog/feeds/all-en.atom.xml" rel="self"></link><id>https://rvth.blog/</id><updated>2021-02-11T00:00:00+00:00</updated><entry><title>My experience with Code First Girls</title><link href="https://rvth.blog/journal/code-first-girls.html" rel="alternate"></link><published>2021-02-11T00:00:00+00:00</published><updated>2021-02-11T00:00:00+00:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2021-02-11:/journal/code-first-girls.html</id><summary type="html">
+
+&lt;p&gt;My first experience with Code First Girls was in February 2020. I still can't believe I walked into a room in Goldman Sachs in Holborn full of strangers, to start learning to code. The course was the Introduction to Python Programming class, and while I had a base knowledge of …&lt;/p&gt;</summary><content type="html">
+
+&lt;p&gt;My first experience with Code First Girls was in February 2020. I still can't believe I walked into a room in Goldman Sachs in Holborn full of strangers, to start learning to code. The course was the Introduction to Python Programming class, and while I had a base knowledge of Python from a Codeacademy course, it was a completely different ball game being in an in-person CFG class.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, Coronavirus ruined the in-person sessions (as it did most things), but the course moved online and because we had missed several sessions due to lockdown, I had the option to start again from scratch with some new instructors. I decided to do this as I thought it would be a good chance to refresh what I had already learnt and work with even more people. &lt;/p&gt;
+
+&lt;h2&gt;What is Code First Girls?&lt;/h2&gt;
+
+&lt;p&gt;Code First Girls (CFG) are an organisation with a really clear mission:&lt;/p&gt;
+
+&lt;p&gt;"Code First Girls are dedicated to transforming tech by providing the skills, space and inspiration for women to become kick-ass developers and future leaders."&lt;/p&gt;
+
+&lt;p&gt;They do this by running free coding courses to help people break into tech as well as cultivating a community of coders, trainers and coaches, facilitating women to break into and excel within the industry.&lt;/p&gt;
+
+&lt;p&gt;In order to be eligible you must be aged 18-23 OR have studied in the last two years OR be a student at a University.&lt;/p&gt;
+
+&lt;h3&gt;Materials&lt;/h3&gt;
+
+&lt;p&gt;Ahead of the courses, the CFG team will share the materials for each week which usually includes a set-up guide and the slides for each session. This is so useful for reference and to follow along each week. They also include optional homework tasks for furthering learning from each session.&lt;/p&gt;
+
+&lt;h2&gt;Python Programming&lt;/h2&gt;
+
+&lt;h3&gt;Overview&lt;/h3&gt;
+
+&lt;p&gt;The first course I took was the Introduction to Python Programming (obviously). This is a beginner-friendly course to help students learn the fundamentals of programming through problem-solving in Python.&lt;/p&gt;
+
+&lt;h3&gt;Software used&lt;/h3&gt;
+
+&lt;p&gt;For the Python Programming course we used PyCharm as the IDE. It was my first time using this software but the learning curve wasn't very steep and it's actually my go-to IDE for personal projects.&lt;/p&gt;
+
+&lt;h3&gt;Course structure&lt;/h3&gt;
+
+&lt;p&gt;Each week focused on a different fundamental element of Python and the lessons built upon each other before ending with a final project. The course outline looks like this:&lt;/p&gt;
+
+&lt;ul&gt;
+
+&lt;li&gt;Week 1: Python Basics: Data Types and Variables&lt;/li&gt;
+
+&lt;li&gt;Week 2: Problem Solving: Input, Loops and Functions with Turtle&lt;/li&gt;
+
+&lt;li&gt;Week 3: Decision Making: Logic and If Statements&lt;/li&gt;
+
+&lt;li&gt;Week 4: Lists and Dictionaries&lt;/li&gt;
+
+&lt;li&gt;Week 5: Files, Pip and APIs&lt;/li&gt;
+
+&lt;li&gt;Week 6: Building Your App: Project Planning and Projects&lt;/li&gt;
+
+&lt;li&gt;Week 7: Building Your App: Project Work Time&lt;/li&gt;
+
+&lt;li&gt;Week 8: Project Presentations&lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;h3&gt;Group project&lt;/h3&gt;
+
+&lt;p&gt;I've always found group projects difficult, I'm a bit of a control freak and really struggle when relying on other people to finish things. I think this was made even harder because we were doing it remotely, and unlike with work I didn't really know the girls that were in my group and our only communication was via slack sporadically throughout the week.&lt;/p&gt;
+
+&lt;p&gt;However, we managed work together on our final project, which was to use some data shared to us in CSV files and extract useful information from them. We also had the opportunity to explore other data sets including ones on London Crime, and the Coronavirus.&lt;/p&gt;
+
+&lt;h3&gt;Final project/presentation&lt;/h3&gt;
+
+&lt;p&gt;The final week involved us presenting our final project and sharing what we had been working on. This was a really great way to practice explaining the steps we undertook for each task, succulently talk about the findings and data we extracted and answer questions from our peers.&lt;/p&gt;
+
+&lt;h2&gt;Web development - HTML and JS&lt;/h2&gt;
+
+&lt;p&gt;After completing the Python Programming course, I also decided to enrol on the Web Development course which focused on the fundamental skills of front-end web development. I was super interested in it as there was three dedicated sessions on JavaScript and the final project involved building a website from scratch.&lt;/p&gt;
+
+&lt;h3&gt;Course outline&lt;/h3&gt;
+
+&lt;p&gt;The 8 week course was structured really well, with sessions dedicated to the basics of web development and a clear introduction to GitHub.&lt;/p&gt;
+
+&lt;ul&gt;
+
+&lt;li&gt;Week 1: HTML basics&lt;/li&gt;
+
+&lt;li&gt;Week 2: CSS basics&lt;/li&gt;
+
+&lt;li&gt;Week 3: Recap &amp; Project Overview&lt;/li&gt;
+
+&lt;li&gt;Week 4: JavaScript Part 1 (Overview, data types, loops and conditionals)&lt;/li&gt;
+
+&lt;li&gt;Week 5: JavaScript Part 2 (Functions and scope)&lt;/li&gt;
+
+&lt;li&gt;Week 6: JavaScript Part 3 (Objects and the DOM)&lt;/li&gt;
+
+&lt;li&gt;Week 7: Github 101 &amp; Frameworks&lt;/li&gt;
+
+&lt;li&gt;Week 8: Project presentations &amp; Careers in Web Dev&lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;h3&gt;Final project&lt;/h3&gt;
+
+&lt;p&gt;Again the group project was pretty difficult and I actually ended up being put into a group with two others who had not finished their sign up and were not actually taking part in the course. I therefore decided to work by myself to build a website.&lt;/p&gt;
+
+&lt;p&gt;We started with the initial plan for the website and worked on a mock-up. We then spent time creating the HTML and CSS that was required to make our actual websites look like our wireframes, before adding some JavaScript to ensure the site had some interactivity.&lt;/p&gt;
+
+&lt;p&gt;This was the perfect way to finish the course as it rounded up everything we had learnt and allowed us to put everything into practice to really cement our learning. It was so fun that I actually decided to continue making the website I had initially created and it cumulated in &lt;a href="seo-dogs.co.uk"&gt;SEO Dogs&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To wrap up, I would definitely recommend the Code First Girls courses for any females or non-binary folks who are interested in learning to code and can commit to a couple of hours a week for 8 weeks.&lt;/p&gt;
+
+&lt;p&gt;I'm also super excited to become an instructor on the Python Programming course, where I get help other people get their start in learning to code, just like Code First Girls allowed me to do.&lt;/p&gt;
+
+&lt;h2&gt;Tips for anyone starting&lt;/h2&gt;
+
+&lt;h3&gt;You don't need to have done any coding before&lt;/h3&gt;
+
+&lt;p&gt;Everything is designed for beginners so you don't need to have had any past experience, promise - you just need to have the right attitude to learn.&lt;/p&gt;
+
+&lt;h3&gt;Install the required technology&lt;/h3&gt;
+
+&lt;p&gt;As I mentioned, the CFG team provide clear instructions for the set-up and what is required ahead of the first session. I would definitely recommend setting aside some time to get everything installed and set-up. This will ensure you can get started straight away, make sure you don't miss anything and will also help you to feel a little more comfortable with the tools you will be using.&lt;/p&gt;
+
+&lt;h3&gt;Take time to prepare&lt;/h3&gt;
+
+&lt;p&gt;As mentioned, the CFG team will send you all of the learning materials before hand, together with a small guide for before you start. Take a bit of time to familiarise yourself with the materials ahead of the first session.&lt;/p&gt;
+
+&lt;h3&gt;Join the slack group&lt;/h3&gt;
+
+&lt;p&gt;The team will also share a link to the slack channel for the course. I would definitely recommend joining that as soon as possible as they will usually share some useful information ahead of the first session and will continue sharing resources throughout the whole course. There is also the opportunity to introduce yourself and meet the other participants.&lt;/p&gt;
+
+&lt;h3&gt;Chat to others on the course&lt;/h3&gt;
+
+&lt;p&gt;This is especially important for the remote courses, as when you are in a room together you naturally chat with those near you and share your solutions, but this isn't as easy when you are completing the course remotely. The slack channel is a great way to chat with your fellow participants, even if it might make you feel a little uncomfy at first.&lt;/p&gt;
+
+&lt;h2&gt;Courses available&lt;/h2&gt;
+
+&lt;p&gt;The courses currently available are:&lt;/p&gt;
+
+&lt;ul&gt;
+
+&lt;li&gt;Introduction to Web Development&lt;/li&gt;
+
+&lt;li&gt;Introduction to Python Programming&lt;/li&gt;
+
+&lt;li&gt;Introduction to Data Science &amp; SQL Programming&lt;/li&gt;
+
+&lt;h2&gt;Get started&lt;/h2&gt;
+
+    &lt;p&gt;Check out the &lt;a href="https://codefirstgirls.org.uk/"&gt;Code First Girls website&lt;/a&gt; to find out more about their Coding Kickstarter courses.&lt;/p&gt;
+
+</content><category term="misc"></category><category term="Coding"></category><category term="Inspiration"></category><category term="Personal"></category></entry><entry><title>Hello World: January 2021</title><link href="https://rvth.blog/journal/hello-world-january-2021.html" rel="alternate"></link><published>2021-01-27T00:00:00+00:00</published><updated>2021-01-27T00:00:00+00:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2021-01-27:/journal/hello-world-january-2021.html</id><summary type="html">
 &lt;p&gt;&lt;i&gt;🌌 "Cheers to a new year and another chance for us to get it right." - Oprah Winfrey&lt;/i&gt;&lt;/p&gt;
 
 &lt;h2&gt;🌍 Content to check out&lt;/h2&gt;
