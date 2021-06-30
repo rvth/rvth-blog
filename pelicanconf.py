@@ -45,12 +45,8 @@ SOCIAL = (
 LINKS = (("Home", "https://rvth.blog"),
          ("About", "/pages/about-me.html"),
          ("Ember", "/pages/ember.html"),
-         ("Learning Log", "/pages/learning-log.html"),
-         ("Writing", "/pages/writing.html"),
-         ("Speaking", "/pages/speaking.html"),
-         ("Newsletter", "/pages/hello-world-newsletter.html"),
-         ("Links", "/pages/links.html"),
-         ('Python.org', 'http://python.org/'))
+         ("Learning Log", "https://www.notion.so/Learning-Log-dacd7f8e48974984a4fa5c42c8f51bfb"),
+         ("Links", "/pages/links.html"))
 
 DEFAULT_PAGINATION = 10
 
