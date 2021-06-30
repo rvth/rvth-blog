@@ -1,5 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Ruth's Blog</title><link href="https://rvth.blog/" rel="alternate"></link><link href="https://rvth.blog/feeds/all-en.atom.xml" rel="self"></link><id>https://rvth.blog/</id><updated>2021-02-11T00:00:00+00:00</updated><entry><title>My experience with Code First Girls</title><link href="https://rvth.blog/journal/code-first-girls.html" rel="alternate"></link><published>2021-02-11T00:00:00+00:00</published><updated>2021-02-11T00:00:00+00:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2021-02-11:/journal/code-first-girls.html</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Ruth's Blog</title><link href="https://rvth.blog/" rel="alternate"></link><link href="https://rvth.blog/feeds/all-en.atom.xml" rel="self"></link><id>https://rvth.blog/</id><updated>2021-03-17T00:00:00+00:00</updated><entry><title>An Introduction to Python for Technical SEO</title><link href="https://rvth.blog/journal/python-for-seo.html" rel="alternate"></link><published>2021-03-17T00:00:00+00:00</published><updated>2021-03-17T00:00:00+00:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2021-03-17:/journal/python-for-seo.html</id><summary type="html">
+&lt;h2&gt;What Is Python?&lt;/h2&gt;
+&lt;p&gt;In short, Python is an open-source, object-oriented interactive programming language that is interpreted line by line.&lt;/p&gt;
+&lt;p&gt;With simple and easy to learn syntax, as well as advanced readability and support for a number of modules and libraries, Python is well-loved due to the increased productivity it provides …&lt;/p&gt;</summary><content type="html">
+&lt;h2&gt;What Is Python?&lt;/h2&gt;
+&lt;p&gt;In short, Python is an open-source, object-oriented interactive programming language that is interpreted line by line.&lt;/p&gt;
+&lt;p&gt;With simple and easy to learn syntax, as well as advanced readability and support for a number of modules and libraries, Python is well-loved due to the increased productivity it provides.&lt;/p&gt;
+&lt;p&gt;As a testament to this, Python is used by some of the biggest organizations in the world to power their platforms, perform data analysis, and run their machine learning models.&lt;/p&gt;
+&lt;p&gt;Companies including Google, YouTube, Netflix, NASA, Spotify, and IBM have publicly stated Python has been an important part of their growth, due to its simplicity, speed, and scalability.&lt;/p&gt;
+&lt;p&gt;In fact, Google’s first web-crawler was actually written in Python and it remains one of their official server-side languages.&lt;/p&gt;
+&lt;h3&gt;How to Run Python&lt;/h3&gt;
+&lt;p&gt;You can run Python scripts in a number of ways, depending on what works best for you.&lt;/p&gt;
+&lt;p&gt;Most systems come with Python already installed, although it’s worth noting that this will more than likely be Python 2, which will be officially deprecated in 2020 now that Python 3 is deemed stable.&lt;/p&gt;
+&lt;p&gt;You can run Python from your terminal or command line IDE (Integrated Development Environment) or use cloud-based alternatives including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Jupyter Notebooks.&lt;/li&gt;
+&lt;li&gt;Google Colab.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These provide an easier experience for beginners to learn and test elements of code line by line.&lt;/p&gt;
+&lt;h2&gt;Python Libraries&lt;/h2&gt;
+&lt;p&gt;The main power of Python is in its libraries, which enable a number of add-ons including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Data extraction.&lt;/li&gt;
+&lt;li&gt;Analysis and preparation.&lt;/li&gt;
+&lt;li&gt;Scientific computing.&lt;/li&gt;
+&lt;li&gt;Natural language processing.&lt;/li&gt;
+&lt;li&gt;Machine learning.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Some useful libraries for tasks involving data analysis and automation include:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;b&gt;TensorFlow:&lt;/b&gt; An open-source machine learning library.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;NumPy:&lt;/b&gt; Useful for scientific computing.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;SciPy:&lt;/b&gt; Used for scientific and technical computing.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;SciKit Learn:&lt;/b&gt; Machine learning for data mining and analysis.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Pandas:&lt;/b&gt; Used for data manipulation and analysis.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;SpaCy:&lt;/b&gt; A great natural language processing library.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Requests:&lt;/b&gt; A library for making HTTP requests.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;How Python Can Help with Technical SEO&lt;/h2&gt;
+&lt;p&gt;While having an understanding of the languages which power the websites we work on (such as HTML, CSS, and JavaScript) is important, Python provides many automation opportunities for low-level tasks which we would usually spend several hours undertaking.&lt;/p&gt;
+
+&lt;p&gt;Python empowers SEO professionals in a number of ways as it not only enables us to automate repetitive tasks, but also to extract and analyze large data sets.&lt;/p&gt;
+&lt;p&gt;The amount of data marketers work with is only increasing, so being able to efficiently analyze this will help to solve many complex problems in a shorter amount of time.&lt;p&gt;
+&lt;p&gt;This in turn saves valuable time and allows us to be more efficient in undertaking other important SEO tasks.&lt;/p&gt;
+&lt;p&gt;These factors combined have led to a growth in the popularity of Python amongst SEO professionals.&lt;/p&gt;
+&lt;p&gt;The ability to better understand data will not only help us do our jobs better, but will also allow us to make data-driven decisions.&lt;/p&gt;
+&lt;p&gt;These decisions will then enable us to provide concrete insights for our clients and stakeholders and have more confidence in the recommendations we implement.&lt;/p&gt;
+&lt;h3&gt;Automating with Python&lt;/h3&gt;
+&lt;p&gt;While Python will not be able to imitate human, emotion-led strategy, Python scripts can be used to automate a large number of time-consuming tasks.&lt;/p&gt;
+&lt;p&gt;This list of tasks you can automate with Python is growing continuously:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Identifying user intent.&lt;/li&gt;
+&lt;li&gt;Mapping URLs ahead of a migration.&lt;/li&gt;
+&lt;li&gt;Internal link analysis.&lt;/li&gt;
+&lt;li&gt;Performing keyword research.&lt;/li&gt;
+&lt;li&gt;Optimizing images.&lt;/li&gt;
+&lt;li&gt;Scraping websites.&lt;/li&gt;
+&lt;li&gt;Internal linking analysis.&lt;/li&gt;
+&lt;li&gt;Log file analysis.&lt;/li&gt;
+&lt;li&gt;Hreflang validation.&lt;/li&gt;
+&lt;li&gt;Keyword growth calculation.&lt;/li&gt;
+&lt;li&gt;Collecting GSC data.&lt;/li&gt;
+&lt;li&gt;Performing competitor analysis.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Powering Machine Learning&lt;/h2&gt;
+&lt;p&gt;Python is also a popular language used to power machine learning applications due to its simple, intuitive and accessible syntax.&lt;/p&gt;
+&lt;p&gt;It is also open-source, with several developer advocates providing support for users.&lt;/p&gt;
+&lt;p&gt;In addition, there are a large number of useful libraries which are helpful when working with and training machine learning models.&lt;/p&gt;
+&lt;h3&gt;What Is Machine Learning?&lt;/h3&gt;
+&lt;p&gt;Machine learning is essentially “an application of artificial intelligence that provides systems with the ability to automatically learn and improve from experience, without the need to be explicitly programmed”.&lt;/p&gt;
+&lt;p&gt;Machine learning is typically used to identify patterns in data, upon which predictions can then be made.&lt;/p&gt;
+&lt;h3&gt;Python &amp; Machine Learning&lt;/h3&gt;
+&lt;p&gt;Run in conjunction with machine learning, Python can be used to power scripts for training a dataset, before it summarizes and visualizes the data.&lt;/p&gt;
+&lt;p&gt;From here, the model will evaluate the algorithms to enable predictions to be made.&lt;/p&gt;
+&lt;h3&gt;Real-World Machine Learning Examples&lt;/h3&gt;
+&lt;p&gt;The use of machine learning on the web is increasing all the time, with new models being created and training data becoming more accessible daily.&lt;/p&gt;
+&lt;p&gt;Some real-world machine learning examples include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Google’s RankBrain algorithm.
+&lt;li&gt;Baidu’s Deep Voice program.
+&lt;li&gt;Twitter’s curated timelines.
+&lt;li&gt;Netflix and Spotify recommendations.
+&lt;li&gt;Salesforce’s Einstein feature.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;SEO Possibilities with Machine Learning&lt;/h2&gt;
+&lt;p&gt;Due to their ability to solve complex problems, it is no surprise that machine learning models are being used to help make marketers’ lives easier.&lt;/p&gt;
+&lt;p&gt;As Britney Muller says:&lt;p&gt;
+&lt;p&gt;&lt;em&gt;“Machine Learning is becoming more accessible and will free us up to work on higher-level strategy.”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This will enable you to spend more time finding solutions, rather than just identifying problems.&lt;/p&gt;
+&lt;p&gt;Some examples of machine learning models used in SEO include:&lt;/p&gt;
+&lt;/ul&gt;
+&lt;li&gt;Content quality evaluation.&lt;/li&gt;
+&lt;li&gt;Identifying keyword gaps and opportunities.&lt;/li&gt;
+&lt;li&gt;Gaining insights into user engagement.&lt;/li&gt;
+&lt;li&gt;Optimizing title tags.&lt;/li&gt;
+&lt;li&gt;Automating meta description creation.&lt;/li&gt;
+&lt;li&gt;Transcribing audio.&lt;/li&gt;
+
+&lt;h2&gt;Google’s NLP Model&lt;/h2&gt;
+&lt;p&gt;One such model worth checking out is Google’s Natural Language Processing API, which uses machine learning to reveal the structure and meaning of text. It analyzes text to understand the sentiment, as well as extract key information.&lt;/p&gt;
+&lt;p&gt;Not only does this API allow you to train a model personalized to your content, providing results that are relevant to your specific needs, you will also gain an insight into Google’s understanding of your content.&lt;/p&gt;
+&lt;p&gt;To finish, I wanted to share my three biggest tips for getting started and continuing to learn:&lt;/p&gt;
+&lt;h3&gt;Tip 1: Talk to Your Developers&lt;/h3&gt;
+&lt;p&gt;There’s a high chance the developers you work with will have an understanding of Python.&lt;/p&gt;
+&lt;p&gt;Have a conversation with them, let them know what you’re working on and spark their interest too – there may even be something you can collaborate on!&lt;/p&gt;
+&lt;h3&gt;Tip 2: Join Communities&lt;/h3&gt;
+&lt;p&gt;One of the best things about learning Python is the support available, there are so many online communities with hundreds of supportive individuals willing to provide non-judgmental advice.&lt;/p&gt;
+&lt;h3&gt;Tip 3: Keep Practicing &amp; Have Fun&lt;/h3&gt;
+&lt;p&gt;This is the most important piece of advice a developer friend gave to me. There is no pressure to become a Python master in weeks. Take your time to learn the language and start fun side projects to put what you are learning into practice.&lt;/p&gt;
+
+
+</content><category term="misc"></category><category term="Personal"></category><category term="Tech"></category></entry><entry><title>My experience with Code First Girls</title><link href="https://rvth.blog/journal/code-first-girls.html" rel="alternate"></link><published>2021-02-11T00:00:00+00:00</published><updated>2021-02-11T00:00:00+00:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2021-02-11:/journal/code-first-girls.html</id><summary type="html">
 
 &lt;p&gt;My first experience with Code First Girls was in February 2020. I still can't believe I walked into a room in Goldman Sachs in Holborn full of strangers, to start learning to code. The course was the Introduction to Python Programming class, and while I had a base knowledge of …&lt;/p&gt;</summary><content type="html">
 
@@ -348,51 +461,7 @@
 &lt;p&gt;Perhaps the most rewarding part of having a dog. A dog will love you forever, no matter what you do.  They will never judge you and spend most of their time trying to understand you, they probably know us better than we know ourselves. You'll never have a bond with a human like you will with your dog. All they want is make us happy.&lt;/p&gt;
 
 &lt;p&gt;Are you a dog owner? What's the best thing to come out of owning a dog for you?&lt;/p&gt;
-</content><category term="misc"></category><category term="Dogs"></category></entry><entry><title>Why I Decided To Start Learning To Code</title><link href="https://rvth.blog/journal/why-i-started-learning-to-code.html" rel="alternate"></link><published>2020-10-11T00:00:00+01:00</published><updated>2020-10-11T00:00:00+01:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2020-10-11:/journal/why-i-started-learning-to-code.html</id><summary type="html">
-
-&lt;p&gt;“Why did you start learning to code?”&lt;/p&gt;
-
-&lt;p&gt;This question makes me panic a bit, because to be honest, I don’t really think I have a sufficient answer. “I don’t know, I just wanted to learn something new” is what I would typically answer. But looking back coding has …&lt;/p&gt;</summary><content type="html">
-
-&lt;p&gt;“Why did you start learning to code?”&lt;/p&gt;
-
-&lt;p&gt;This question makes me panic a bit, because to be honest, I don’t really think I have a sufficient answer. “I don’t know, I just wanted to learn something new” is what I would typically answer. But looking back coding has always been something that has interested me.&lt;/p&gt;
-
-&lt;p&gt;I grew up spending a lot of time on computers and I vividly remember the opening of my primary school’s computer room when I was about 9. I was also pretty bad at socialising and have always been awkward around people, so I instead choose to spend time reading or playing on a computer rather than talking.&lt;/p&gt;
-
-&lt;p&gt;I was also a Tumblr kid and would spend hours tweaking themes as I was a little too obsessed with the aesthetics, I mean who didn’t want a sparkly cursor and snow in the background. I didn’t realise it at the time but I spent many hours Googling HTML and CSS, without even realising what it was. I also didn’t know at the time that people did this as a job.&lt;/p&gt;
-
-&lt;p&gt;It was the first time I realised view source code and inspect element were a thing, but once I had discovered them I viewed them on every site I went on (just for fun more than anything).&lt;/p&gt;
-
-&lt;p&gt;I thought exploring some of the things which have inspired me to learn might be a good topic to talk about here. So here goes:&lt;/p&gt;
-
-&lt;h2&gt;My Dad&lt;/h2&gt;
-&lt;p&gt;My dad is an engineer and, due to illness, he has worked from home pretty much my entire life. I used to watch his two screens with fascination and loved it when he tried to explain to me what he was working on, even though I had no idea what he was talking about. I never understood any of it, and was insistent I would never, in a million years, be able to understand it.&lt;/p&gt;
-
-&lt;p&gt;He is currently working a lot with machine learning and I love that I am now able to understand what he is showing me, and even sometimes get involved.&lt;/p&gt;
-
-&lt;h2&gt;Blogging&lt;/h2&gt;
-&lt;p&gt;When my dog came into my life I decided to make a blog about being a first time dog owner (as you do when you’re a crazy dog person). I created a WordPress account, brought a domain and started hosting my blog with Green Hosting (they are 100% wind powered, because #ecowarrior). Again I played around with the HTML of the themes and posts and loved discovering how to make things look perfect.&lt;/p&gt;
-
-&lt;h2&gt;Wanting More From Life&lt;/h2&gt;
-&lt;p&gt;I decided early on that university wasn’t for me and started working full time when I was 17. My first job was a mundane admin role and I just kept thinking, there must be more to life than this. Then, while completing a marketing module with the open university I discovered that digital marketing, and more specifically SEO, was a thing. I worked hard on my blog and studying, as well as volunteering for an animal charity, and managed to land at great job at a local agency.&lt;/p&gt;
-
-&lt;p&gt;My interest in the technical side of SEO piqued pretty early on and to say I became obsessed with it would probably be an understatement. I read everything I could find on the topic and enjoyed the challenges of every project I worked on. I loved working with the developers and told them about my desire to learn to code and they were nothing but encouraging.&lt;/p&gt;
-
-&lt;h2&gt;To Help My Career&lt;/h2&gt;
-&lt;p&gt;Since working in technical SEO the need to have programming knowledge has never been more apparent. I want to be able to comfortably communicate with developers and engineers that I work with, to have confidence in the conversations I am having with them and for them to have confidence in me.&lt;/p&gt;
-
-&lt;p&gt;It also enables me to keep on top of the trends and technology advancements happening in the industry all the time and share these with other people to inspire them.&lt;/p&gt;
-
-&lt;p&gt;It has also become something I can talk about for hours, which is a big feat considering I usually struggle to hold a conversation for more than 10 minutes. I have even started to speak at local events about how Python can help with technical SEO and written about it for a top SEO publication!&lt;/p&gt;
-
-&lt;h2&gt;For My Mental Health&lt;/h2&gt;
-&lt;p&gt;Coding is incredibly therapeutic to me, being able to concrete on learning and practicing different things enables me to stop thinking about other thoughts that are constantly running through my head. Then after awhile things begin to feel less daunting and I feel my mental health has started to improve. Being able to work out complex problems and debug errors also helps with my confidence and self belief.&lt;/p&gt;
-
-&lt;p&gt;That's everything from me, I'd love to hear what inspired you :)&lt;/p&gt;
-
-
-</content><category term="misc"></category><category term="Personal"></category><category term="Tech"></category></entry><entry><title>Visualising Python and Google Trends</title><link href="https://rvth.blog/journal/visualising-python-and-google-trends.html" rel="alternate"></link><published>2020-09-20T00:00:00+01:00</published><updated>2020-09-20T00:00:00+01:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2020-09-20:/journal/visualising-python-and-google-trends.html</id><summary type="html">
+</content><category term="misc"></category><category term="Dogs"></category></entry><entry><title>Visualising Python and Google Trends</title><link href="https://rvth.blog/journal/visualising-python-and-google-trends.html" rel="alternate"></link><published>2020-09-20T00:00:00+01:00</published><updated>2020-09-20T00:00:00+01:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2020-09-20:/journal/visualising-python-and-google-trends.html</id><summary type="html">
 
 &lt;p&gt;Last month I &lt;a href="https://rvth.blog/article/python-and-google-trends.html"&gt;shared some of the things&lt;/a&gt; I had learned while playing around with the Google Trends Python library, PyTrends.&lt;/p&gt;
 
@@ -658,29 +727,48 @@
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
-</content><category term="misc"></category><category term="Tech"></category><category term="Inspiration"></category></entry><entry><title>Print("Hello World")</title><link href="https://rvth.blog/journal/hello-world.html" rel="alternate"></link><published>2020-06-27T00:00:00+01:00</published><updated>2020-06-27T00:00:00+01:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2020-06-27:/journal/hello-world.html</id><summary type="html">
-    &lt;div class="image"&gt;&lt;img src="/images/hello-world.jxr" class="lazyload" alt="hello world" &amp;lt; div&gt;
-    &lt;p&gt;I’ve been sat staring at this blank document for the last 2 hours trying to figure what to write, my first blog post for a blog I never thought I would actually create. I guess I just wanted to introduce myself and the aim of this blog.&lt;/p&gt;
-    &lt;p&gt;I started …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">
-    &lt;div class="image"&gt;&lt;img src="/images/hello-world.jxr" class="lazyload" alt="hello world" &amp;lt; div&gt;
-    &lt;p&gt;I’ve been sat staring at this blank document for the last 2 hours trying to figure what to write, my first blog post for a blog I never thought I would actually create. I guess I just wanted to introduce myself and the aim of this blog.&lt;/p&gt;
-    &lt;p&gt;I started my first blog 4 years ago when I got my dog Ember, it was a ‘lifestyle blog’ focused on dog ownership and while I enjoyed writing it and it a great learning journey (and Ember enjoyed the free treats we received) the content I was putting out wasn’t great and I felt pressured to post every single week.&lt;/p&gt;
-    &lt;p&gt;I never intended to create another blog, for many reasons; my perfectionism, imposter syndrome and the fear no one would actually read it. But a couple of weeks ago, one of the most inspirational people I have ever met, Areej Abuali, created her blog and wrote &lt;a href="https://www.areejabuali.com/blog/hello-seo-world"&gt; this post&lt;/a&gt;, which gave me the kick up the butt I needed to finally finish creating this blog.&lt;/p&gt;
-    &lt;p&gt;Rather than use WordPress to build it, I decided to put the skills I have been learning over the last year into practice and build it using a static site generator called Pelican, which is powered by Python. I also found a theme which is easily customisable using HTML and CSS and use GitHub and Netifly to host and deploy it.&lt;/p&gt;
+</content><category term="misc"></category><category term="Tech"></category><category term="Inspiration"></category></entry><entry><title>Why I Decided To Start Learning To Code</title><link href="https://rvth.blog/journal/why-i-started-learning-to-code.html" rel="alternate"></link><published>2020-06-27T00:00:00+01:00</published><updated>2020-06-27T00:00:00+01:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2020-06-27:/journal/why-i-started-learning-to-code.html</id><summary type="html">
 
-    &lt;h2&gt;Getting started in SEO&lt;/h2&gt;
-    &lt;p&gt;Despite working in digital marketing for the last 3 years, I’ve never actually been a massive fan of traditional marketing, or thought I was very good at it. I'm certainly not very good at marketing myself. To be honest I've never really interested in advertising, marketing strategies or customer personas, preferring instead to investigate problems and find solutions, which is why I think I gravitated towards and ultimately decided to specialise in SEO.&lt;/p&gt;
-    &lt;p&gt;A popular question in the SEO space is ‘how did you get started in SEO?’ I feel like the answer is pretty similar for most people; ‘I just kind of fell into it’, and that’s certainly how it started for me. 5 years ago I didn’t even know SEO was a thing, it’s certainly not something that is taught in school or something that you can talk to your career advisor about.&lt;/p&gt;
-    &lt;p&gt;After working in email marketing for almost a year, I was more than ready for a change and had the chance to join a digital agency and dive head first into a big SEO project for a company with several different country based sites. This opened my eyes to many aspects of SEO and I quickly became obsessed with it. I spent countless hours reading articles and whitepapers, watching webinars and listening to podcasts on all things SEO.&lt;/p&gt;
-    &lt;p&gt;A year ago I somehow managed to get a job at an SEO software company where I’m super lucky to get to work with some of the smartest SEOs (and kindest people I know). I’ve also had the opportunity to speak at events, write for industry publications, meet so many inspirational people and was shortlisted for Young Search Professional of the Year at the 2019 UK Search Awards.&lt;/p&gt;
-    &lt;p&gt;Most people would say I’m a bad SEO because I don’t really care for being controlled by a corporate giant like Google, I don’t panic over algorithm updates or feel the need to always be chasing rankings. I care about user experience, making sure a website is accessible and enjoyable for users.&lt;/p&gt;
+&lt;p&gt;“Why did you start learning to code?”&lt;/p&gt;
 
-    &lt;h2&gt;Starting to learn to code&lt;/h2&gt;
-    &lt;p&gt;I guess I’ve always been interested in coding without even realising what it was, ever since my Tumblr days when I would spend hours tweaking themes to make a sparkly cursor and have snow falling in the background. I didn’t realise it at the time but I spent many hours Googling HTML and CSS.&lt;/p&gt;
-    &lt;p&gt;I’ll be honest and say that I was put off the idea of working in a technical field because it never seemed like there were many people like me working in it. But that’s changing now and I’m so excited and inspired by all the female developers and engineers showing women of all ages that there is a place for them in tech. I hope that one day I can become someone who helps to inspire people to start a career in STEM.&lt;/p&gt;
+&lt;p&gt;This question makes me panic a bit, because to be honest, I don’t really think I have a sufficient answer. “I don’t know, I just wanted to learn something new” is what I would typically answer. But looking back coding has …&lt;/p&gt;</summary><content type="html">
 
-    &lt;h2&gt;My aim with this blog&lt;/h2&gt;
-    &lt;p&gt;To be honest I don’t really know what my intention with creating this blog really is. I guess I just wanted to prove to myself that I could do this, and hopefully inspire someone else to get started with that thing they have been putting off. I hope to use this small space to document my learning journey, speak about topics I’m passionate about and share my experiences.&lt;/p&gt;
-    &lt;p&gt;Growth is hard and putting yourself out there is daunting and terrifying. The pressure to be perfect can prevent us from doing something we’ve always wanted to do. I just want this blog to be authentic and honest and therefore it’s going to be far from perfect, but I don’t want to pressure myself to make it so.&lt;/p&gt;
-    &lt;p&gt;Thank you for reading my first blog post/ramble, I’m super excited to share more &amp;#128156; And that thing you've always wanted to create, here's your push to get started.&lt;/p&gt;
-    </content><category term="Personal"></category><category term="Personal"></category></entry></feed>
+&lt;p&gt;“Why did you start learning to code?”&lt;/p&gt;
+
+&lt;p&gt;This question makes me panic a bit, because to be honest, I don’t really think I have a sufficient answer. “I don’t know, I just wanted to learn something new” is what I would typically answer. But looking back coding has always been something that has interested me.&lt;/p&gt;
+
+&lt;p&gt;I grew up spending a lot of time on computers and I vividly remember the opening of my primary school’s computer room when I was about 9. I was also pretty bad at socialising and have always been awkward around people, so I instead choose to spend time reading or playing on a computer rather than talking.&lt;/p&gt;
+
+&lt;p&gt;I was also a Tumblr kid and would spend hours tweaking themes as I was a little too obsessed with the aesthetics, I mean who didn’t want a sparkly cursor and snow in the background. I didn’t realise it at the time but I spent many hours Googling HTML and CSS, without even realising what it was. I also didn’t know at the time that people did this as a job.&lt;/p&gt;
+
+&lt;p&gt;It was the first time I realised view source code and inspect element were a thing, but once I had discovered them I viewed them on every site I went on (just for fun more than anything).&lt;/p&gt;
+
+&lt;p&gt;I thought exploring some of the things which have inspired me to learn might be a good topic to talk about here. So here goes:&lt;/p&gt;
+
+&lt;h2&gt;My Dad&lt;/h2&gt;
+&lt;p&gt;My dad is an engineer and, due to illness, he has worked from home pretty much my entire life. I used to watch his two screens with fascination and loved it when he tried to explain to me what he was working on, even though I had no idea what he was talking about. I never understood any of it, and was insistent I would never, in a million years, be able to understand it.&lt;/p&gt;
+
+&lt;p&gt;He is currently working a lot with machine learning and I love that I am now able to understand what he is showing me, and even sometimes get involved.&lt;/p&gt;
+
+&lt;h2&gt;Blogging&lt;/h2&gt;
+&lt;p&gt;When my dog came into my life I decided to make a blog about being a first time dog owner (as you do when you’re a crazy dog person). I created a WordPress account, brought a domain and started hosting my blog with Green Hosting (they are 100% wind powered, because #ecowarrior). Again I played around with the HTML of the themes and posts and loved discovering how to make things look perfect.&lt;/p&gt;
+
+&lt;h2&gt;Wanting More From Life&lt;/h2&gt;
+&lt;p&gt;I decided early on that university wasn’t for me and started working full time when I was 17. My first job was a mundane admin role and I just kept thinking, there must be more to life than this. Then, while completing a marketing module with the open university I discovered that digital marketing, and more specifically SEO, was a thing. I worked hard on my blog and studying, as well as volunteering for an animal charity, and managed to land at great job at a local agency.&lt;/p&gt;
+
+&lt;p&gt;My interest in the technical side of SEO piqued pretty early on and to say I became obsessed with it would probably be an understatement. I read everything I could find on the topic and enjoyed the challenges of every project I worked on. I loved working with the developers and told them about my desire to learn to code and they were nothing but encouraging.&lt;/p&gt;
+
+&lt;h2&gt;To Help My Career&lt;/h2&gt;
+&lt;p&gt;Since working in technical SEO the need to have programming knowledge has never been more apparent. I want to be able to comfortably communicate with developers and engineers that I work with, to have confidence in the conversations I am having with them and for them to have confidence in me.&lt;/p&gt;
+
+&lt;p&gt;It also enables me to keep on top of the trends and technology advancements happening in the industry all the time and share these with other people to inspire them.&lt;/p&gt;
+
+&lt;p&gt;It has also become something I can talk about for hours, which is a big feat considering I usually struggle to hold a conversation for more than 10 minutes. I have even started to speak at local events about how Python can help with technical SEO and written about it for a top SEO publication!&lt;/p&gt;
+
+&lt;h2&gt;For My Mental Health&lt;/h2&gt;
+&lt;p&gt;Coding is incredibly therapeutic to me, being able to concrete on learning and practicing different things enables me to stop thinking about other thoughts that are constantly running through my head. Then after awhile things begin to feel less daunting and I feel my mental health has started to improve. Being able to work out complex problems and debug errors also helps with my confidence and self belief.&lt;/p&gt;
+
+&lt;p&gt;That's everything from me, I'd love to hear what inspired you :)&lt;/p&gt;
+
+
+</content><category term="misc"></category><category term="Personal"></category><category term="Tech"></category></entry></feed>
