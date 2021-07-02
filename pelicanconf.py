@@ -46,6 +46,7 @@ LINKS = (("Home", "https://rvth.blog"),
          ("About", "/pages/about-me.html"),
          ("Ember", "/pages/ember.html"),
          ("Learning Log", "https://www.notion.so/Learning-Log-dacd7f8e48974984a4fa5c42c8f51bfb"),
+         ("Projects", "https://www.notion.so/Projects-908361e284b745f4b228f7c6a6ad1da6"),
          ("Links", "/pages/links.html"))
 
 DEFAULT_PAGINATION = 10
