@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Ruth">
+  <meta name="description" content="Pandas: Creating, Modifying and Inspecting DataFrames (featuring data from Squid Game) | Inspired by @codechips&#39; SQL Squid Game guide, I thought it would...">
+
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" media="all">
+  <link rel="stylesheet" href="../theme/css/font.css" type="text/css" media="all">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../theme/css/style.css" type="text/css" media="all">
+
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../theme/js/functions.js"></script>
+
+  
+ 
+
+  <link href="https://rvth.blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Ruth's Blog Full Atom Feed" />
+
+<meta name="keywords" content="keywords, Python, Pandas">
+    <style>
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px;
+}
+
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 70%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+
+
+  <title>Pandas: Creating, Modifying and Inspecting DataFrames (featuring data from Squid Game)</title>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-173020538-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  
+</head>
+
+<body class="home blog">
+  <div>
+    <header class="site-header">
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+          <div class="row">
+            <div class="site-navigation-inner col-sm-12">
+              <div class="navbar-header">
+                <button type="button" class="btn navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+              <div class="collapse navbar-collapse navbar-ex1-collapse">
+              <ul id="menu-all-pages" class="nav navbar-nav">
+                <li class="menu-item"><a href="https://rvth.blog" >Home
+<i class="fa  fa-lg"></i></a></li>
+                <li class="menu-item"><a href="/pages/about-me.html" >About
+<i class="fa  fa-lg"></i></a></li>
+                <li class="menu-item"><a href="/pages/ember.html" >Ember
+<i class="fa  fa-lg"></i></a></li>
+                <li class="menu-item"><a href="https://www.notion.so/Learning-Log-dacd7f8e48974984a4fa5c42c8f51bfb" >Learning Log
+<i class="fa  fa-lg"></i></a></li>
+                <li class="menu-item"><a href="https://www.notion.so/Projects-908361e284b745f4b228f7c6a6ad1da6" >Projects
+<i class="fa  fa-lg"></i></a></li>
+                <li class="menu-item"><a href="/pages/links.html" >Links
+<i class="fa  fa-lg"></i></a></li>
+              </ul>
+              </div>
+              <div class="social">   
+                <a href="https://twitter.com/rvtheverett" title="Twitter" >
+<i class="fa fa-twitter fa-lg"></i></a>
+                <a href="https://github.com/rvth" title="GitHub" >
+<i class="fa fa-github fa-lg"></i></a>
+                <a href="https://www.linkedin.com/in/ruth-everett-b01a6213b/" title="Linkedin" >
+<i class="fa fa-linkedin fa-lg"></i></a>
+                <a href="https://www.goodreads.com/user/show/108123284-ruth" title="GoodReads" >
+<i class="fa  fa-lg"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav><!-- .site-navigation -->
+
+      <div class="container">
+      <div id="logo">
+        <span class="site-name"><a class="navbar-brand" href=".."><img width="310" src="/images/header.webp" class="attachment-full size-full" alt="logo">          </a>
+        </span><!-- end of .site-name -->
+      </div><!-- end of #logo -->
+        <div class="tagline">
+                <a href="../tag/coding.html" >Coding (2)</a> &#124; 
+                <a href="../tag/dogs.html" >Dogs (3)</a> &#124; 
+                <a href="../tag/inspiration.html" >Inspiration (3)</a> &#124; 
+                <a href="../tag/pandas.html" >Pandas (1)</a> &#124; 
+                <a href="../tag/personal.html" >Personal (2)</a> &#124; 
+                <a href="../tag/python.html" >Python (4)</a> &#124; 
+                <a href="../tag/seo.html" >SEO (4)</a> &#124; 
+                <a href="../tag/tech.html" >Tech (3)</a> &#124; 
+                <a href="../archives.html" >Archives (11)</a>
+        </div>
+    </div>
+
+  </header><!-- #masthead -->
+  </div>
+    <div id="content" class="site-content">
+      <div class="container main-content-area">
+        <div class="row">
+          <div class="main-content-inner col-sm-12 col-md-12">
+            <div id="primary" class="content-area">
+              <div id="main" class="site-main" role="main">
+                <div class="article-container">
+<article>
+  <div class="blog-item-wrap">
+    <div class="post-inner-content">
+      <header class="entry-header page-header">
+        <span class="cat-item"><time datetime="2021-10-31 00:00:00+01:00">Oct 31, 2021</time></span>
+        <h1 class="entry-title"><a href="../journal/python-squid-game.html">Pandas: Creating, Modifying and Inspecting DataFrames (featuring data from Squid Game)</a></h1>
+      </header><!-- .entry-header -->
+      <div class="fb-like" data-href="../journal/python-squid-game.html" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
+      <div class="entry-content">
+        
+
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1635697226433/p1kLqNC4g.gif" alt="Squid Game" class="center">
+
+<p>Inspired by @codechips' SQL Squid Game guide, I thought it would be fun to use some Squid Game data to write a guide on the basics of the Pandas library in Python including creating a DataFrame, modifying rows and columns and inspecting the data.</p>
+
+<h2>Importing Pandas</h2>
+<p>The first step is to import that Pandas library and alias it as pd. This means we don't have to call the full word when we run a Pandas function, we just need to type pd.</p>
+
+
+<pre>
+    <code class="”language-python”">
+import pandas as pd</code>
+</pre>
+
+<p>The main data structure of Pandas is a DataFrame, which is similar to an excel spreadsheet, where we can store data. Once the data is within a DataFrame, there are several ways it can be used, for example data analysis or to visualise it.</p>
+
+<h2>Introducing DataFrames</h2>
+<p>DataFrames store data in rows and columns. Each column has a name, which is a string, and each row has an index, which is typically an integer. Like lists in Python, DataFrames also use 0 indexing, which means the first row in index 0 instead of index 1. However, you can set the index to include extra information about what the row contains if you want.</p>
+
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1635684575976/YYzdNTC9B.png" alt="DataFrame">
+
+<p>DataFrames can contain many different data types, including strings, integers and floats.</p>
+
+<p>You can create a DataFrame by uploading data from a csv file, but you can also create a DataFrame by typing values into a list and using a dictionary to transform it into a DataFrame. You can use multiple different lists, containing different data types, but the value of content included in each must be the same.</p>
+
+<pre>
+    <code class="”language-python”">
+data = {'Name':  ['Oh Il-Nam', 'Kang Sae-byeok', 'Jang Deok-su', 'Abdul Ali', 'Han Mi-nyeo',  'Cho Sang-woo', 'Ji-yeong'],
+
+'Number': [1, 67, 101, 199, 212, 218, 240],
+        }
+
+df = pd.DataFrame(data, index = ["player1", "player67", "player101", "player199", "player212", "player281",
+
+"player240"])</code>
+</pre>
+
+<p>As you can see above we have one list with the players names, typed as strings, and another with their number, which is an integer.</p>
+
+<p>We then transform this dictionary of lists to a DataFrame using the pd.DataFrame() command. We also set the index values, by passing the string names as a list argument.</p>
+
+<h2>Inspecting a DataFrame</h2>
+<p>Once the data has been added, we want to make sure it looks correct and contains everything we want. The best method to do this is to use df.head(). This will show the first 5 rows of data. However, if you would like to see more data, i.e 10 rows, you can pass this as an argument within the brackets.</p>
+
+<pre>
+    <code class="”language-python”">
+df.head(10)</code>
+</pre>
+
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1635684192998/BSI6OefFT.png" alt="Our Created DataFrame">
+
+
+<p>If we want to only view the data from one row, we can use the panda-specific access method .loc. This is a label based method, meaning we have to specify the name of the row we want to view, this method can only use string. Here we add in the index name that we specified when creating the DataFrame.</p>
+
+<pre>
+    <code class="”language-python”">
+print(df.loc["player67"])</code>
+</pre>
+
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1635684208937/PwpNHm1re.png" alt="Row">
+
+<p>The other access method is .iloc, which is integer based, by specifying the positional index of the row we want to view. We would use this one if we hadn't changed the index, or if we had changed it to another integer value instead of a string.</p>
+
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1635690271373/FkLwSbFId.png" alt="Column">
+
+<p>We can also get a count of how many rows within the DataFrame, by using the count() function. This will print the number of rows in each column.</p>
+
+
+<pre>
+    <code class="”language-python”">
+df.count()</code>
+</pre>
+
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1635684222534/zlvMgpnzK.png" alt="Count">
+
+<p>If we only want to print a single number to display the row count, we can pass in the name of the column we want to square within square brackets before the count function. Storing this within a variable will also enable us to use this number for functions in the future.</p>
+
+<pre>
+    <code class="”language-python”">
+player_count = df['Name'].count()
+
+player_count</code>
+</pre>
+
+<h2>Adding a new row</h2>
+<p>There are a couple of different ways to add new rows to a DataFrame. If we have multiple rows within another DataFrame, we can use the .append() function to add several rows to the end of our existing DataFrame.</p>
+
+<p>However, if we have just 1 row to add, i.e only 1 new player to add, we can again use the .loc method to add the row to the end of our original DataFrame. As we are defining the name of our indexes, we need to pass this in before the new values that will be within the row. The number of values contained must match the number of columns we have and be in the correct order.</p>
+
+<pre>
+    <code class="”language-python”">
+df.loc['player456'] = ['Seong Gi-hun', 456]</code>
+</pre>
+
+<p>Now if we print the head() of the new DataFrame, we will see our new row added in 🧑‍🦰</p>
+
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1635684246183/_tnVDlj_u.png" alt="Added Row">
+
+<h2>Adding a new column</h2>
+
+<p>In addition to adding a new row, we can also add a new column. There are several ways you can define the value that will be contained within this column for each row, including based on what is within other columns and using conditional statement or lambda function. However, in this case we want the value to be the same for every row, to show that every player is currently playing the game.</p>
+
+<p>For this we just need to add the name of our new column and assign it the value that we want to add.</p>
+
+<pre>
+    <code class="”language-python”">
+df['Status'] = "Playing"</code>
+</pre>
+
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1635684288720/Hps6Ba-7n.png" alt="Added Column">
+
+
+<h2>Changing values</h2>
+
+<p>Now we have a column with the status of all players that are playing the game. But what happens when we start to have eliminations? We need to update the value in that column 😬</p>
+
+<p>Again, we will use the .loc method to define the row that we will be amending and the column that we will be changing the value of.</p>
+
+<p>In this case it will be based on their number, so we need to pass in this column name and use the equals to ensure it is only going to change the single row that equals that row in the Number column. Next we will pass in the name of the column that we will be amending before assigning the new value of Eliminated 😢</p>
+
+
+<pre>
+    <code class="”language-python”">
+df.loc[df.Number == 1, "Status"] = "Eliminated"</code>
+</pre>
+
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1635684316867/WkohnycJf.png" alt="Amended Column">
+
+<h2>Deleting a row</h2>
+<p>Once players start being eliminated, they will be removed from the game, therefore we will want to ensure we have updated DataFrame that reflects this and only contains those who are currently playing.</p>
+
+<p>Because we want to keep track of all of the players in the original DataFrame, we don't want to delete anything from this one. However, we can use the data from our original DataFrame to make another one while leaving the original untouched. We can do this by defining the name of our new DataFrame and apply some logic to pull data from our original one.</p>
+
+<p>In this case, .drop() allows us to drop (aka delete, but I guess in the instance of game 5, literally drop) the eliminated players. As we have changed their status to Eliminated, we can use this value to delete them all.</p>
+
+<pre>
+    <code class="”language-python”">
+round5 = df.drop(df.index[df['Status'] == "Eliminated"])</code>
+</pre>
+
+<p>It is also possible to drop the rows based on their name or number, but this would be done on a row by row basis, rather than removing multiple at once.</p>
+
+<p>Now we can view the new DataFrame, and see our remaining players for the game.</p>
+
+<pre>
+    <code class="”language-python”">
+round5.head()</code>
+</pre>
+
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1635684404025/o_-4tbSEq.png" alt="New DataFrame">
+
+<h2>Using the data</h2>
+
+<p>The final thing we can do is use the count function mentioned earlier, where we extracted a count value for the columns based on conditional statements. For example, if we want to print the number of players who have a status of Playing, and then for those who have status of Eliminated.</p>
+
+<pre>
+    <code class="”language-python”">
+eliminated = df[df['Status'] == "Eliminated"]['Name'].count()
+
+playing = df[df['Status'] == "Playing"]['Name'].count()</code>
+</pre>
+
+
+<p>Assigning these values to a variable means we can also use these counts to create simple sentences using f strings. As the variable values are mutable, we can update these after every game when players are eliminated.</p>
+
+
+<pre>
+    <code class="”language-python”">
+print(f"there are currently {playing} players playing")
+
+print(f"there are currently {eliminated} players eliminated")</code>
+</pre>
+
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1635684418784/mo-Mb5B_3.png" alt="Sentences">
+
+<p>And not to forget a wonderful maths function, we can use the number of eliminated players and take this from the total number of players who started to get a count for the current players in the game.</p>
+
+
+<pre>
+    <code class="”language-python”">
+total_players = 8
+
+current = total_players - eliminated</code>
+</pre>
+
+<p>I hope this has been a helpful (and fun) way to understand the basics of the Pandas library in Python. I'm  also hoping to make more posts that go further in detail covering logical statements, merging and visualisations in Pandas.</p>
+
+<p>A quick cheatsheet of these functions can be found <a href="https://www.notion.so/Pandas-Creating-Modifying-and-Inspecting-DataFrames-featuring-data-from-Squid-Game-01ec20de1527400a8551aeb5a194fa54">here</a> and a notebook to download and play around with can be found <a href="https://github.com/rvth/squid-game-python/blob/main/Squid%20Game%20Python.ipynb">here.</a></p>
+
+      </div><!-- .entry-content -->
+      <br /><br />
+      <div class="article_meta">
+        Tags:
+          <a href="../tag/python.html">Python</a>,          <a href="../tag/pandas.html">Pandas</a>      </div>
+    </div>
+  </div>
+</article><!-- #post-## -->
+                </div>
+              </div><!-- #main -->
+          </div><!-- #primary -->
+        </div>
+      </div><!-- close .row -->
+    </div><!-- close .container -->
+  </div><!-- close .site-content -->
+
+
+
+
+  <div id="footer-area">
+    <footer id="colophon" class="site-footer" role="contentinfo">
+      <div class="site-info container">
+        <div class="row">
+                    <div class="copyright col-md-12">
+                    Made with &#128156; by <a href="..">Ruth</a> <br />
+                    This site is built in Pelican & Python and uses the <a href="https://github.com/limbenjamin/voce">voce</a> theme by <a href="//limbenjamin.com/">Benjamin Lim</a><br />
+                    &copy; 2020 </div>
+        </div>
+      </div><!-- .site-info -->
+      <div class="scroll-to-top" style="display: none;"><i class="fa fa-angle-up"></i></div><!-- .scroll-to-top -->
+    </footer><!-- #colophon -->
+  </div>
+
+  <script type="text/javascript">
+    window.addEventListener('load', function(){
+    if (window.location.pathname != '/' && window.location.pathname != '/index.html'){
+      window.scroll(0, document.getElementById('main').offsetTop);
+    }})
+  </script>
+
+
+
+
+</body>
+</html>

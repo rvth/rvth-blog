@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Ruth's Blog - Ruth</title><link>https://rvth.blog/</link><description></description><lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0100</lastBuildDate><item><title>How I use a Learning Log (with free Notion template)</title><link>https://rvth.blog/journal/learning-log-template.html</link><description>
+<rss version="2.0"><channel><title>Ruth's Blog - Ruth</title><link>https://rvth.blog/</link><description></description><lastBuildDate>Sun, 31 Oct 2021 00:00:00 +0100</lastBuildDate><item><title>Pandas: Creating, Modifying and Inspecting DataFrames (featuring data from Squid Game)</title><link>https://rvth.blog/journal/python-squid-game.html</link><description>
+
+&lt;img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1635697226433/p1kLqNC4g.gif" alt="Squid Game" class="center"&gt;
+
+&lt;p&gt;Inspired by @codechips' SQL Squid Game guide, I thought it would be fun to use some Squid Game data to write a guide on the basics of the Pandas library in Python including creating a DataFrame, modifying rows and columns and inspecting the data.&lt;/p&gt;
+
+&lt;h2&gt;Importing Pandas&lt;/h2&gt;
+&lt;p&gt;The first step is …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Ruth</dc:creator><pubDate>Sun, 31 Oct 2021 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:rvth.blog,2021-10-31:/journal/python-squid-game.html</guid><category>misc</category><category>Python</category><category>Pandas</category></item><item><title>How I use a Learning Log (with free Notion template)</title><link>https://rvth.blog/journal/learning-log-template.html</link><description>
 
 &lt;h2&gt;Why I track my learning&lt;/h2&gt;
 

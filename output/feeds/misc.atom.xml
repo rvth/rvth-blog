@@ -1,5 +1,201 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Ruth's Blog - misc</title><link href="https://rvth.blog/" rel="alternate"></link><link href="https://rvth.blog/feeds/misc.atom.xml" rel="self"></link><id>https://rvth.blog/</id><updated>2021-07-01T00:00:00+01:00</updated><entry><title>How I use a Learning Log (with free Notion template)</title><link href="https://rvth.blog/journal/learning-log-template.html" rel="alternate"></link><published>2021-07-01T00:00:00+01:00</published><updated>2021-07-01T00:00:00+01:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2021-07-01:/journal/learning-log-template.html</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Ruth's Blog - misc</title><link href="https://rvth.blog/" rel="alternate"></link><link href="https://rvth.blog/feeds/misc.atom.xml" rel="self"></link><id>https://rvth.blog/</id><updated>2021-10-31T00:00:00+01:00</updated><entry><title>Pandas: Creating, Modifying and Inspecting DataFrames (featuring data from Squid Game)</title><link href="https://rvth.blog/journal/python-squid-game.html" rel="alternate"></link><published>2021-10-31T00:00:00+01:00</published><updated>2021-10-31T00:00:00+01:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2021-10-31:/journal/python-squid-game.html</id><summary type="html">
+
+&lt;img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1635697226433/p1kLqNC4g.gif" alt="Squid Game" class="center"&gt;
+
+&lt;p&gt;Inspired by @codechips' SQL Squid Game guide, I thought it would be fun to use some Squid Game data to write a guide on the basics of the Pandas library in Python including creating a DataFrame, modifying rows and columns and inspecting the data.&lt;/p&gt;
+
+&lt;h2&gt;Importing Pandas&lt;/h2&gt;
+&lt;p&gt;The first step is …&lt;/p&gt;</summary><content type="html">
+
+&lt;img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1635697226433/p1kLqNC4g.gif" alt="Squid Game" class="center"&gt;
+
+&lt;p&gt;Inspired by @codechips' SQL Squid Game guide, I thought it would be fun to use some Squid Game data to write a guide on the basics of the Pandas library in Python including creating a DataFrame, modifying rows and columns and inspecting the data.&lt;/p&gt;
+
+&lt;h2&gt;Importing Pandas&lt;/h2&gt;
+&lt;p&gt;The first step is to import that Pandas library and alias it as pd. This means we don't have to call the full word when we run a Pandas function, we just need to type pd.&lt;/p&gt;
+
+
+&lt;pre&gt;
+    &lt;code class="”language-python”"&gt;
+import pandas as pd&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;The main data structure of Pandas is a DataFrame, which is similar to an excel spreadsheet, where we can store data. Once the data is within a DataFrame, there are several ways it can be used, for example data analysis or to visualise it.&lt;/p&gt;
+
+&lt;h2&gt;Introducing DataFrames&lt;/h2&gt;
+&lt;p&gt;DataFrames store data in rows and columns. Each column has a name, which is a string, and each row has an index, which is typically an integer. Like lists in Python, DataFrames also use 0 indexing, which means the first row in index 0 instead of index 1. However, you can set the index to include extra information about what the row contains if you want.&lt;/p&gt;
+
+&lt;img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1635684575976/YYzdNTC9B.png" alt="DataFrame"&gt;
+
+&lt;p&gt;DataFrames can contain many different data types, including strings, integers and floats.&lt;/p&gt;
+
+&lt;p&gt;You can create a DataFrame by uploading data from a csv file, but you can also create a DataFrame by typing values into a list and using a dictionary to transform it into a DataFrame. You can use multiple different lists, containing different data types, but the value of content included in each must be the same.&lt;/p&gt;
+
+&lt;pre&gt;
+    &lt;code class="”language-python”"&gt;
+data = {'Name':  ['Oh Il-Nam', 'Kang Sae-byeok', 'Jang Deok-su', 'Abdul Ali', 'Han Mi-nyeo',  'Cho Sang-woo', 'Ji-yeong'],
+
+'Number': [1, 67, 101, 199, 212, 218, 240],
+        }
+
+df = pd.DataFrame(data, index = ["player1", "player67", "player101", "player199", "player212", "player281",
+
+"player240"])&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;As you can see above we have one list with the players names, typed as strings, and another with their number, which is an integer.&lt;/p&gt;
+
+&lt;p&gt;We then transform this dictionary of lists to a DataFrame using the pd.DataFrame() command. We also set the index values, by passing the string names as a list argument.&lt;/p&gt;
+
+&lt;h2&gt;Inspecting a DataFrame&lt;/h2&gt;
+&lt;p&gt;Once the data has been added, we want to make sure it looks correct and contains everything we want. The best method to do this is to use df.head(). This will show the first 5 rows of data. However, if you would like to see more data, i.e 10 rows, you can pass this as an argument within the brackets.&lt;/p&gt;
+
+&lt;pre&gt;
+    &lt;code class="”language-python”"&gt;
+df.head(10)&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1635684192998/BSI6OefFT.png" alt="Our Created DataFrame"&gt;
+
+
+&lt;p&gt;If we want to only view the data from one row, we can use the panda-specific access method .loc. This is a label based method, meaning we have to specify the name of the row we want to view, this method can only use string. Here we add in the index name that we specified when creating the DataFrame.&lt;/p&gt;
+
+&lt;pre&gt;
+    &lt;code class="”language-python”"&gt;
+print(df.loc["player67"])&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1635684208937/PwpNHm1re.png" alt="Row"&gt;
+
+&lt;p&gt;The other access method is .iloc, which is integer based, by specifying the positional index of the row we want to view. We would use this one if we hadn't changed the index, or if we had changed it to another integer value instead of a string.&lt;/p&gt;
+
+&lt;img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1635690271373/FkLwSbFId.png" alt="Column"&gt;
+
+&lt;p&gt;We can also get a count of how many rows within the DataFrame, by using the count() function. This will print the number of rows in each column.&lt;/p&gt;
+
+
+&lt;pre&gt;
+    &lt;code class="”language-python”"&gt;
+df.count()&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1635684222534/zlvMgpnzK.png" alt="Count"&gt;
+
+&lt;p&gt;If we only want to print a single number to display the row count, we can pass in the name of the column we want to square within square brackets before the count function. Storing this within a variable will also enable us to use this number for functions in the future.&lt;/p&gt;
+
+&lt;pre&gt;
+    &lt;code class="”language-python”"&gt;
+player_count = df['Name'].count()
+
+player_count&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;h2&gt;Adding a new row&lt;/h2&gt;
+&lt;p&gt;There are a couple of different ways to add new rows to a DataFrame. If we have multiple rows within another DataFrame, we can use the .append() function to add several rows to the end of our existing DataFrame.&lt;/p&gt;
+
+&lt;p&gt;However, if we have just 1 row to add, i.e only 1 new player to add, we can again use the .loc method to add the row to the end of our original DataFrame. As we are defining the name of our indexes, we need to pass this in before the new values that will be within the row. The number of values contained must match the number of columns we have and be in the correct order.&lt;/p&gt;
+
+&lt;pre&gt;
+    &lt;code class="”language-python”"&gt;
+df.loc['player456'] = ['Seong Gi-hun', 456]&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;Now if we print the head() of the new DataFrame, we will see our new row added in 🧑‍🦰&lt;/p&gt;
+
+&lt;img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1635684246183/_tnVDlj_u.png" alt="Added Row"&gt;
+
+&lt;h2&gt;Adding a new column&lt;/h2&gt;
+
+&lt;p&gt;In addition to adding a new row, we can also add a new column. There are several ways you can define the value that will be contained within this column for each row, including based on what is within other columns and using conditional statement or lambda function. However, in this case we want the value to be the same for every row, to show that every player is currently playing the game.&lt;/p&gt;
+
+&lt;p&gt;For this we just need to add the name of our new column and assign it the value that we want to add.&lt;/p&gt;
+
+&lt;pre&gt;
+    &lt;code class="”language-python”"&gt;
+df['Status'] = "Playing"&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1635684288720/Hps6Ba-7n.png" alt="Added Column"&gt;
+
+
+&lt;h2&gt;Changing values&lt;/h2&gt;
+
+&lt;p&gt;Now we have a column with the status of all players that are playing the game. But what happens when we start to have eliminations? We need to update the value in that column 😬&lt;/p&gt;
+
+&lt;p&gt;Again, we will use the .loc method to define the row that we will be amending and the column that we will be changing the value of.&lt;/p&gt;
+
+&lt;p&gt;In this case it will be based on their number, so we need to pass in this column name and use the equals to ensure it is only going to change the single row that equals that row in the Number column. Next we will pass in the name of the column that we will be amending before assigning the new value of Eliminated 😢&lt;/p&gt;
+
+
+&lt;pre&gt;
+    &lt;code class="”language-python”"&gt;
+df.loc[df.Number == 1, "Status"] = "Eliminated"&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1635684316867/WkohnycJf.png" alt="Amended Column"&gt;
+
+&lt;h2&gt;Deleting a row&lt;/h2&gt;
+&lt;p&gt;Once players start being eliminated, they will be removed from the game, therefore we will want to ensure we have updated DataFrame that reflects this and only contains those who are currently playing.&lt;/p&gt;
+
+&lt;p&gt;Because we want to keep track of all of the players in the original DataFrame, we don't want to delete anything from this one. However, we can use the data from our original DataFrame to make another one while leaving the original untouched. We can do this by defining the name of our new DataFrame and apply some logic to pull data from our original one.&lt;/p&gt;
+
+&lt;p&gt;In this case, .drop() allows us to drop (aka delete, but I guess in the instance of game 5, literally drop) the eliminated players. As we have changed their status to Eliminated, we can use this value to delete them all.&lt;/p&gt;
+
+&lt;pre&gt;
+    &lt;code class="”language-python”"&gt;
+round5 = df.drop(df.index[df['Status'] == "Eliminated"])&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;It is also possible to drop the rows based on their name or number, but this would be done on a row by row basis, rather than removing multiple at once.&lt;/p&gt;
+
+&lt;p&gt;Now we can view the new DataFrame, and see our remaining players for the game.&lt;/p&gt;
+
+&lt;pre&gt;
+    &lt;code class="”language-python”"&gt;
+round5.head()&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1635684404025/o_-4tbSEq.png" alt="New DataFrame"&gt;
+
+&lt;h2&gt;Using the data&lt;/h2&gt;
+
+&lt;p&gt;The final thing we can do is use the count function mentioned earlier, where we extracted a count value for the columns based on conditional statements. For example, if we want to print the number of players who have a status of Playing, and then for those who have status of Eliminated.&lt;/p&gt;
+
+&lt;pre&gt;
+    &lt;code class="”language-python”"&gt;
+eliminated = df[df['Status'] == "Eliminated"]['Name'].count()
+
+playing = df[df['Status'] == "Playing"]['Name'].count()&lt;/code&gt;
+&lt;/pre&gt;
+
+
+&lt;p&gt;Assigning these values to a variable means we can also use these counts to create simple sentences using f strings. As the variable values are mutable, we can update these after every game when players are eliminated.&lt;/p&gt;
+
+
+&lt;pre&gt;
+    &lt;code class="”language-python”"&gt;
+print(f"there are currently {playing} players playing")
+
+print(f"there are currently {eliminated} players eliminated")&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1635684418784/mo-Mb5B_3.png" alt="Sentences"&gt;
+
+&lt;p&gt;And not to forget a wonderful maths function, we can use the number of eliminated players and take this from the total number of players who started to get a count for the current players in the game.&lt;/p&gt;
+
+
+&lt;pre&gt;
+    &lt;code class="”language-python”"&gt;
+total_players = 8
+
+current = total_players - eliminated&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;I hope this has been a helpful (and fun) way to understand the basics of the Pandas library in Python. I'm  also hoping to make more posts that go further in detail covering logical statements, merging and visualisations in Pandas.&lt;/p&gt;
+
+&lt;p&gt;A quick cheatsheet of these functions can be found &lt;a href="https://www.notion.so/Pandas-Creating-Modifying-and-Inspecting-DataFrames-featuring-data-from-Squid-Game-01ec20de1527400a8551aeb5a194fa54"&gt;here&lt;/a&gt; and a notebook to download and play around with can be found &lt;a href="https://github.com/rvth/squid-game-python/blob/main/Squid%20Game%20Python.ipynb"&gt;here.&lt;/a&gt;&lt;/p&gt;
+</content><category term="misc"></category><category term="Python"></category><category term="Pandas"></category></entry><entry><title>How I use a Learning Log (with free Notion template)</title><link href="https://rvth.blog/journal/learning-log-template.html" rel="alternate"></link><published>2021-07-01T00:00:00+01:00</published><updated>2021-07-01T00:00:00+01:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2021-07-01:/journal/learning-log-template.html</id><summary type="html">
 
 &lt;h2&gt;Why I track my learning&lt;/h2&gt;
 
