@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Ruth">
+  <meta name="description" content="Pandas: Importing Data, Indexing, Comparisons and Selectors (featuring adoptable dog data) | For the second Python Pandas guide we will be reviewing how...">
+
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" media="all">
+  <link rel="stylesheet" href="../theme/css/font.css" type="text/css" media="all">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../theme/css/style.css" type="text/css" media="all">
+
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../theme/js/functions.js"></script>
+
+  
+ 
+
+  <link href="https://rvth.blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Ruth's Blog Full Atom Feed" />
+
+<meta name="keywords" content="keywords, Python, Pandas, Coding">
+    <style>
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px;
+}
+
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 70%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+
+
+  <title>Pandas: Importing Data, Indexing, Comparisons and Selectors (featuring adoptable dog data)</title>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-173020538-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  
+</head>
+
+<body class="home blog">
+  <div>
+    <header class="site-header">
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+          <div class="row">
+            <div class="site-navigation-inner col-sm-12">
+              <div class="navbar-header">
+                <button type="button" class="btn navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+              <div class="collapse navbar-collapse navbar-ex1-collapse">
+              <ul id="menu-all-pages" class="nav navbar-nav">
+                <li class="menu-item"><a href="https://rvth.blog" >Home
+<i class="fa  fa-lg"></i></a></li>
+                <li class="menu-item"><a href="/pages/about-me.html" >About
+<i class="fa  fa-lg"></i></a></li>
+                <li class="menu-item"><a href="/pages/ember.html" >Ember
+<i class="fa  fa-lg"></i></a></li>
+                <li class="menu-item"><a href="https://www.notion.so/Learning-Log-dacd7f8e48974984a4fa5c42c8f51bfb" >Learning Log
+<i class="fa  fa-lg"></i></a></li>
+                <li class="menu-item"><a href="https://www.notion.so/Projects-908361e284b745f4b228f7c6a6ad1da6" >Projects
+<i class="fa  fa-lg"></i></a></li>
+                <li class="menu-item"><a href="/pages/links.html" >Links
+<i class="fa  fa-lg"></i></a></li>
+              </ul>
+              </div>
+              <div class="social">   
+                <a href="https://twitter.com/rvtheverett" title="Twitter" >
+<i class="fa fa-twitter fa-lg"></i></a>
+                <a href="https://github.com/rvth" title="GitHub" >
+<i class="fa fa-github fa-lg"></i></a>
+                <a href="https://www.linkedin.com/in/ruth-everett-b01a6213b/" title="Linkedin" >
+<i class="fa fa-linkedin fa-lg"></i></a>
+                <a href="https://www.goodreads.com/user/show/108123284-ruth" title="GoodReads" >
+<i class="fa  fa-lg"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav><!-- .site-navigation -->
+
+      <div class="container">
+      <div id="logo">
+        <span class="site-name"><a class="navbar-brand" href=".."><img width="310" src="/images/header.webp" class="attachment-full size-full" alt="logo">          </a>
+        </span><!-- end of .site-name -->
+      </div><!-- end of #logo -->
+        <div class="tagline">
+                <a href="../tag/coding.html" >Coding (4)</a> &#124; 
+                <a href="../tag/dogs.html" >Dogs (3)</a> &#124; 
+                <a href="../tag/inspiration.html" >Inspiration (3)</a> &#124; 
+                <a href="../tag/pandas.html" >Pandas (2)</a> &#124; 
+                <a href="../tag/personal.html" >Personal (2)</a> &#124; 
+                <a href="../tag/python.html" >Python (5)</a> &#124; 
+                <a href="../tag/seo.html" >SEO (4)</a> &#124; 
+                <a href="../tag/tech.html" >Tech (3)</a> &#124; 
+                <a href="../archives.html" >Archives (12)</a>
+        </div>
+    </div>
+
+  </header><!-- #masthead -->
+  </div>
+    <div id="content" class="site-content">
+      <div class="container main-content-area">
+        <div class="row">
+          <div class="main-content-inner col-sm-12 col-md-12">
+            <div id="primary" class="content-area">
+              <div id="main" class="site-main" role="main">
+                <div class="article-container">
+<article>
+  <div class="blog-item-wrap">
+    <div class="post-inner-content">
+      <header class="entry-header page-header">
+        <span class="cat-item"><time datetime="2021-11-14 00:00:00+00:00">Nov 14, 2021</time></span>
+        <h1 class="entry-title"><a href="../journal/pandas-adoptable-dogs.html">Pandas: Importing Data, Indexing, Comparisons and Selectors (featuring adoptable dog data)</a></h1>
+      </header><!-- .entry-header -->
+      <div class="fb-like" data-href="../journal/pandas-adoptable-dogs.html" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
+      <div class="entry-content">
+        
+<p>For the second Python Pandas guide we will be reviewing how to import data, as well as a deeper dive into indexing, comparison statements and selecting subsets of data. For this we will be using a dataset with information about adoptable dogs from <a href="https://www.kaggle.com/jmolitoris/adoptable-dogs">Kaggle</a>.They have loads of datasets that you can easily download and use for projects.</p>
+
+<h2>Importing data from a csv</h2>
+
+<p>To start we need to import our downloaded data into a DataFrame. It's pretty simple to upload the data from our downloads folder when working locally using the pd.read_csv function.</p>
+
+<pre>
+    <code class="language-python">
+dogs = pd.read_csv(r'Downloads/ShelterDogs.csv')</code>
+</pre>
+
+<p>Once we have imported the data we want to inspect the DataFrame and make sure it contains all of the information that we need and in the correct format. We can use .head() to view the first 5 rows.</p>
+
+<pre>
+    <code class="language-python">
+dogs.head()</code>
+</pre>
+
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636308553267/eXd2t9j9c.png" alt="DataFrame">
+
+<p>In order to find out more about the data types of each column, we can use .info() which displays the column name, the count of rows that contain null data and then the data type of each columns.</p>
+
+<pre>
+    <code class="language-python">
+dogs.info()</code>
+</pre>
+
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636308588956/VXK0rxapI.png" alt="DataFrame Info">
+
+<h3>Data Types</h3>
+
+<p><b>int</b> - whole numbers</p>
+
+<p><b>float</b> - decimal numbers</p>
+
+<p><b>object</b> - a string</p>
+
+<h2>Changing data types</h2>
+
+<p>There may be an instance where we want to change a data type, in order to perform some operations, or to make them easier to view.</p>
+
+<p>In order to change string to number you can use the Pandas method pd.to_numeric or to a change number into to string you can use .astype(str).</p>
+
+<p>Within our DataFrame we can also change the date column from a string to an actual date format, using the .to_datetime command.</p>
+
+<pre>
+    <code class="language-python">
+dogs['date_found'] = pd.to_datetime(dogs['date_found'])
+dogs</code>
+</pre>
+
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636314062876/wHx-FAI4g.png" alt="New DataType">
+
+<p>Finally, .shape will show us the number of columns and then the number of rows.</p>
+
+<pre>
+    <code class="language-python">
+dogs.shape</code>
+</pre>
+
+<h2>Selecting multiple columns</h2>
+
+<p>To select two or more columns from a DataFrame, we can use a list of the column names between a double set of square brackets. This will provide us a subset of the data, and create a new DataFrame containing only this information, leaving our original DataFrame untouched.</p>
+
+<pre>
+    <code class="language-python">
+type_breed = dogs[['name', 'sex', 'breed']]
+type_breed.head()</code>
+</pre>
+
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636308652815/crsezoFiO.png" alt="Selecting Columns">
+
+<h2>Selecting one column using .iloc</h2>
+
+<p>We can use .iloc, which is integer based, to select and display a single column by specifying the positional index of the row we want to view.</p>
+
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636314759657/bm__aTAPT.png" alt="iloc">
+
+<pre>
+    <code class="language-python">
+dogs.iloc[1]</code>
+</pre>
+
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636308693583/Rg2FUR0A-.png" alt="Selecting Column">
+
+<h2>iloc indexing</h2>
+
+<p>In some cases, we might also want to select only certain rows, we can do this by using the index of the rows, and select those using the iloc command.  It allows us to select multiple rows, using index based selection. This is similar to how we select elements from a list, using the : operator and square brackets.</p>
+
+<pre>
+    <code class="language-python">
+dogs.iloc[3:7]</code>
+</pre>
+
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636308725211/9YltEJXBy.png" alt="Indexing">
+
+<p>This will display rows 3-6, as the last row is not included.</p>
+
+<p>The : operator, which also comes from native Python, means "everything". When combined with other selectors, however, it can be used to indicate a range of values.</p>
+
+<p>iloc[:10] would select all rows up to, but not including, the 10th row.</p>
+
+<pre>
+    <code class="language-python">
+dogs.iloc[:10]</code>
+</pre>
+
+<p>We can also use minus indexing, for example iloc[-2:] will display the last 2 columns.</p>
+
+<pre>
+    <code class="language-python">
+dogs.iloc[-2:]</code>
+</pre>
+
+<h2>Renaming columns</h2>
+
+<p>When we get data from different sources, we may need to rename the columns so they are easier to read or call from.</p>
+
+<p>There are a couple of methods to do this, depending on which column names we want to change.</p>
+
+<p>.columns will allow us to change all of the columns at once. However, it’s important to get the ordering right to avoid mislabeling them.</p>
+
+<p>.rename will allow us to change individual columns. You can pass a single column to change or multiple columns, using a dictionary with the original name and the new name.</p>
+
+<pre>
+    <code class="language-python">
+dogs.rename(columns = {'posted' : 'date_posted',
+                         'breed' : 'dog_breed',
+                         'adoptable_from' : 'date_adoptable',
+                         'coat' : 'coat_type'},
+                         inplace = True)
+
+dogs.head()</code>
+</pre>
+
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636308801538/JYZZxvSvH.png" alt="New Column Names">
+
+<h2>Selecting with comparison statements</h2>
+
+We can also select a subset of data using comparison statements.
+
+<p> == Equal to</p>
+
+<p> != Not Equal</p>
+
+<p> > Greater than</p>
+
+<p> < Less than</p>
+
+<p> >=Greater than or Equal to</p>
+
+<p> <=Less than or Equal to</p>
+
+
+<h3>Equal to</h3>
+
+<p>For example, if we wanted to only display female dogs from the dataset, we would use the double equal operator and define the column that we are selecting from.</p>
+
+<pre>
+    <code class="language-python">
+female = dogs[dogs.sex == 'female']
+female</code>
+</pre>
+
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636308861068/gRD2OFDNo.png" alt="Equal to">
+
+<h3>Not Equal to</h3>
+
+<p>If we wanted to exclude all dogs which are an unknown mix breed, we could use the not equal to operator to select all rows except ones that mention Unknown Mix.</p>
+
+<pre>
+    <code class="language-python">
+breeds = dogs[dogs.dog_breed != 'Unknown Mix']
+breeds</code>
+</pre>
+
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636308894969/FyFMJg523.png" alt="Not Equal">
+
+<h3>Greater than</h3>
+
+<p>As we have numbers in our dataset we can use the greater than operator to select any rows which contain a number higher than the one we give it. We just need to specify which column we are selecting the data from, in this case, it's the age column.</p>
+
+<pre>
+    <code class="language-python">
+over_two = dogs[dogs.age > 2]
+over_two</code>
+</pre>
+
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636308919299/3Taa6eCQs3.png" alt="Greater than">
+
+<h3>Less than</h3>
+
+<p>Similarly, we can use the less than operator to select all of the dogs which have an age less than 4.</p>
+
+<pre>
+    <code class="language-python">
+under_four = dogs[dogs.age < 4]
+under_four</code>
+</pre>
+
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636308959357/EVhW633mn.png" alt="Less than">
+
+<h3>Multiple statements</h3>
+
+<p>It is also possible to use multiple comparison operators in a single selection, and we can define if we want the final dataset to contain either both of these by using the ampersand, to signify an and rule.</p>
+
+<pre>
+    <code class="language-python">
+likes_people = dogs[(dogs.likes_people == 'yes') & (dogs.likes_children == 'yes')]
+likes_people</code>
+</pre>
+
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636308996244/gIuVo7B3_.png" alt="And">
+
+<p>In addition, we can use the pipe, |, to define an or rule, where we want our final dataset to display either of the data points we have selected.</p>
+
+<pre>
+    <code class="language-python">
+cats_female = dogs[(dogs.get_along_females == 'yes') | (dogs.get_along_cats == 'yes')]
+cats_female</code>
+</pre>
+
+<h2>Mixed statements</h2>
+
+<p>We can also use mixed comparison operators within one statement, for example if we want any dogs which are neutered and aged either 4 or older we can do such:</p>
+
+<pre>
+    <code class="language-python">
+suitable = dogs[(dogs.neutered == 'yes') & (dogs.age >= 4)]
+suitable</code>
+</pre>
+
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636309109192/ljJVIqmaj.png" alt="Mixed Statements">
+
+<h2>Built in selectors</h2>
+
+<p>Pandas also comes with some conditional selectors that are built in and can be used in a similar way to logical statements.</p>
+
+<p>isin selects data where the value is what you are defining in the list</p>
+
+<p>isnull will select data that is null within the columns that you select (i.e displaying Null)</p>
+
+<p>notnull selects data that has a value, i.e all that is not null</p>
+
+<h3>isin</h3>
+
+<pre>
+    <code class="language-python">
+breed = dogs[(dogs.dog_breed.isin(['Staffordshire Terrier Mix', 'Labrador Retriever Mix', 'German Shepherd Dog Mix']))]
+breed</code>
+</pre>
+
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636311856198/3g-QybpgL.png" alt="Is in">
+
+<p>Once we have selected subsets of data, the index is changed to reflect only the rows that we have selected, if we want to reorder the index appropriately we will want to reset the index using .reset_index().</p>
+
+<pre>
+    <code class="language-python">
+breed = dogs[(dogs.dog_breed.isin(['Staffordshire Terrier Mix', 'Labrador Retriever Mix', 'German Shepherd Dog Mix']))].reset_index()
+breed</code>
+</pre>
+
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636311911167/14MEpgc2i.png" alt="Reset Index">
+
+<h3>notnull</h3>
+
+<pre>
+    <code class="language-python">
+neutered_known = dogs.loc[dogs.neutered.notnull()]
+neutered_known</code>
+</pre>
+
+<h3>isnull</h3>
+
+<pre>
+    <code class="language-python">
+neutered_unknown = dogs.loc[dogs.neutered.isnull()]
+neutered_unknown</code>
+</pre>
+
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636312036391/hUumXRusa.png" alt="Is Null">
+
+<h3>Dealing with null data</h3>
+
+<p>It's likely that you will come across null data when dealing with big datasets, and this can cause issues when doing any selecting or mathematical operations. It can also sometimes make the tables look messy, hard to review and can skew final results.</p>
+
+<p>There is an easy way to replace the null data columns using the Pandas method .fillna(). Within the brackets you will need to add an argument that states the replacement number or text. This will then replace all of the Nan fields.</p>
+
+<pre>
+    <code class="language-python">
+dogs.fillna("not available")</code>
+</pre>
+
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636314520992/JO3YdpS4Y.png" alt="Null data">
+
+<p>I hope this has been a helpful (and cute) way to understand the more of the Pandas library in Python. I'm looking forward to making a few more posts in this series :)</p>
+
+<p>A notebook to download and play around with can be found  <a href="https://github.com/rvth/thinking-like-a-panda/blob/main/Pandas%20-%20Adoptable%20Dogs.ipynb">here</a>.</p>
+
+
+      </div><!-- .entry-content -->
+      <br /><br />
+      <div class="article_meta">
+        Tags:
+          <a href="../tag/python.html">Python</a>,          <a href="../tag/pandas.html">Pandas</a>,          <a href="../tag/coding.html">Coding</a>      </div>
+    </div>
+  </div>
+</article><!-- #post-## -->
+                </div>
+              </div><!-- #main -->
+          </div><!-- #primary -->
+        </div>
+      </div><!-- close .row -->
+    </div><!-- close .container -->
+  </div><!-- close .site-content -->
+
+
+
+
+  <div id="footer-area">
+    <footer id="colophon" class="site-footer" role="contentinfo">
+      <div class="site-info container">
+        <div class="row">
+                    <div class="copyright col-md-12">
+                    Made with &#128156; by <a href="..">Ruth</a> <br />
+                    This site is built in Pelican & Python and uses the <a href="https://github.com/limbenjamin/voce">voce</a> theme by <a href="//limbenjamin.com/">Benjamin Lim</a><br />
+                    &copy; 2020 </div>
+        </div>
+      </div><!-- .site-info -->
+      <div class="scroll-to-top" style="display: none;"><i class="fa fa-angle-up"></i></div><!-- .scroll-to-top -->
+    </footer><!-- #colophon -->
+  </div>
+
+  <script type="text/javascript">
+    window.addEventListener('load', function(){
+    if (window.location.pathname != '/' && window.location.pathname != '/index.html'){
+      window.scroll(0, document.getElementById('main').offsetTop);
+    }})
+  </script>
+
+
+
+
+</body>
+</html>

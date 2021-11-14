@@ -1,5 +1,306 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Ruth's Blog</title><link href="https://rvth.blog/" rel="alternate"></link><link href="https://rvth.blog/feeds/all-en.atom.xml" rel="self"></link><id>https://rvth.blog/</id><updated>2021-10-31T00:00:00+01:00</updated><entry><title>Pandas: Creating, Modifying and Inspecting DataFrames (featuring data from Squid Game)</title><link href="https://rvth.blog/journal/python-squid-game.html" rel="alternate"></link><published>2021-10-31T00:00:00+01:00</published><updated>2021-10-31T00:00:00+01:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2021-10-31:/journal/python-squid-game.html</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Ruth's Blog</title><link href="https://rvth.blog/" rel="alternate"></link><link href="https://rvth.blog/feeds/all-en.atom.xml" rel="self"></link><id>https://rvth.blog/</id><updated>2021-11-14T00:00:00+00:00</updated><entry><title>Pandas: Importing Data, Indexing, Comparisons and Selectors (featuring adoptable dog data)</title><link href="https://rvth.blog/journal/pandas-adoptable-dogs.html" rel="alternate"></link><published>2021-11-14T00:00:00+00:00</published><updated>2021-11-14T00:00:00+00:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2021-11-14:/journal/pandas-adoptable-dogs.html</id><summary type="html">
+&lt;p&gt;For the second Python Pandas guide we will be reviewing how to import data, as well as a deeper dive into indexing, comparison statements and selecting subsets of data. For this we will be using a dataset with information about adoptable dogs from &lt;a href="https://www.kaggle.com/jmolitoris/adoptable-dogs"&gt;Kaggle&lt;/a&gt;.They have loads of datasets that …&lt;/p&gt;</summary><content type="html">
+&lt;p&gt;For the second Python Pandas guide we will be reviewing how to import data, as well as a deeper dive into indexing, comparison statements and selecting subsets of data. For this we will be using a dataset with information about adoptable dogs from &lt;a href="https://www.kaggle.com/jmolitoris/adoptable-dogs"&gt;Kaggle&lt;/a&gt;.They have loads of datasets that you can easily download and use for projects.&lt;/p&gt;
+
+&lt;h2&gt;Importing data from a csv&lt;/h2&gt;
+
+&lt;p&gt;To start we need to import our downloaded data into a DataFrame. It's pretty simple to upload the data from our downloads folder when working locally using the pd.read_csv function.&lt;/p&gt;
+
+&lt;pre&gt;
+    &lt;code class="language-python"&gt;
+dogs = pd.read_csv(r'Downloads/ShelterDogs.csv')&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;Once we have imported the data we want to inspect the DataFrame and make sure it contains all of the information that we need and in the correct format. We can use .head() to view the first 5 rows.&lt;/p&gt;
+
+&lt;pre&gt;
+    &lt;code class="language-python"&gt;
+dogs.head()&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636308553267/eXd2t9j9c.png" alt="DataFrame"&gt;
+
+&lt;p&gt;In order to find out more about the data types of each column, we can use .info() which displays the column name, the count of rows that contain null data and then the data type of each columns.&lt;/p&gt;
+
+&lt;pre&gt;
+    &lt;code class="language-python"&gt;
+dogs.info()&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636308588956/VXK0rxapI.png" alt="DataFrame Info"&gt;
+
+&lt;h3&gt;Data Types&lt;/h3&gt;
+
+&lt;p&gt;&lt;b&gt;int&lt;/b&gt; - whole numbers&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;float&lt;/b&gt; - decimal numbers&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;object&lt;/b&gt; - a string&lt;/p&gt;
+
+&lt;h2&gt;Changing data types&lt;/h2&gt;
+
+&lt;p&gt;There may be an instance where we want to change a data type, in order to perform some operations, or to make them easier to view.&lt;/p&gt;
+
+&lt;p&gt;In order to change string to number you can use the Pandas method pd.to_numeric or to a change number into to string you can use .astype(str).&lt;/p&gt;
+
+&lt;p&gt;Within our DataFrame we can also change the date column from a string to an actual date format, using the .to_datetime command.&lt;/p&gt;
+
+&lt;pre&gt;
+    &lt;code class="language-python"&gt;
+dogs['date_found'] = pd.to_datetime(dogs['date_found'])
+dogs&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636314062876/wHx-FAI4g.png" alt="New DataType"&gt;
+
+&lt;p&gt;Finally, .shape will show us the number of columns and then the number of rows.&lt;/p&gt;
+
+&lt;pre&gt;
+    &lt;code class="language-python"&gt;
+dogs.shape&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;h2&gt;Selecting multiple columns&lt;/h2&gt;
+
+&lt;p&gt;To select two or more columns from a DataFrame, we can use a list of the column names between a double set of square brackets. This will provide us a subset of the data, and create a new DataFrame containing only this information, leaving our original DataFrame untouched.&lt;/p&gt;
+
+&lt;pre&gt;
+    &lt;code class="language-python"&gt;
+type_breed = dogs[['name', 'sex', 'breed']]
+type_breed.head()&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636308652815/crsezoFiO.png" alt="Selecting Columns"&gt;
+
+&lt;h2&gt;Selecting one column using .iloc&lt;/h2&gt;
+
+&lt;p&gt;We can use .iloc, which is integer based, to select and display a single column by specifying the positional index of the row we want to view.&lt;/p&gt;
+
+&lt;img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636314759657/bm__aTAPT.png" alt="iloc"&gt;
+
+&lt;pre&gt;
+    &lt;code class="language-python"&gt;
+dogs.iloc[1]&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636308693583/Rg2FUR0A-.png" alt="Selecting Column"&gt;
+
+&lt;h2&gt;iloc indexing&lt;/h2&gt;
+
+&lt;p&gt;In some cases, we might also want to select only certain rows, we can do this by using the index of the rows, and select those using the iloc command.  It allows us to select multiple rows, using index based selection. This is similar to how we select elements from a list, using the : operator and square brackets.&lt;/p&gt;
+
+&lt;pre&gt;
+    &lt;code class="language-python"&gt;
+dogs.iloc[3:7]&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636308725211/9YltEJXBy.png" alt="Indexing"&gt;
+
+&lt;p&gt;This will display rows 3-6, as the last row is not included.&lt;/p&gt;
+
+&lt;p&gt;The : operator, which also comes from native Python, means "everything". When combined with other selectors, however, it can be used to indicate a range of values.&lt;/p&gt;
+
+&lt;p&gt;iloc[:10] would select all rows up to, but not including, the 10th row.&lt;/p&gt;
+
+&lt;pre&gt;
+    &lt;code class="language-python"&gt;
+dogs.iloc[:10]&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;We can also use minus indexing, for example iloc[-2:] will display the last 2 columns.&lt;/p&gt;
+
+&lt;pre&gt;
+    &lt;code class="language-python"&gt;
+dogs.iloc[-2:]&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;h2&gt;Renaming columns&lt;/h2&gt;
+
+&lt;p&gt;When we get data from different sources, we may need to rename the columns so they are easier to read or call from.&lt;/p&gt;
+
+&lt;p&gt;There are a couple of methods to do this, depending on which column names we want to change.&lt;/p&gt;
+
+&lt;p&gt;.columns will allow us to change all of the columns at once. However, it’s important to get the ordering right to avoid mislabeling them.&lt;/p&gt;
+
+&lt;p&gt;.rename will allow us to change individual columns. You can pass a single column to change or multiple columns, using a dictionary with the original name and the new name.&lt;/p&gt;
+
+&lt;pre&gt;
+    &lt;code class="language-python"&gt;
+dogs.rename(columns = {'posted' : 'date_posted',
+                         'breed' : 'dog_breed',
+                         'adoptable_from' : 'date_adoptable',
+                         'coat' : 'coat_type'},
+                         inplace = True)
+
+dogs.head()&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636308801538/JYZZxvSvH.png" alt="New Column Names"&gt;
+
+&lt;h2&gt;Selecting with comparison statements&lt;/h2&gt;
+
+We can also select a subset of data using comparison statements.
+
+&lt;p&gt; == Equal to&lt;/p&gt;
+
+&lt;p&gt; != Not Equal&lt;/p&gt;
+
+&lt;p&gt; &gt; Greater than&lt;/p&gt;
+
+&lt;p&gt; &lt; Less than&lt;/p&gt;
+
+&lt;p&gt; &gt;=Greater than or Equal to&lt;/p&gt;
+
+&lt;p&gt; &lt;=Less than or Equal to&lt;/p&gt;
+
+
+&lt;h3&gt;Equal to&lt;/h3&gt;
+
+&lt;p&gt;For example, if we wanted to only display female dogs from the dataset, we would use the double equal operator and define the column that we are selecting from.&lt;/p&gt;
+
+&lt;pre&gt;
+    &lt;code class="language-python"&gt;
+female = dogs[dogs.sex == 'female']
+female&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636308861068/gRD2OFDNo.png" alt="Equal to"&gt;
+
+&lt;h3&gt;Not Equal to&lt;/h3&gt;
+
+&lt;p&gt;If we wanted to exclude all dogs which are an unknown mix breed, we could use the not equal to operator to select all rows except ones that mention Unknown Mix.&lt;/p&gt;
+
+&lt;pre&gt;
+    &lt;code class="language-python"&gt;
+breeds = dogs[dogs.dog_breed != 'Unknown Mix']
+breeds&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636308894969/FyFMJg523.png" alt="Not Equal"&gt;
+
+&lt;h3&gt;Greater than&lt;/h3&gt;
+
+&lt;p&gt;As we have numbers in our dataset we can use the greater than operator to select any rows which contain a number higher than the one we give it. We just need to specify which column we are selecting the data from, in this case, it's the age column.&lt;/p&gt;
+
+&lt;pre&gt;
+    &lt;code class="language-python"&gt;
+over_two = dogs[dogs.age &gt; 2]
+over_two&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636308919299/3Taa6eCQs3.png" alt="Greater than"&gt;
+
+&lt;h3&gt;Less than&lt;/h3&gt;
+
+&lt;p&gt;Similarly, we can use the less than operator to select all of the dogs which have an age less than 4.&lt;/p&gt;
+
+&lt;pre&gt;
+    &lt;code class="language-python"&gt;
+under_four = dogs[dogs.age &lt; 4]
+under_four&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636308959357/EVhW633mn.png" alt="Less than"&gt;
+
+&lt;h3&gt;Multiple statements&lt;/h3&gt;
+
+&lt;p&gt;It is also possible to use multiple comparison operators in a single selection, and we can define if we want the final dataset to contain either both of these by using the ampersand, to signify an and rule.&lt;/p&gt;
+
+&lt;pre&gt;
+    &lt;code class="language-python"&gt;
+likes_people = dogs[(dogs.likes_people == 'yes') &amp; (dogs.likes_children == 'yes')]
+likes_people&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636308996244/gIuVo7B3_.png" alt="And"&gt;
+
+&lt;p&gt;In addition, we can use the pipe, |, to define an or rule, where we want our final dataset to display either of the data points we have selected.&lt;/p&gt;
+
+&lt;pre&gt;
+    &lt;code class="language-python"&gt;
+cats_female = dogs[(dogs.get_along_females == 'yes') | (dogs.get_along_cats == 'yes')]
+cats_female&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;h2&gt;Mixed statements&lt;/h2&gt;
+
+&lt;p&gt;We can also use mixed comparison operators within one statement, for example if we want any dogs which are neutered and aged either 4 or older we can do such:&lt;/p&gt;
+
+&lt;pre&gt;
+    &lt;code class="language-python"&gt;
+suitable = dogs[(dogs.neutered == 'yes') &amp; (dogs.age &gt;= 4)]
+suitable&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636309109192/ljJVIqmaj.png" alt="Mixed Statements"&gt;
+
+&lt;h2&gt;Built in selectors&lt;/h2&gt;
+
+&lt;p&gt;Pandas also comes with some conditional selectors that are built in and can be used in a similar way to logical statements.&lt;/p&gt;
+
+&lt;p&gt;isin selects data where the value is what you are defining in the list&lt;/p&gt;
+
+&lt;p&gt;isnull will select data that is null within the columns that you select (i.e displaying Null)&lt;/p&gt;
+
+&lt;p&gt;notnull selects data that has a value, i.e all that is not null&lt;/p&gt;
+
+&lt;h3&gt;isin&lt;/h3&gt;
+
+&lt;pre&gt;
+    &lt;code class="language-python"&gt;
+breed = dogs[(dogs.dog_breed.isin(['Staffordshire Terrier Mix', 'Labrador Retriever Mix', 'German Shepherd Dog Mix']))]
+breed&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636311856198/3g-QybpgL.png" alt="Is in"&gt;
+
+&lt;p&gt;Once we have selected subsets of data, the index is changed to reflect only the rows that we have selected, if we want to reorder the index appropriately we will want to reset the index using .reset_index().&lt;/p&gt;
+
+&lt;pre&gt;
+    &lt;code class="language-python"&gt;
+breed = dogs[(dogs.dog_breed.isin(['Staffordshire Terrier Mix', 'Labrador Retriever Mix', 'German Shepherd Dog Mix']))].reset_index()
+breed&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636311911167/14MEpgc2i.png" alt="Reset Index"&gt;
+
+&lt;h3&gt;notnull&lt;/h3&gt;
+
+&lt;pre&gt;
+    &lt;code class="language-python"&gt;
+neutered_known = dogs.loc[dogs.neutered.notnull()]
+neutered_known&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;h3&gt;isnull&lt;/h3&gt;
+
+&lt;pre&gt;
+    &lt;code class="language-python"&gt;
+neutered_unknown = dogs.loc[dogs.neutered.isnull()]
+neutered_unknown&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636312036391/hUumXRusa.png" alt="Is Null"&gt;
+
+&lt;h3&gt;Dealing with null data&lt;/h3&gt;
+
+&lt;p&gt;It's likely that you will come across null data when dealing with big datasets, and this can cause issues when doing any selecting or mathematical operations. It can also sometimes make the tables look messy, hard to review and can skew final results.&lt;/p&gt;
+
+&lt;p&gt;There is an easy way to replace the null data columns using the Pandas method .fillna(). Within the brackets you will need to add an argument that states the replacement number or text. This will then replace all of the Nan fields.&lt;/p&gt;
+
+&lt;pre&gt;
+    &lt;code class="language-python"&gt;
+dogs.fillna("not available")&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636314520992/JO3YdpS4Y.png" alt="Null data"&gt;
+
+&lt;p&gt;I hope this has been a helpful (and cute) way to understand the more of the Pandas library in Python. I'm looking forward to making a few more posts in this series :)&lt;/p&gt;
+
+&lt;p&gt;A notebook to download and play around with can be found  &lt;a href="https://github.com/rvth/thinking-like-a-panda/blob/main/Pandas%20-%20Adoptable%20Dogs.ipynb"&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+</content><category term="misc"></category><category term="Python"></category><category term="Pandas"></category><category term="Coding"></category></entry><entry><title>Pandas: Creating, Modifying and Inspecting DataFrames (featuring data from Squid Game)</title><link href="https://rvth.blog/journal/python-squid-game.html" rel="alternate"></link><published>2021-10-31T00:00:00+01:00</published><updated>2021-10-31T00:00:00+01:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2021-10-31:/journal/python-squid-game.html</id><summary type="html">
 
 &lt;img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1635697226433/p1kLqNC4g.gif" alt="Squid Game" class="center"&gt;
 
@@ -194,7 +495,7 @@ current = total_players - eliminated&lt;/code&gt;
 
 &lt;p&gt;I hope this has been a helpful (and fun) way to understand the basics of the Pandas library in Python. I'm  also hoping to make more posts that go further in detail covering logical statements, merging and visualisations in Pandas.&lt;/p&gt;
 
-&lt;p&gt;A quick cheatsheet of these functions can be found &lt;a href="https://www.notion.so/Pandas-Creating-Modifying-and-Inspecting-DataFrames-featuring-data-from-Squid-Game-01ec20de1527400a8551aeb5a194fa54"&gt;here&lt;/a&gt; and a notebook to download and play around with can be found &lt;a href="https://github.com/rvth/squid-game-python/blob/main/Squid%20Game%20Python.ipynb"&gt;here.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A quick cheatsheet of these functions can be found &lt;a href="https://www.notion.so/Pandas-Creating-Modifying-and-Inspecting-DataFrames-featuring-data-from-Squid-Game-01ec20de1527400a8551aeb5a194fa54"&gt;here&lt;/a&gt; and a notebook to download and play around with can be found &lt;a href="https://github.com/rvth/thinking-like-a-panda/blob/main/Squid%20Game%20Python.ipynb"&gt;here.&lt;/a&gt;&lt;/p&gt;
 </content><category term="misc"></category><category term="Python"></category><category term="Pandas"></category><category term="Coding"></category></entry><entry><title>How I use a Learning Log (with free Notion template)</title><link href="https://rvth.blog/journal/learning-log-template.html" rel="alternate"></link><published>2021-07-01T00:00:00+01:00</published><updated>2021-07-01T00:00:00+01:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2021-07-01:/journal/learning-log-template.html</id><summary type="html">
 
 &lt;h2&gt;Why I track my learning&lt;/h2&gt;
@@ -527,12 +828,12 @@ current = total_players - eliminated&lt;/code&gt;
 </content><category term="misc"></category><category term="Coding"></category><category term="Inspiration"></category><category term="Personal"></category></entry><entry><title>I built a website about Dogs and SEO</title><link href="https://rvth.blog/journal/seo-dogs.html" rel="alternate"></link><published>2021-01-14T00:00:00+00:00</published><updated>2021-01-14T00:00:00+00:00</updated><author><name>Ruth</name></author><id>tag:rvth.blog,2021-01-14:/journal/seo-dogs.html</id><summary type="html">
 &lt;h2&gt;What is SEO dogs?&lt;/h2&gt;
 
-&lt;p&gt;In short, SEO dogs is a website I built to share knowledge around the fundamentals of SEO in a fun format that is super accessible for anyone, regardless of their experience.&lt;/p&gt;
+&lt;p&gt;In short, &lt;a href="https://seo-dogs.herokuapp.com/"&gt;SEO dogs&lt;/a&gt; is a website I built to share knowledge around the fundamentals of SEO in a fun format that is super accessible for anyone, regardless of their experience.&lt;/p&gt;
 
 &lt;p&gt;Each page, or element of SEO, contains a picture of an adoptable dog (I tried …&lt;/p&gt;</summary><content type="html">
 &lt;h2&gt;What is SEO dogs?&lt;/h2&gt;
 
-&lt;p&gt;In short, SEO dogs is a website I built to share knowledge around the fundamentals of SEO in a fun format that is super accessible for anyone, regardless of their experience.&lt;/p&gt;
+&lt;p&gt;In short, &lt;a href="https://seo-dogs.herokuapp.com/"&gt;SEO dogs&lt;/a&gt; is a website I built to share knowledge around the fundamentals of SEO in a fun format that is super accessible for anyone, regardless of their experience.&lt;/p&gt;
 
 &lt;p&gt;Each page, or element of SEO, contains a picture of an adoptable dog (I tried to relate the dog to the topic either through their name, personality traits, or breed as best I could). The dogs are all from &lt;a href="https://wildatheartfoundation.org/"&gt;Wild at Heart Foundation&lt;/a&gt; which is a global dog rescue &amp; adoption organisation - finding rescued dogs the forever homes they deserve.&lt;/p&gt;
 
